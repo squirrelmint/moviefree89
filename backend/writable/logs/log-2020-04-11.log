@@ -1,0 +1,88 @@
+CRITICAL - 2020-04-11 15:05:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE 1=1  AND CONCAT_WS('', `user`.user_name, `user`.user_label, `user`.user_em' at line 1
+#0 C:\xampp\htdocs\backend\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT count(us...')
+#1 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(us...')
+#2 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(us...')
+#3 C:\xampp\htdocs\backend\app\Models\User_Model.php(26): CodeIgniter\Database\BaseConnection->query('SELECT count(us...')
+#4 C:\xampp\htdocs\backend\app\Controllers\Profile.php(39): App\Models\User_Model->count_user_page('tong')
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Profile->index('tong')
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#7 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-04-11 15:06:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'user' at line 1
+#0 C:\xampp\htdocs\backend\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT count(us...')
+#1 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(us...')
+#2 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(us...')
+#3 C:\xampp\htdocs\backend\app\Models\User_Model.php(26): CodeIgniter\Database\BaseConnection->query('SELECT count(us...')
+#4 C:\xampp\htdocs\backend\app\Controllers\Profile.php(39): App\Models\User_Model->count_user_page('tong')
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Profile->index('tong')
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#7 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-04-11 15:07:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ON `grant`.branch_id = table_brance.branch_id
+            WHERE
+            1=' at line 14
+#0 C:\xampp\htdocs\backend\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\backend\app\Models\User_Model.php(57): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\backend\app\Controllers\Profile.php(40): App\Models\User_Model->get_user_page('tong', 20, 0)
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Profile->index('tong')
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#7 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-04-11 15:08:18 --> Undefined variable: table_branch
+#0 C:\xampp\htdocs\backend\app\Models\User_Model.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\backend\app\Controllers\Profile.php(40): App\Models\User_Model->get_user_page('tong', 20, 0)
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Profile->index('tong')
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-11 15:08:29 --> Undefined variable: table_branch
+#0 C:\xampp\htdocs\backend\app\Models\User_Model.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\backend\app\Controllers\Profile.php(40): App\Models\User_Model->get_user_page('tong', 20, 0)
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Profile->index('tong')
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-11 15:08:30 --> Undefined variable: table_branch
+#0 C:\xampp\htdocs\backend\app\Models\User_Model.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\backend\app\Controllers\Profile.php(40): App\Models\User_Model->get_user_page('tong', 20, 0)
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Profile->index('tong')
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-11 15:08:30 --> Undefined variable: table_branch
+#0 C:\xampp\htdocs\backend\app\Models\User_Model.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\backend\app\Controllers\Profile.php(40): App\Models\User_Model->get_user_page('tong', 20, 0)
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Profile->index('tong')
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-11 15:08:30 --> Undefined variable: table_branch
+#0 C:\xampp\htdocs\backend\app\Models\User_Model.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\backend\app\Controllers\Profile.php(40): App\Models\User_Model->get_user_page('tong', 20, 0)
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Profile->index('tong')
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-11 15:08:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ON `grant`.branch_id = `branch`.branch_id
+            WHERE
+            1=1  A' at line 14
+#0 C:\xampp\htdocs\backend\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\backend\app\Models\User_Model.php(57): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\backend\app\Controllers\Profile.php(40): App\Models\User_Model->get_user_page('tong', 20, 0)
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Profile->index('tong')
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#7 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

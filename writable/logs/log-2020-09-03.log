@@ -1,0 +1,8 @@
+CRITICAL - 2020-09-03 04:16:52 --> syntax error, unexpected '>'
+#0 C:\xampp\htdocs\newmovie\system\Common.php(1071): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#1 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(58): view('templates/heade...', Array)
+#2 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\newmovie\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

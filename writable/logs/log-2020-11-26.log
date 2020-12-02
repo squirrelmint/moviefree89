@@ -1,0 +1,17 @@
+CRITICAL - 2020-11-26 03:49:36 --> Undefined index: keyword
+#0 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(236): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 236, Array)
+#1 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->moviedata_category()
+#2 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-26 04:18:00 --> Undefined variable: value
+#0 C:\xampp\htdocs\dunung4u\app\Views\list.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\dunung4u\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dunung4u\system\Common.php(1071): CodeIgniter\View\View->render('59', Array, true)
+#3 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(410): view('list.php', Array)
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->category('44', '%E0%B8%AB%E0%B8...')
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

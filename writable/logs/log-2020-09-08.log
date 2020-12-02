@@ -1,0 +1,22 @@
+CRITICAL - 2020-09-08 04:44:43 --> 
+#0 C:\xampp\htdocs\newmovie\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\newmovie\app\Models\Video_Model.php(151): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(76): App\Models\Video_Model->get_movie_new_recommend(1, '', 1)
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->category('2', 'img', 'logo.svg')
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\newmovie\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-09-08 06:47:59 --> 
+#0 C:\xampp\htdocs\newmovie\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\newmovie\app\Models\Video_Model.php(151): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(37): App\Models\Video_Model->get_movie_new_recommend(1, '', 1)
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\newmovie\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

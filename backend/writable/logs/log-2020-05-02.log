@@ -1,0 +1,65 @@
+CRITICAL - 2020-05-02 06:28:31 --> Invalid file: {0}
+#0 C:\xampp\htdocs\backend\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('manga/adsform.p...')
+#1 C:\xampp\htdocs\backend\system\Common.php(1071): CodeIgniter\View\View->render('manga/adsform', Array, true)
+#2 C:\xampp\htdocs\backend\app\Controllers\Ads.php(79): view('manga/adsform', Array)
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Ads->add('1')
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ads))
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-02 06:28:31 --> Invalid file: {0}
+#0 C:\xampp\htdocs\backend\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('manga/adsform.p...')
+#1 C:\xampp\htdocs\backend\system\Common.php(1071): CodeIgniter\View\View->render('manga/adsform', Array, true)
+#2 C:\xampp\htdocs\backend\app\Controllers\Ads.php(79): view('manga/adsform', Array)
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Ads->add('1')
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ads))
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-02 06:55:57 --> Class 'App\Models\Ads_Model' not found
+#0 C:\xampp\htdocs\backend\system\CodeIgniter.php(882): App\Controllers\Ads->__construct()
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-02 07:02:21 --> Unknown column 'mo_adsvideo.adsvideo_startdate' in 'field list'
+#0 C:\xampp\htdocs\backend\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT \r\n\t\t\t\t\tm...')
+#1 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n\t\t\t\t\tm...')
+#2 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n\t\t\t\t\tm...')
+#3 C:\xampp\htdocs\backend\app\Models\Vdoadsdata_Model.php(38): CodeIgniter\Database\BaseConnection->query('SELECT \r\n\t\t\t\t\tm...')
+#4 C:\xampp\htdocs\backend\app\Controllers\Movie\VdoAds.php(50): App\Models\Vdoadsdata_Model->get_adsvideolist('1', '', 1)
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Movie\VdoAds->index('1')
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\VdoAds))
+#7 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-05-02 07:16:18 --> Undefined index: adsvideo_startdate
+#0 C:\xampp\htdocs\backend\app\Views\movie\vdoadslist.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\backend\system\Common.php(1071): CodeIgniter\View\View->render('movie/vdoadslis...', Array, true)
+#3 C:\xampp\htdocs\backend\app\Controllers\Movie\VdoAds.php(53): view('movie/vdoadslis...', Array)
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Movie\VdoAds->index('1')
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\VdoAds))
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-02 07:16:19 --> Undefined index: adsvideo_startdate
+#0 C:\xampp\htdocs\backend\app\Views\movie\vdoadslist.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\backend\system\Common.php(1071): CodeIgniter\View\View->render('movie/vdoadslis...', Array, true)
+#3 C:\xampp\htdocs\backend\app\Controllers\Movie\VdoAds.php(53): view('movie/vdoadslis...', Array)
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Movie\VdoAds->index('1')
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\VdoAds))
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-02 07:16:21 --> Undefined index: adsvideo_startdate
+#0 C:\xampp\htdocs\backend\app\Views\movie\vdoadslist.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\backend\system\Common.php(1071): CodeIgniter\View\View->render('movie/vdoadslis...', Array, true)
+#3 C:\xampp\htdocs\backend\app\Controllers\Movie\VdoAds.php(53): view('movie/vdoadslis...', Array)
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Movie\VdoAds->index('1')
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\VdoAds))
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

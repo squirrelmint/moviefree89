@@ -1,0 +1,56 @@
+CRITICAL - 2020-11-28 01:12:02 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\dunung4u\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\dunung4u\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(62): CodeIgniter\Model->__call('get_list_video_...', Array)
+#3 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-28 01:13:44 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\dunung4u\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\dunung4u\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(62): CodeIgniter\Model->__call('get_list_video_...', Array)
+#3 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-28 01:14:13 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\dunung4u\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\dunung4u\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(62): CodeIgniter\Model->__call('get_list_video_...', Array)
+#3 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-28 01:14:18 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\dunung4u\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\dunung4u\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(62): CodeIgniter\Model->__call('get_list_video_...', Array)
+#3 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-28 01:39:00 --> Undefined variable: val
+#0 C:\xampp\htdocs\dunung4u\app\Views\index.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\dunung4u\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dunung4u\system\Common.php(1071): CodeIgniter\View\View->render('index.php', Array, true)
+#3 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(83): view('index.php', Array)
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-28 01:49:17 --> Undefined variable: title
+#0 C:\xampp\htdocs\dunung4u\app\Views\list.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\dunung4u\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dunung4u\system\Common.php(1071): CodeIgniter\View\View->render('list.php', Array, true)
+#3 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(378): view('list.php', Array)
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->topimdblist()
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

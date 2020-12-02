@@ -1,0 +1,486 @@
+CRITICAL - 2020-04-10 01:03:21 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 63, Array)
+#1 C:\xampp\htdocs\backend\app\Controllers\User.php(63): count(NULL)
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\User->authenticate()
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-10 01:03:56 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 63, Array)
+#1 C:\xampp\htdocs\backend\app\Controllers\User.php(63): count(NULL)
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\User->authenticate()
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-10 01:16:15 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 63, Array)
+#1 C:\xampp\htdocs\backend\app\Controllers\User.php(63): count(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\User->authenticate()
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-10 01:19:54 --> Access level to App\Models\User_Model::$table must be protected (as in class CodeIgniter\Model) or weaker
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-04-10 01:26:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? AND `user`.user_pass = ?' at line 13
+#0 C:\xampp\htdocs\backend\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\backend\app\Models\User_Model.php(39): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\backend\app\Controllers\User.php(61): App\Models\User_Model->get_user(Array)
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\User->authenticate()
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-04-10 01:32:29 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$getResult
+#0 C:\xampp\htdocs\backend\app\Models\User_Model.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\backend\app\Controllers\User.php(61): App\Models\User_Model->get_user(Array)
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\User->authenticate()
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-10 01:49:24 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\backend\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\backend\app\Helpers\checklogin_helper.php(9): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\backend\app\Controllers\Home.php(16): checkLogin()
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-10 01:49:25 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\backend\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\backend\app\Helpers\checklogin_helper.php(9): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\backend\app\Controllers\Home.php(16): checkLogin()
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-10 01:49:26 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\backend\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\backend\app\Helpers\checklogin_helper.php(9): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\backend\app\Controllers\Home.php(16): checkLogin()
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-10 01:49:26 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\backend\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\backend\app\Helpers\checklogin_helper.php(9): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\backend\app\Controllers\Home.php(16): checkLogin()
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-10 01:49:26 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\backend\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\backend\app\Helpers\checklogin_helper.php(9): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\backend\app\Controllers\Home.php(16): checkLogin()
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-10 01:49:26 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\backend\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\backend\app\Helpers\checklogin_helper.php(9): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\backend\app\Controllers\Home.php(16): checkLogin()
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-10 01:49:27 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\backend\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\backend\app\Helpers\checklogin_helper.php(9): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\backend\app\Controllers\Home.php(16): checkLogin()
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-10 01:49:27 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\backend\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\backend\app\Helpers\checklogin_helper.php(9): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\backend\app\Controllers\Home.php(16): checkLogin()
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-10 01:49:27 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\backend\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\backend\app\Helpers\checklogin_helper.php(9): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\backend\app\Controllers\Home.php(16): checkLogin()
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-10 01:49:27 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\backend\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\backend\app\Helpers\checklogin_helper.php(9): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\backend\app\Controllers\Home.php(16): checkLogin()
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-10 01:49:28 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\backend\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\backend\app\Helpers\checklogin_helper.php(9): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\backend\app\Controllers\Home.php(16): checkLogin()
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-10 01:49:28 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\backend\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\backend\app\Helpers\checklogin_helper.php(9): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\backend\app\Controllers\Home.php(16): checkLogin()
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-10 01:50:11 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\backend\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\backend\system\Common.php(798): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\backend\app\Helpers\checklogin_helper.php(9): redirect('/login', 'refresh')
+#3 C:\xampp\htdocs\backend\app\Controllers\Home.php(16): checkLogin()
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-10 01:50:13 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\backend\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\backend\system\Common.php(798): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\backend\app\Helpers\checklogin_helper.php(9): redirect('/login', 'refresh')
+#3 C:\xampp\htdocs\backend\app\Controllers\Home.php(16): checkLogin()
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-10 01:50:14 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\backend\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\backend\system\Common.php(798): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\backend\app\Helpers\checklogin_helper.php(9): redirect('/login', 'refresh')
+#3 C:\xampp\htdocs\backend\app\Controllers\Home.php(16): checkLogin()
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-10 01:50:14 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\backend\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\backend\system\Common.php(798): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\backend\app\Helpers\checklogin_helper.php(9): redirect('/login', 'refresh')
+#3 C:\xampp\htdocs\backend\app\Controllers\Home.php(16): checkLogin()
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-10 01:50:14 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\backend\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\backend\system\Common.php(798): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\backend\app\Helpers\checklogin_helper.php(9): redirect('/login', 'refresh')
+#3 C:\xampp\htdocs\backend\app\Controllers\Home.php(16): checkLogin()
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-10 01:50:14 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\backend\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\backend\system\Common.php(798): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\backend\app\Helpers\checklogin_helper.php(9): redirect('/login', 'refresh')
+#3 C:\xampp\htdocs\backend\app\Controllers\Home.php(16): checkLogin()
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-10 01:50:15 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\backend\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\backend\system\Common.php(798): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\backend\app\Helpers\checklogin_helper.php(9): redirect('/login', 'refresh')
+#3 C:\xampp\htdocs\backend\app\Controllers\Home.php(16): checkLogin()
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-10 01:50:15 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\backend\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\backend\system\Common.php(798): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\backend\app\Helpers\checklogin_helper.php(9): redirect('/login', 'refresh')
+#3 C:\xampp\htdocs\backend\app\Controllers\Home.php(16): checkLogin()
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-10 01:50:16 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\backend\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\backend\system\Common.php(798): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\backend\app\Helpers\checklogin_helper.php(9): redirect('/login', 'refresh')
+#3 C:\xampp\htdocs\backend\app\Controllers\Home.php(16): checkLogin()
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-10 01:59:22 --> Call to undefined function get_instance()
+#0 C:\xampp\htdocs\backend\app\Controllers\Home.php(16): checkLogin()
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-10 01:59:22 --> Call to undefined function get_instance()
+#0 C:\xampp\htdocs\backend\app\Controllers\Home.php(16): checkLogin()
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-10 01:59:23 --> Call to undefined function get_instance()
+#0 C:\xampp\htdocs\backend\app\Controllers\Home.php(16): checkLogin()
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-10 01:59:23 --> Call to undefined function get_instance()
+#0 C:\xampp\htdocs\backend\app\Controllers\Home.php(16): checkLogin()
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-10 01:59:23 --> Call to undefined function get_instance()
+#0 C:\xampp\htdocs\backend\app\Controllers\Home.php(16): checkLogin()
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-10 01:59:24 --> Call to undefined function get_instance()
+#0 C:\xampp\htdocs\backend\app\Controllers\Home.php(16): checkLogin()
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-10 02:02:40 --> Undefined property: App\Controllers\Home::$User_Model
+#0 C:\xampp\htdocs\backend\app\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-10 02:02:42 --> Undefined property: App\Controllers\Home::$User_Model
+#0 C:\xampp\htdocs\backend\app\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-10 02:08:13 --> Call to undefined function App\Controllers\redirectLogin()
+#0 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-10 03:02:28 --> Undefined variable: module_name
+#0 C:\xampp\htdocs\backend\app\Views\template\body.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\backend\system\Common.php(1071): CodeIgniter\View\View->render('template/body', Array, true)
+#3 C:\xampp\htdocs\backend\app\Controllers\Profile.php(31): view('template/body')
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Profile->index()
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-10 03:02:31 --> Undefined variable: module_name
+#0 C:\xampp\htdocs\backend\app\Views\template\body.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\backend\system\Common.php(1071): CodeIgniter\View\View->render('template/body', Array, true)
+#3 C:\xampp\htdocs\backend\app\Controllers\Profile.php(31): view('template/body')
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Profile->index()
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-10 03:02:32 --> Undefined variable: module_name
+#0 C:\xampp\htdocs\backend\app\Views\template\body.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\backend\system\Common.php(1071): CodeIgniter\View\View->render('template/body', Array, true)
+#3 C:\xampp\htdocs\backend\app\Controllers\Profile.php(31): view('template/body')
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Profile->index()
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-10 03:02:54 --> Undefined variable: module_name
+#0 C:\xampp\htdocs\backend\app\Views\template\body.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\backend\system\Common.php(1071): CodeIgniter\View\View->render('template/body', Array, true)
+#3 C:\xampp\htdocs\backend\app\Controllers\Profile.php(31): view('template/body')
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Profile->index()
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-10 03:02:54 --> Undefined variable: module_name
+#0 C:\xampp\htdocs\backend\app\Views\template\body.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\backend\system\Common.php(1071): CodeIgniter\View\View->render('template/body', Array, true)
+#3 C:\xampp\htdocs\backend\app\Controllers\Profile.php(31): view('template/body')
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Profile->index()
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-10 03:02:55 --> Undefined variable: module_name
+#0 C:\xampp\htdocs\backend\app\Views\template\body.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\backend\system\Common.php(1071): CodeIgniter\View\View->render('template/body', Array, true)
+#3 C:\xampp\htdocs\backend\app\Controllers\Profile.php(31): view('template/body')
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Profile->index()
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-10 03:06:14 --> Undefined variable: module_name
+#0 C:\xampp\htdocs\backend\app\Views\template\body.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\backend\system\Common.php(1071): CodeIgniter\View\View->render('template/body', Array, true)
+#3 C:\xampp\htdocs\backend\app\Controllers\Home.php(23): view('template/body')
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-10 03:33:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? AND `user`.user_pass = '123456'' at line 13
+#0 C:\xampp\htdocs\backend\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\backend\app\Models\User_Model.php(35): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\backend\app\Controllers\User.php(64): App\Models\User_Model->get_user(Array)
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\User->authenticate()
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-04-10 03:36:13 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp\htdocs\backend\app\Models\User_Model.php(35): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\backend\app\Controllers\User.php(64): App\Models\User_Model->get_user(Array)
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\User->authenticate()
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-10 03:37:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'grant ON grant.user_id = user.user_id
+        WHERE user.user_name = '$user_nam' at line 12
+#0 C:\xampp\htdocs\backend\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\backend\app\Models\User_Model.php(35): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\backend\app\Controllers\User.php(64): App\Models\User_Model->get_user(Array)
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\User->authenticate()
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-04-10 03:38:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'grant ON grant.user_id = user.user_id
+        WHERE user.user_name = '$user_nam' at line 12
+#0 C:\xampp\htdocs\backend\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\backend\app\Models\User_Model.php(36): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\backend\app\Controllers\User.php(64): App\Models\User_Model->get_user(Array)
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\User->authenticate()
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-04-10 03:39:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'grant ON grant.user_id = user.user_id
+        WHERE user.user_name = '$user_nam' at line 12
+#0 C:\xampp\htdocs\backend\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\backend\app\Models\User_Model.php(36): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\backend\app\Controllers\User.php(64): App\Models\User_Model->get_user(Array)
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\User->authenticate()
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-04-10 03:41:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'grant ON grant.user_id = user.user_id
+        WHERE user.user_name = 'tong' AND' at line 12
+#0 C:\xampp\htdocs\backend\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\backend\app\Models\User_Model.php(35): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\backend\app\Controllers\User.php(64): App\Models\User_Model->get_user(Array)
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\User->authenticate()
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-04-10 03:55:46 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAllResults()
+#0 C:\xampp\htdocs\backend\app\Controllers\Profile.php(38): App\Models\User_Model->count_user()
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Profile->index()
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-10 03:55:54 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAllResults()
+#0 C:\xampp\htdocs\backend\app\Controllers\Profile.php(38): App\Models\User_Model->count_user()
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Profile->index()
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-10 03:55:55 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAllResults()
+#0 C:\xampp\htdocs\backend\app\Controllers\Profile.php(38): App\Models\User_Model->count_user()
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Profile->index()
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-10 03:56:09 --> Array to string conversion
+#0 C:\xampp\htdocs\backend\app\Controllers\Profile.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Profile->index()
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-10 03:58:40 --> Too few arguments to function CodeIgniter\Database\BaseResult::setRow(), 0 passed in C:\xampp\htdocs\backend\app\Models\User_Model.php on line 20 and at least 1 expected
+#0 C:\xampp\htdocs\backend\app\Models\User_Model.php(20): CodeIgniter\Database\BaseResult->setRow()
+#1 C:\xampp\htdocs\backend\app\Controllers\Profile.php(38): App\Models\User_Model->count_user()
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Profile->index()
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-10 03:59:13 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\backend\app\Controllers\Profile.php(38): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Profile->index()
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

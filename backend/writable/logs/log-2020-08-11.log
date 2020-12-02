@@ -1,0 +1,206 @@
+CRITICAL - 2020-08-11 02:21:16 --> Undefined index: brtemp
+#0 C:\xampp\htdocs\test_backend\app\Controllers\Movie\Ads.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Movie\Ads->index('1')
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\Ads))
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-11 02:21:36 --> Undefined index: brtemp
+#0 C:\xampp\htdocs\test_backend\app\Controllers\Movie\Ads.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Movie\Ads->index('1')
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\Ads))
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-11 02:22:14 --> Undefined index: brtemp
+#0 C:\xampp\htdocs\test_backend\app\Controllers\Movie\Ads.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Movie\Ads->index('1')
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\Ads))
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-11 02:22:20 --> Undefined index: brtemp
+#0 C:\xampp\htdocs\test_backend\app\Controllers\Movie\Ads.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 79, Array)
+#1 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Movie\Ads->add('1')
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\Ads))
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-11 02:34:12 --> Undefined index: brtemp
+#0 C:\xampp\htdocs\test_backend\app\Controllers\Movie\Ads.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 79, Array)
+#1 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Movie\Ads->add('1')
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\Ads))
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-11 02:34:17 --> Undefined index: brtemp
+#0 C:\xampp\htdocs\test_backend\app\Controllers\Movie\Ads.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Movie\Ads->index('1')
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\Ads))
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-11 02:34:22 --> Undefined index: brtemp
+#0 C:\xampp\htdocs\test_backend\app\Controllers\Movie\Ads.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Movie\Ads->index('1')
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\Ads))
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-11 02:34:25 --> Undefined index: brtemp
+#0 C:\xampp\htdocs\test_backend\app\Controllers\Movie\Ads.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 79, Array)
+#1 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Movie\Ads->add('1')
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\Ads))
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-11 02:35:32 --> Undefined index: brtemp
+#0 C:\xampp\htdocs\test_backend\app\Controllers\Movie\Ads.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 79, Array)
+#1 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Movie\Ads->add('1')
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\Ads))
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-11 02:35:34 --> Undefined index: brtemp
+#0 C:\xampp\htdocs\test_backend\app\Controllers\Movie\Ads.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 79, Array)
+#1 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Movie\Ads->add('1')
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\Ads))
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-11 02:35:38 --> Undefined index: brtemp
+#0 C:\xampp\htdocs\test_backend\app\Controllers\Movie\Ads.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Movie\Ads->index('1')
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\Ads))
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-11 02:35:51 --> Too few arguments to function App\Models\User_Model::get_branchsystem(), 1 passed in C:\xampp\htdocs\test_backend\app\Controllers\User.php on line 71 and exactly 2 expected
+#0 C:\xampp\htdocs\test_backend\app\Controllers\User.php(71): App\Models\User_Model->get_branchsystem('3')
+#1 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\User->authenticate()
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-11 02:38:52 --> Too few arguments to function App\Models\User_Model::get_branchsystem(), 1 passed in C:\xampp\htdocs\test_backend\app\Controllers\User.php on line 71 and exactly 2 expected
+#0 C:\xampp\htdocs\test_backend\app\Controllers\User.php(71): App\Models\User_Model->get_branchsystem('3')
+#1 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\User->authenticate()
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-11 02:39:02 --> Too few arguments to function App\Models\User_Model::get_branchsystem(), 1 passed in C:\xampp\htdocs\test_backend\app\Controllers\User.php on line 71 and exactly 2 expected
+#0 C:\xampp\htdocs\test_backend\app\Controllers\User.php(71): App\Models\User_Model->get_branchsystem('3')
+#1 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\User->authenticate()
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-11 02:39:14 --> Too few arguments to function App\Models\User_Model::get_branchsystem(), 1 passed in C:\xampp\htdocs\test_backend\app\Controllers\User.php on line 71 and exactly 2 expected
+#0 C:\xampp\htdocs\test_backend\app\Controllers\User.php(71): App\Models\User_Model->get_branchsystem('3')
+#1 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\User->authenticate()
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-11 02:41:55 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\test_backend\system\Common.php(1071): CodeIgniter\View\View->render('movie/adsform', Array, true)
+#1 C:\xampp\htdocs\test_backend\app\Controllers\Movie\Ads.php(83): view('movie/adsform', Array)
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Movie\Ads->add('1')
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\Ads))
+#4 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-11 02:43:18 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\test_backend\system\Common.php(1071): CodeIgniter\View\View->render('movie/adsform', Array, true)
+#1 C:\xampp\htdocs\test_backend\app\Controllers\Movie\Ads.php(83): view('movie/adsform', Array)
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Movie\Ads->add('1')
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\Ads))
+#4 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-11 02:58:49 --> Undefined index: brtemp
+#0 C:\xampp\htdocs\test_backend\app\Controllers\Movie\Ads.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Movie\Ads->index('1')
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\Ads))
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-11 02:58:55 --> Undefined index: brtemp
+#0 C:\xampp\htdocs\test_backend\app\Controllers\Movie\Ads.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Movie\Ads->index('1')
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\Ads))
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-11 02:58:58 --> Undefined index: brtemp
+#0 C:\xampp\htdocs\test_backend\app\Controllers\Movie\Ads.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Movie\Ads->index('1')
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\Ads))
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-11 02:59:02 --> Undefined index: brtemp
+#0 C:\xampp\htdocs\test_backend\app\Controllers\Movie\Ads.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 79, Array)
+#1 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Movie\Ads->add('1')
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\Ads))
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-11 03:01:01 --> Undefined index: brtemp
+#0 C:\xampp\htdocs\test_backend\app\Controllers\Movie\Ads.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Movie\Ads->index('1')
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\Ads))
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-11 06:16:27 --> syntax error, unexpected ''posads'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\xampp\htdocs\test_backend\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\test_backend\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(861): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(388): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-11 06:16:34 --> syntax error, unexpected ''posads'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\xampp\htdocs\test_backend\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\test_backend\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(861): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(388): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-11 06:16:36 --> syntax error, unexpected ''posads'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\xampp\htdocs\test_backend\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\test_backend\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(861): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(388): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-11 07:45:47 --> syntax error, unexpected ''posads'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\xampp\htdocs\test_backend\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\test_backend\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(861): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(388): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-11 11:51:43 --> syntax error, unexpected ''posads'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\xampp\htdocs\test_backend\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\test_backend\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(861): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(388): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

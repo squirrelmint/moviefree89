@@ -1,0 +1,6 @@
+CRITICAL - 2020-05-11 03:04:43 --> Call to a member function readAds() on null
+#0 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\AdsService->new('ss1122', '1')
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdsService))
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

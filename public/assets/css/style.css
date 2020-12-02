@@ -1,0 +1,29 @@
+.page-single {
+	background-color: #020d18;
+	padding: 0px 0;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -7px;
+    margin-left: -7px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) 
+{
+	.slide-ads {
+		width: 48.88%;
+		padding: 0 5px;
+		float: left;
+	}
+}
+@media (min-width: 320px) and (max-width: 768px) 
+{
+	.slide-ads2 {
+		width: 48.88%;
+		padding: 0 5px;
+		float: left;
+	}
+}

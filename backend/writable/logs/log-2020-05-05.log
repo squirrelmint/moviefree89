@@ -1,0 +1,198 @@
+CRITICAL - 2020-05-05 01:53:29 --> Undefined index: brid
+#0 C:\xampp\htdocs\backend\app\Views\template\header.php(117): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 117, Array)
+#1 C:\xampp\htdocs\backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\backend\system\Common.php(1071): CodeIgniter\View\View->render('template/header', Array, true)
+#3 C:\xampp\htdocs\backend\app\Controllers\Movie\MovieCate.php(69): view('template/header')
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Movie\MovieCate->category('1')
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\MovieCate))
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-05 01:58:01 --> Undefined index: brid
+#0 C:\xampp\htdocs\backend\app\Views\template\header.php(117): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 117, Array)
+#1 C:\xampp\htdocs\backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\backend\system\Common.php(1071): CodeIgniter\View\View->render('template/header', Array, true)
+#3 C:\xampp\htdocs\backend\app\Controllers\Profile.php(264): view('template/header')
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Profile->index()
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-05 01:59:19 --> Undefined index: brid
+#0 C:\xampp\htdocs\backend\app\Views\template\header.php(117): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 117, Array)
+#1 C:\xampp\htdocs\backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\backend\system\Common.php(1071): CodeIgniter\View\View->render('template/header', Array, true)
+#3 C:\xampp\htdocs\backend\app\Controllers\Profile.php(264): view('template/header')
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Profile->index()
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-05 01:59:38 --> Undefined index: brid
+#0 C:\xampp\htdocs\backend\app\Views\template\header.php(117): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 117, Array)
+#1 C:\xampp\htdocs\backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\backend\system\Common.php(1071): CodeIgniter\View\View->render('template/header', Array, true)
+#3 C:\xampp\htdocs\backend\app\Controllers\Profile.php(264): view('template/header')
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Profile->index()
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-05 02:07:26 --> Unknown column 'manga_subject.masubject_picture' in 'field list'
+#0 C:\xampp\htdocs\backend\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n\t\t\t\t\tma...')
+#1 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n\t\t\t\t\tma...')
+#2 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n\t\t\t\t\tma...')
+#3 C:\xampp\htdocs\backend\app\Models\Mangadata_Model.php(86): CodeIgniter\Database\BaseConnection->query('SELECT\r\n\t\t\t\t\tma...')
+#4 C:\xampp\htdocs\backend\app\Controllers\Manga\Manga.php(65): App\Models\Mangadata_Model->get_subjectlist('2', '', 1)
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Manga\Manga->subject('2')
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manga\Manga))
+#7 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-05-05 02:07:44 --> Unknown column 'manga_subject.masubject_picture' in 'field list'
+#0 C:\xampp\htdocs\backend\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n\t\t\t\t\tma...')
+#1 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n\t\t\t\t\tma...')
+#2 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n\t\t\t\t\tma...')
+#3 C:\xampp\htdocs\backend\app\Models\Mangadata_Model.php(86): CodeIgniter\Database\BaseConnection->query('SELECT\r\n\t\t\t\t\tma...')
+#4 C:\xampp\htdocs\backend\app\Controllers\Manga\Manga.php(65): App\Models\Mangadata_Model->get_subjectlist('2', '', 1)
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Manga\Manga->subject('2')
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manga\Manga))
+#7 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-05-05 02:07:45 --> Unknown column 'manga_subject.masubject_picture' in 'field list'
+#0 C:\xampp\htdocs\backend\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n\t\t\t\t\tma...')
+#1 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n\t\t\t\t\tma...')
+#2 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n\t\t\t\t\tma...')
+#3 C:\xampp\htdocs\backend\app\Models\Mangadata_Model.php(86): CodeIgniter\Database\BaseConnection->query('SELECT\r\n\t\t\t\t\tma...')
+#4 C:\xampp\htdocs\backend\app\Controllers\Manga\Manga.php(65): App\Models\Mangadata_Model->get_subjectlist('2', '', 1)
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Manga\Manga->subject('2')
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manga\Manga))
+#7 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-05-05 02:08:07 --> Unknown column 'manga_subject.masubject_picture' in 'field list'
+#0 C:\xampp\htdocs\backend\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n\t\t\t\t\tma...')
+#1 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n\t\t\t\t\tma...')
+#2 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n\t\t\t\t\tma...')
+#3 C:\xampp\htdocs\backend\app\Models\Mangadata_Model.php(86): CodeIgniter\Database\BaseConnection->query('SELECT\r\n\t\t\t\t\tma...')
+#4 C:\xampp\htdocs\backend\app\Controllers\Manga\Manga.php(65): App\Models\Mangadata_Model->get_subjectlist('2', '', 1)
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Manga\Manga->subject('2')
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manga\Manga))
+#7 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-05-05 02:08:18 --> Unknown column 'manga_subject.masubject_picture' in 'field list'
+#0 C:\xampp\htdocs\backend\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n\t\t\t\t\tma...')
+#1 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n\t\t\t\t\tma...')
+#2 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n\t\t\t\t\tma...')
+#3 C:\xampp\htdocs\backend\app\Models\Mangadata_Model.php(86): CodeIgniter\Database\BaseConnection->query('SELECT\r\n\t\t\t\t\tma...')
+#4 C:\xampp\htdocs\backend\app\Controllers\Manga\Manga.php(65): App\Models\Mangadata_Model->get_subjectlist('2', '', 1)
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Manga\Manga->subject('2')
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manga\Manga))
+#7 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-05-05 02:25:34 --> syntax error, unexpected '<<' (T_SL), expecting ')'
+#0 C:\xampp\htdocs\backend\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\backend\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(861): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(388): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-05 02:25:52 --> syntax error, unexpected '<<' (T_SL), expecting ')'
+#0 C:\xampp\htdocs\backend\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\backend\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(861): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(388): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-05 02:30:54 --> Undefined index: adsvideo_startdate
+#0 C:\xampp\htdocs\backend\app\Views\movie\vdoadslist.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\backend\system\Common.php(1071): CodeIgniter\View\View->render('movie/vdoadslis...', Array, true)
+#3 C:\xampp\htdocs\backend\app\Controllers\Movie\VdoAds.php(52): view('movie/vdoadslis...', Array)
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Movie\VdoAds->index('1')
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\VdoAds))
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-05 02:31:11 --> Undefined index: adsvideo_startdate
+#0 C:\xampp\htdocs\backend\app\Views\movie\vdoadslist.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\backend\system\Common.php(1071): CodeIgniter\View\View->render('movie/vdoadslis...', Array, true)
+#3 C:\xampp\htdocs\backend\app\Controllers\Movie\VdoAds.php(52): view('movie/vdoadslis...', Array)
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Movie\VdoAds->index('1')
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\VdoAds))
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-05 02:32:11 --> syntax error, unexpected '<<' (T_SL), expecting ')'
+#0 C:\xampp\htdocs\backend\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\backend\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(861): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(388): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-05 02:38:29 --> Invalid file: {0}
+#0 C:\xampp\htdocs\backend\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('adsform.php')
+#1 C:\xampp\htdocs\backend\system\Common.php(1071): CodeIgniter\View\View->render('adsform', Array, true)
+#2 C:\xampp\htdocs\backend\app\Controllers\Movie\Ads.php(79): view('adsform', Array)
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Movie\Ads->add('1')
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\Ads))
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-05 02:48:09 --> Table 'variety.manga_report' doesn't exist
+#0 C:\xampp\htdocs\backend\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\backend\app\Models\MangaReport_Model.php(45): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\backend\app\Controllers\Manga\MangaReport.php(28): App\Models\MangaReport_Model->get_report('', '2')
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Manga\MangaReport->index('2')
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manga\MangaReport))
+#7 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-05-05 02:48:12 --> Table 'variety.manga_report' doesn't exist
+#0 C:\xampp\htdocs\backend\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\backend\app\Models\MangaReport_Model.php(45): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\backend\app\Controllers\Manga\MangaReport.php(28): App\Models\MangaReport_Model->get_report('', '2')
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Manga\MangaReport->index('2')
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manga\MangaReport))
+#7 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-05-05 02:48:28 --> Table 'variety.manga_report' doesn't exist
+#0 C:\xampp\htdocs\backend\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\backend\app\Models\MangaReport_Model.php(45): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\backend\app\Controllers\Manga\MangaReport.php(28): App\Models\MangaReport_Model->get_report('', '2')
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Manga\MangaReport->index('2')
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manga\MangaReport))
+#7 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-05-05 02:51:53 --> Table 'variety.manga_report' doesn't exist
+#0 C:\xampp\htdocs\backend\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\backend\app\Models\MangaReport_Model.php(45): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\backend\app\Controllers\Manga\MangaReport.php(28): App\Models\MangaReport_Model->get_report('', '2')
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Manga\MangaReport->index('2')
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manga\MangaReport))
+#7 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

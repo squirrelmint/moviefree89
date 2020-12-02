@@ -1,0 +1,12 @@
+CRITICAL - 2020-04-03 06:17:13 --> Invalid file: {0}
+#0 C:\xampp\htdocs\ci\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('slidbar.php')
+#1 C:\xampp\htdocs\ci\system\View\View.php(503): CodeIgniter\View\View->render('slidbar', NULL, true)
+#2 C:\xampp\htdocs\ci\app\Views\index.php(5): CodeIgniter\View\View->include('slidbar')
+#3 C:\xampp\htdocs\ci\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ci\system\Common.php(1071): CodeIgniter\View\View->render('index', Array, true)
+#5 C:\xampp\htdocs\ci\app\Controllers\Home.php(7): view('index')
+#6 C:\xampp\htdocs\ci\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\ci\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\ci\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}

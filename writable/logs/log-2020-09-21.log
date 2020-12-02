@@ -1,0 +1,10 @@
+CRITICAL - 2020-09-21 06:25:46 --> Undefined variable: document_root
+#0 C:\xampp\htdocs\newmovie\app\Views\templates\header.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\newmovie\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\newmovie\system\Common.php(1071): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(96): view('templates/heade...', Array)
+#4 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\newmovie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

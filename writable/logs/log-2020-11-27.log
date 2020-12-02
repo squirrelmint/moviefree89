@@ -1,0 +1,336 @@
+CRITICAL - 2020-11-27 00:55:39 --> Table 'variety.mo_slide' doesn't exist
+#0 C:\xampp\htdocs\dunung4u\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\dunung4u\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\dunung4u\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\dunung4u\app\Models\Video_Model.php(205): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(287): App\Models\Video_Model->get_list_popular(1)
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->popular()
+#6 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-27 01:03:09 --> Table 'variety.mo_slide' doesn't exist
+#0 C:\xampp\htdocs\dunung4u\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\dunung4u\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\dunung4u\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\dunung4u\app\Models\Video_Model.php(205): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(287): App\Models\Video_Model->get_list_popular(1)
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->popular()
+#6 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-27 01:04:06 --> php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 C:\xampp\htdocs\dunung4u\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\dunung4u\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\dunung4u\app\Models\Video_Model.php(412): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(283): App\Models\Video_Model->get_setting(1)
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->popular()
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 01:04:40 --> php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 C:\xampp\htdocs\dunung4u\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\dunung4u\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\dunung4u\app\Models\Video_Model.php(412): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(283): App\Models\Video_Model->get_setting(1)
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->popular()
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 01:04:46 --> Undefined index: ads_picture
+#0 C:\xampp\htdocs\dunung4u\app\Views\popular.php(183): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 183, Array)
+#1 C:\xampp\htdocs\dunung4u\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dunung4u\system\Common.php(1071): CodeIgniter\View\View->render('5', Array, true)
+#3 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(313): view('popular.php')
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->popular()
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 02:07:07 --> Undefined index: ads_picture
+#0 C:\xampp\htdocs\dunung4u\app\Views\list.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\dunung4u\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dunung4u\system\Common.php(1071): CodeIgniter\View\View->render('1', Array, true)
+#3 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(355): view('list.php', Array)
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->search('t')
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 02:08:55 --> Undefined variable: val
+#0 C:\xampp\htdocs\dunung4u\app\Views\index.php(207): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 207, Array)
+#1 C:\xampp\htdocs\dunung4u\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dunung4u\system\Common.php(1071): CodeIgniter\View\View->render('index.php', Array, true)
+#3 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(74): view('index.php', Array)
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 02:12:04 --> Undefined variable: val
+#0 C:\xampp\htdocs\dunung4u\app\Views\contract.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 62, Array)
+#1 C:\xampp\htdocs\dunung4u\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dunung4u\system\Common.php(1071): CodeIgniter\View\View->render('contract.php', Array, true)
+#3 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(443): view('contract.php')
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->contract()
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 02:12:29 --> Undefined variable: ads
+#0 C:\xampp\htdocs\dunung4u\app\Views\contract.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\dunung4u\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dunung4u\system\Common.php(1071): CodeIgniter\View\View->render('contract.php', Array, true)
+#3 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(443): view('contract.php')
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->contract()
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 02:57:10 --> Array to string conversion
+#0 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-27 03:16:37 --> Undefined variable: val
+#0 C:\xampp\htdocs\dunung4u\app\Views\video.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\dunung4u\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dunung4u\system\Common.php(1071): CodeIgniter\View\View->render('video.php', Array, true)
+#3 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(145): view('video.php', Array)
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->video('20018', 'Invisible%20Cop...')
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 03:24:52 --> Trying to access array offset on value of type int
+#0 C:\xampp\htdocs\dunung4u\app\Views\index.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\dunung4u\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dunung4u\system\Common.php(1071): CodeIgniter\View\View->render('index.php', Array, true)
+#3 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(83): view('index.php', Array)
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 03:25:27 --> Trying to access array offset on value of type int
+#0 C:\xampp\htdocs\dunung4u\app\Views\index.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\dunung4u\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dunung4u\system\Common.php(1071): CodeIgniter\View\View->render('index.php', Array, true)
+#3 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(83): view('index.php', Array)
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 03:27:00 --> Trying to access array offset on value of type int
+#0 C:\xampp\htdocs\dunung4u\app\Views\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\dunung4u\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dunung4u\system\Common.php(1071): CodeIgniter\View\View->render('index.php', Array, true)
+#3 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(83): view('index.php', Array)
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 03:28:05 --> Undefined variable: mo_sound
+#0 C:\xampp\htdocs\dunung4u\app\Views\index.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 56, Array)
+#1 C:\xampp\htdocs\dunung4u\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dunung4u\system\Common.php(1071): CodeIgniter\View\View->render('index.php', Array, true)
+#3 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(83): view('index.php', Array)
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 03:28:27 --> Trying to access array offset on value of type int
+#0 C:\xampp\htdocs\dunung4u\app\Views\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\dunung4u\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dunung4u\system\Common.php(1071): CodeIgniter\View\View->render('index.php', Array, true)
+#3 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(83): view('index.php', Array)
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 03:28:38 --> Trying to access array offset on value of type int
+#0 C:\xampp\htdocs\dunung4u\app\Views\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\dunung4u\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dunung4u\system\Common.php(1071): CodeIgniter\View\View->render('index.php', Array, true)
+#3 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(83): view('index.php', Array)
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 03:33:54 --> Undefined variable: val
+#0 C:\xampp\htdocs\dunung4u\app\Views\video.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\dunung4u\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dunung4u\system\Common.php(1071): CodeIgniter\View\View->render('video.php', Array, true)
+#3 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(145): view('video.php', Array)
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->video('9849', 'Mulan%20%282020...')
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 03:36:18 --> Undefined index: total
+#0 C:\xampp\htdocs\dunung4u\app\Views\index.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\dunung4u\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dunung4u\system\Common.php(1071): CodeIgniter\View\View->render('index.php', Array, true)
+#3 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(83): view('index.php', Array)
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 03:40:46 --> Undefined variable: val
+#0 C:\xampp\htdocs\dunung4u\app\Views\video.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\dunung4u\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dunung4u\system\Common.php(1071): CodeIgniter\View\View->render('video.php', Array, true)
+#3 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(213): view('video.php', Array)
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->series('9893', 'The%20King:%20E...')
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 03:41:05 --> Illegal string offset 'ads_picture'
+#0 C:\xampp\htdocs\dunung4u\app\Views\video.php(324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 324, Array)
+#1 C:\xampp\htdocs\dunung4u\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dunung4u\system\Common.php(1071): CodeIgniter\View\View->render('video.php', Array, true)
+#3 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(213): view('video.php', Array)
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->series('9893', 'The%20King:%20E...')
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 03:53:17 --> Undefined variable: get_list_video_bycate
+#0 C:\xampp\htdocs\dunung4u\app\Views\index.php(161): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 161, Array)
+#1 C:\xampp\htdocs\dunung4u\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dunung4u\system\Common.php(1071): CodeIgniter\View\View->render('index.php', Array, true)
+#3 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(83): view('index.php', Array)
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 03:54:02 --> Undefined variable: get_list_video_bycate
+#0 C:\xampp\htdocs\dunung4u\app\Views\index.php(161): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 161, Array)
+#1 C:\xampp\htdocs\dunung4u\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dunung4u\system\Common.php(1071): CodeIgniter\View\View->render('index.php', Array, true)
+#3 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(83): view('index.php', Array)
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 03:54:22 --> Trying to access array offset on value of type int
+#0 C:\xampp\htdocs\dunung4u\app\Views\index.php(201): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 201, Array)
+#1 C:\xampp\htdocs\dunung4u\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dunung4u\system\Common.php(1071): CodeIgniter\View\View->render('index.php', Array, true)
+#3 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(83): view('index.php', Array)
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 04:27:52 --> Undefined variable: sound
+#0 C:\xampp\htdocs\dunung4u\app\Views\video.php(443): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 443, Array)
+#1 C:\xampp\htdocs\dunung4u\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dunung4u\system\Common.php(1071): CodeIgniter\View\View->render(0, Array, true)
+#3 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(145): view('video.php', Array)
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->video('9573', 'Extraction%20%2...')
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 04:33:28 --> Undefined offset: 0
+#0 C:\xampp\htdocs\dunung4u\app\Views\index.php(181): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 181, Array)
+#1 C:\xampp\htdocs\dunung4u\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dunung4u\system\Common.php(1071): CodeIgniter\View\View->render('index.php', Array, true)
+#3 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(83): view('index.php', Array)
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 21:28:14 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\dunung4u\system\Common.php(1071): CodeIgniter\View\View->render('index.php', Array, true)
+#1 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(83): view('index.php', Array)
+#2 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-27 21:50:27 --> Undefined variable: sound
+#0 C:\xampp\htdocs\dunung4u\app\Views\video.php(443): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 443, Array)
+#1 C:\xampp\htdocs\dunung4u\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dunung4u\system\Common.php(1071): CodeIgniter\View\View->render(0, Array, true)
+#3 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(145): view('video.php', Array)
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->video('4283', 'Sebastian%20Man...')
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 21:52:16 --> Undefined variable: sound
+#0 C:\xampp\htdocs\dunung4u\app\Views\video.php(444): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 444, Array)
+#1 C:\xampp\htdocs\dunung4u\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dunung4u\system\Common.php(1071): CodeIgniter\View\View->render(0, Array, true)
+#3 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(145): view('video.php', Array)
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->video('4283', 'Sebastian%20Man...')
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 21:53:31 --> unlink(C:\xampp\htdocs\dunung4u\writable\debugbar/debugbar_1606473989.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 106, Array)
+#1 C:\xampp\htdocs\dunung4u\system\Debug\Toolbar\Collectors\History.php(106): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dunung4u\system\Debug\Toolbar.php(481): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1606535611, 20)
+#3 C:\xampp\htdocs\dunung4u\system\Debug\Toolbar.php(454): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\dunung4u\app\Config\Events.php(87): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\dunung4u\system\Events\Events.php(188): call_user_func(Object(Closure))
+#7 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(287): CodeIgniter\Events\Events::trigger('pre_system')
+#8 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-27 21:57:21 --> unlink(C:\xampp\htdocs\dunung4u\writable\debugbar/debugbar_1606533908.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 106, Array)
+#1 C:\xampp\htdocs\dunung4u\system\Debug\Toolbar\Collectors\History.php(106): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dunung4u\system\Debug\Toolbar.php(481): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1606535840, 20)
+#3 C:\xampp\htdocs\dunung4u\system\Debug\Toolbar.php(454): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\dunung4u\app\Config\Events.php(87): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\dunung4u\system\Events\Events.php(188): call_user_func(Object(Closure))
+#7 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(287): CodeIgniter\Events\Events::trigger('pre_system')
+#8 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-27 22:30:04 --> Undefined index: ads_picture
+#0 C:\xampp\htdocs\dunung4u\app\Views\video.php(191): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 191, Array)
+#1 C:\xampp\htdocs\dunung4u\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dunung4u\system\Common.php(1071): CodeIgniter\View\View->render('video.php', Array, true)
+#3 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(145): view('video.php', Array)
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->video('9723', 'Spenser%20Confi...')
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 22:34:00 --> Undefined variable: score
+#0 C:\xampp\htdocs\dunung4u\app\Views\video.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 108, Array)
+#1 C:\xampp\htdocs\dunung4u\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dunung4u\system\Common.php(1071): CodeIgniter\View\View->render('video.php', Array, true)
+#3 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(145): view('video.php', Array)
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->video('9723', 'Spenser%20Confi...')
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 22:57:26 --> Undefined offset: -1
+#0 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(466): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 466, Array)
+#1 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->player('9583', '-1')
+#2 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

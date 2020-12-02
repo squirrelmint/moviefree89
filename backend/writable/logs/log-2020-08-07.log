@@ -1,0 +1,183 @@
+CRITICAL - 2020-08-07 04:38:48 --> Table 'new_variety2.mo_adscontact' doesn't exist
+#0 C:\xampp\htdocs\test_backend\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\test_backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\test_backend\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\test_backend\app\Models\Requestads_Model.php(33): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\test_backend\app\Controllers\Movie\MovieRequestAds.php(34): App\Models\Requestads_Model->get_requestads('1', '')
+#5 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Movie\MovieRequestAds->index('1')
+#6 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\MovieRequestAds))
+#7 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-08-07 04:41:52 --> Table 'new_variety2.mo_adscontact' doesn't exist
+#0 C:\xampp\htdocs\test_backend\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\test_backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\test_backend\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\test_backend\app\Models\Requestads_Model.php(33): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\test_backend\app\Controllers\Movie\MovieRequestAds.php(34): App\Models\Requestads_Model->get_requestads('1', '')
+#5 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Movie\MovieRequestAds->index('1')
+#6 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\MovieRequestAds))
+#7 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-08-07 04:43:00 --> Unknown column 'mo_adscontact.content_id' in 'field list'
+#0 C:\xampp\htdocs\test_backend\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\test_backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\test_backend\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\test_backend\app\Models\Requestads_Model.php(33): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\test_backend\app\Controllers\Movie\MovieRequestAds.php(34): App\Models\Requestads_Model->get_requestads('1', '')
+#5 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Movie\MovieRequestAds->index('1')
+#6 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\MovieRequestAds))
+#7 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-08-07 04:44:31 --> Unknown column 'mo_adscontact.id' in 'field list'
+#0 C:\xampp\htdocs\test_backend\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\test_backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\test_backend\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\test_backend\app\Models\Requestads_Model.php(33): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\test_backend\app\Controllers\Movie\MovieRequestAds.php(34): App\Models\Requestads_Model->get_requestads('1', '')
+#5 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Movie\MovieRequestAds->index('1')
+#6 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\MovieRequestAds))
+#7 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-08-07 04:44:55 --> Unknown column 'mo_adscontact.content_head' in 'field list'
+#0 C:\xampp\htdocs\test_backend\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\test_backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\test_backend\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\test_backend\app\Models\Requestads_Model.php(33): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\test_backend\app\Controllers\Movie\MovieRequestAds.php(34): App\Models\Requestads_Model->get_requestads('1', '')
+#5 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Movie\MovieRequestAds->index('1')
+#6 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\MovieRequestAds))
+#7 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-08-07 04:45:56 --> Unknown column 'mo_adscontact.branch_id' in 'field list'
+#0 C:\xampp\htdocs\test_backend\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\test_backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\test_backend\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\test_backend\app\Models\Requestads_Model.php(34): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\test_backend\app\Controllers\Movie\MovieRequestAds.php(34): App\Models\Requestads_Model->get_requestads('1', '')
+#5 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Movie\MovieRequestAds->index('1')
+#6 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\MovieRequestAds))
+#7 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-08-07 04:46:13 --> Unknown column 'mo_adscontact.branch_id' in 'field list'
+#0 C:\xampp\htdocs\test_backend\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\test_backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\test_backend\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\test_backend\app\Models\Requestads_Model.php(34): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\test_backend\app\Controllers\Movie\MovieRequestAds.php(34): App\Models\Requestads_Model->get_requestads('1', '')
+#5 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Movie\MovieRequestAds->index('1')
+#6 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\MovieRequestAds))
+#7 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-08-07 04:46:49 --> Undefined variable: search_string
+#0 C:\xampp\htdocs\test_backend\app\Views\movie\requestadslist.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\test_backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test_backend\system\Common.php(1071): CodeIgniter\View\View->render('movie/requestad...', Array, true)
+#3 C:\xampp\htdocs\test_backend\app\Controllers\Movie\MovieRequestAds.php(40): view('movie/requestad...', Array)
+#4 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Movie\MovieRequestAds->index('1')
+#5 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\MovieRequestAds))
+#6 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-07 04:48:04 --> Undefined variable: search_string
+#0 C:\xampp\htdocs\test_backend\app\Views\movie\requestadslist.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\test_backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test_backend\system\Common.php(1071): CodeIgniter\View\View->render('movie/requestad...', Array, true)
+#3 C:\xampp\htdocs\test_backend\app\Controllers\Movie\MovieRequestAds.php(40): view('movie/requestad...', Array)
+#4 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Movie\MovieRequestAds->index('1')
+#5 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\MovieRequestAds))
+#6 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-07 04:48:28 --> Undefined variable: search_string
+#0 C:\xampp\htdocs\test_backend\app\Views\movie\requestadslist.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\test_backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test_backend\system\Common.php(1071): CodeIgniter\View\View->render('movie/requestad...', Array, true)
+#3 C:\xampp\htdocs\test_backend\app\Controllers\Movie\MovieRequestAds.php(40): view('movie/requestad...', Array)
+#4 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Movie\MovieRequestAds->index('1')
+#5 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\MovieRequestAds))
+#6 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-07 04:49:11 --> Undefined variable: paginate
+#0 C:\xampp\htdocs\test_backend\app\Views\movie\requestadslist.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\test_backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test_backend\system\Common.php(1071): CodeIgniter\View\View->render('movie/requestad...', Array, true)
+#3 C:\xampp\htdocs\test_backend\app\Controllers\Movie\MovieRequestAds.php(41): view('movie/requestad...', Array)
+#4 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Movie\MovieRequestAds->index('1')
+#5 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\MovieRequestAds))
+#6 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-07 04:52:59 --> Undefined index: mo_adscontact_namesurname
+#0 C:\xampp\htdocs\test_backend\app\Views\movie\requestadslist.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\test_backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test_backend\system\Common.php(1071): CodeIgniter\View\View->render('movie/requestad...', Array, true)
+#3 C:\xampp\htdocs\test_backend\app\Controllers\Movie\MovieRequestAds.php(41): view('movie/requestad...', Array)
+#4 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Movie\MovieRequestAds->index('1')
+#5 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\MovieRequestAds))
+#6 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-07 04:54:01 --> Undefined variable: branch
+#0 C:\xampp\htdocs\test_backend\app\Views\movie\requestadslist.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\test_backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test_backend\system\Common.php(1071): CodeIgniter\View\View->render('movie/requestad...', Array, true)
+#3 C:\xampp\htdocs\test_backend\app\Controllers\Movie\MovieRequestAds.php(41): view('movie/requestad...', Array)
+#4 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Movie\MovieRequestAds->index('1')
+#5 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\MovieRequestAds))
+#6 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-07 04:54:37 --> Undefined variable: branch
+#0 C:\xampp\htdocs\test_backend\app\Views\movie\requestadslist.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\test_backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test_backend\system\Common.php(1071): CodeIgniter\View\View->render('movie/requestad...', Array, true)
+#3 C:\xampp\htdocs\test_backend\app\Controllers\Movie\MovieRequestAds.php(41): view('movie/requestad...', Array)
+#4 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Movie\MovieRequestAds->index('1')
+#5 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\MovieRequestAds))
+#6 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-07 04:54:42 --> Undefined variable: branch
+#0 C:\xampp\htdocs\test_backend\app\Views\movie\requestadslist.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\test_backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test_backend\system\Common.php(1071): CodeIgniter\View\View->render('movie/requestad...', Array, true)
+#3 C:\xampp\htdocs\test_backend\app\Controllers\Movie\MovieRequestAds.php(41): view('movie/requestad...', Array)
+#4 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Movie\MovieRequestAds->index('1')
+#5 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\MovieRequestAds))
+#6 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-07 06:20:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM
+             mo_contact 
+             WHERE mo_contact.mo_contact_branch_' at line 4
+#0 C:\xampp\htdocs\test_backend\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\test_backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\test_backend\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\test_backend\app\Models\Contact_Model.php(30): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\test_backend\app\Controllers\Movie\MovieContact.php(34): App\Models\Contact_Model->get_contact('1', '')
+#5 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Movie\MovieContact->index('1')
+#6 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\MovieContact))
+#7 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-08-07 06:23:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM
+             mo_contact 
+             WHERE mo_contact.mo_contact_branch_' at line 4
+#0 C:\xampp\htdocs\test_backend\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\test_backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\test_backend\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\test_backend\app\Models\Contact_Model.php(30): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\test_backend\app\Controllers\Movie\MovieContact.php(34): App\Models\Contact_Model->get_contact('1', '')
+#5 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Movie\MovieContact->index('1')
+#6 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\MovieContact))
+#7 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

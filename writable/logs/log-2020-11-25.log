@@ -1,0 +1,128 @@
+CRITICAL - 2020-11-25 00:04:08 --> A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+#0 C:\xampp\htdocs\dunung4u\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\dunung4u\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\dunung4u\app\Models\Video_Model.php(412): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(39): App\Models\Video_Model->get_setting(1)
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-25 00:04:24 --> A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+#0 C:\xampp\htdocs\dunung4u\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\dunung4u\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\dunung4u\app\Models\Video_Model.php(412): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(39): App\Models\Video_Model->get_setting(1)
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-25 00:31:19 --> A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+#0 C:\xampp\htdocs\dunung4u\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\dunung4u\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\dunung4u\app\Models\Video_Model.php(412): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(39): App\Models\Video_Model->get_setting(1)
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-25 00:31:32 --> A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+#0 C:\xampp\htdocs\dunung4u\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\dunung4u\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\dunung4u\app\Models\Video_Model.php(412): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(39): App\Models\Video_Model->get_setting(1)
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-25 00:37:58 --> A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+#0 C:\xampp\htdocs\dunung4u\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\dunung4u\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\dunung4u\app\Models\Video_Model.php(412): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(39): App\Models\Video_Model->get_setting(1)
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-25 00:38:20 --> MySQL server has gone away
+#0 C:\xampp\htdocs\dunung4u\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\dunung4u\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\dunung4u\app\Models\Video_Model.php(412): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(39): App\Models\Video_Model->get_setting(1)
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-25 00:38:43 --> A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+#0 C:\xampp\htdocs\dunung4u\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\dunung4u\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\dunung4u\app\Models\Video_Model.php(412): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(39): App\Models\Video_Model->get_setting(1)
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-25 00:39:18 --> A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+#0 C:\xampp\htdocs\dunung4u\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\dunung4u\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\dunung4u\app\Models\Video_Model.php(412): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(39): App\Models\Video_Model->get_setting(1)
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-25 00:39:39 --> A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+#0 C:\xampp\htdocs\dunung4u\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\dunung4u\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\dunung4u\app\Models\Video_Model.php(412): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(39): App\Models\Video_Model->get_setting(1)
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-25 01:31:56 --> A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+#0 C:\xampp\htdocs\dunung4u\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\dunung4u\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\dunung4u\app\Models\Video_Model.php(412): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(39): App\Models\Video_Model->get_setting(1)
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-25 01:45:20 --> syntax error, unexpected ')', expecting ';'
+#0 C:\xampp\htdocs\dunung4u\system\Common.php(1071): CodeIgniter\View\View->render('index.php', Array, true)
+#1 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(74): view('index.php', Array)
+#2 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-25 11:20:36 --> A socket operation was attempted to an unreachable host.
+
+#0 C:\xampp\htdocs\dunung4u\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\dunung4u\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\dunung4u\app\Models\Video_Model.php(412): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 C:\xampp\htdocs\dunung4u\app\Controllers\Home.php(39): App\Models\Video_Model->get_setting(1)
+#4 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\dunung4u\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\dunung4u\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

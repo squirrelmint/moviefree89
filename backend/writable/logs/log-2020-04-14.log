@@ -1,0 +1,303 @@
+CRITICAL - 2020-04-14 01:17:14 --> Undefined index: logo
+#0 C:\xampp\htdocs\backend\app\Controllers\Branch.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Branch->saveadd()
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Branch))
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-14 01:18:18 --> Undefined index: logo
+#0 C:\xampp\htdocs\backend\app\Controllers\Branch.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Branch->saveadd()
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Branch))
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-14 01:18:23 --> Undefined index: logo
+#0 C:\xampp\htdocs\backend\app\Controllers\Branch.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Branch->saveadd()
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Branch))
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-14 01:40:26 --> Undefined index: logo
+#0 C:\xampp\htdocs\backend\app\Controllers\Branch.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Branch->saveadd()
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Branch))
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-14 01:41:07 --> Undefined index: logo
+#0 C:\xampp\htdocs\backend\app\Controllers\Branch.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Branch->saveadd()
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Branch))
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-14 01:42:11 --> Undefined index: logo
+#0 C:\xampp\htdocs\backend\app\Controllers\Branch.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Branch->saveadd()
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Branch))
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-14 01:42:30 --> Undefined index: logo
+#0 C:\xampp\htdocs\backend\app\Controllers\Branch.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Branch->saveadd()
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Branch))
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-14 01:42:37 --> Undefined index: logo
+#0 C:\xampp\htdocs\backend\app\Controllers\Branch.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Branch->saveadd()
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Branch))
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-14 02:27:24 --> Trying to get property 'logo' of non-object
+#0 C:\xampp\htdocs\backend\app\Controllers\Branch.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Branch->saveadd()
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Branch))
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-14 02:33:18 --> Call to a member function getRandomName() on array
+#0 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Branch->saveadd()
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Branch))
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-14 02:35:06 --> Cannot use object of type CodeIgniter\HTTP\Files\UploadedFile as array
+#0 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Branch->saveadd()
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Branch))
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-14 02:35:18 --> Cannot use object of type CodeIgniter\HTTP\Files\UploadedFile as array
+#0 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Branch->saveadd()
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Branch))
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-14 02:35:50 --> Cannot access protected property CodeIgniter\HTTP\Files\UploadedFile::$path
+#0 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Branch->saveadd()
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Branch))
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-14 02:35:59 --> Cannot use object of type CodeIgniter\HTTP\Files\UploadedFile as array
+#0 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Branch->saveadd()
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Branch))
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-14 10:41:06 --> Undefined index: user_name
+#0 C:\xampp\htdocs\backend\app\Views\profile\edit.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\backend\system\Common.php(1071): CodeIgniter\View\View->render('profile/edit', Array, true)
+#3 C:\xampp\htdocs\backend\app\Controllers\Branch.php(46): view('profile/edit', Array)
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Branch->edit('1')
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Branch))
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-14 10:41:06 --> Undefined index: user_name
+#0 C:\xampp\htdocs\backend\app\Views\profile\edit.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\backend\system\Common.php(1071): CodeIgniter\View\View->render('profile/edit', Array, true)
+#3 C:\xampp\htdocs\backend\app\Controllers\Branch.php(46): view('profile/edit', Array)
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Branch->edit('1')
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Branch))
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-14 10:43:03 --> Undefined variable: branch_name
+#0 C:\xampp\htdocs\backend\app\Views\branch\edit.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\backend\system\Common.php(1071): CodeIgniter\View\View->render('branch/edit', Array, true)
+#3 C:\xampp\htdocs\backend\app\Controllers\Branch.php(46): view('branch/edit', Array)
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Branch->edit('1')
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Branch))
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-14 10:43:04 --> Undefined variable: branch_name
+#0 C:\xampp\htdocs\backend\app\Views\branch\edit.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\backend\system\Common.php(1071): CodeIgniter\View\View->render('branch/edit', Array, true)
+#3 C:\xampp\htdocs\backend\app\Controllers\Branch.php(46): view('branch/edit', Array)
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Branch->edit('1')
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Branch))
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-14 10:49:43 --> Undefined index: system_logo
+#0 C:\xampp\htdocs\backend\app\Views\branch\edit.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\backend\system\Common.php(1071): CodeIgniter\View\View->render('branch/edit', Array, true)
+#3 C:\xampp\htdocs\backend\app\Controllers\Branch.php(46): view('branch/edit', Array)
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Branch->edit('14')
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Branch))
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-14 11:15:39 --> Call to undefined function App\Models\delete_files()
+#0 C:\xampp\htdocs\backend\app\Controllers\Branch.php(47): App\Models\Branch_Model->edit_branch('14', Array, '1586850442_76be...', Object(CodeIgniter\HTTP\Files\UploadedFile))
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Branch->saveedit('14')
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Branch))
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-14 11:18:26 --> Array to string conversion
+#0 C:\xampp\htdocs\backend\app\Models\Branch_Model.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 125, Array)
+#1 C:\xampp\htdocs\backend\app\Controllers\Branch.php(47): App\Models\Branch_Model->edit_branch('14', Array, '1586880996_ef0f...', Object(CodeIgniter\HTTP\Files\UploadedFile))
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Branch->saveedit('14')
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Branch))
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-14 11:18:46 --> Array to string conversion
+#0 C:\xampp\htdocs\backend\app\Models\Branch_Model.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 125, Array)
+#1 C:\xampp\htdocs\backend\app\Controllers\Branch.php(47): App\Models\Branch_Model->edit_branch('14', Array, '1586880996_ef0f...', Object(CodeIgniter\HTTP\Files\UploadedFile))
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Branch->saveedit('14')
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Branch))
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-14 11:21:28 --> Array to string conversion
+#0 C:\xampp\htdocs\backend\app\Models\Branch_Model.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 125, Array)
+#1 C:\xampp\htdocs\backend\app\Controllers\Branch.php(47): App\Models\Branch_Model->edit_branch('14', Array, '1586881208_1255...', Object(CodeIgniter\HTTP\Files\UploadedFile))
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Branch->saveedit('14')
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Branch))
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-14 11:21:31 --> Array to string conversion
+#0 C:\xampp\htdocs\backend\app\Models\Branch_Model.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 125, Array)
+#1 C:\xampp\htdocs\backend\app\Controllers\Branch.php(47): App\Models\Branch_Model->edit_branch('14', Array, '1586881208_1255...', Object(CodeIgniter\HTTP\Files\UploadedFile))
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Branch->saveedit('14')
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Branch))
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-14 11:21:38 --> Array to string conversion
+#0 C:\xampp\htdocs\backend\app\Models\Branch_Model.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 125, Array)
+#1 C:\xampp\htdocs\backend\app\Controllers\Branch.php(47): App\Models\Branch_Model->edit_branch('14', Array, '1586881208_1255...', Object(CodeIgniter\HTTP\Files\UploadedFile))
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Branch->saveedit('14')
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Branch))
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-14 11:25:11 --> unlink(C:\xampp\htdocs\backend\public\logo1586881208_1255c94fdcbe7bc85745.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 128, Array)
+#1 C:\xampp\htdocs\backend\app\Models\Branch_Model.php(128): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\backend\app\Controllers\Branch.php(47): App\Models\Branch_Model->edit_branch('14', Array, '1586881208_1255...', Object(CodeIgniter\HTTP\Files\UploadedFile))
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Branch->saveedit('14')
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Branch))
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-14 11:26:33 --> Array to string conversion
+#0 C:\xampp\htdocs\backend\app\Models\Branch_Model.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 125, Array)
+#1 C:\xampp\htdocs\backend\app\Controllers\Branch.php(47): App\Models\Branch_Model->edit_branch('14', Array, '1586881208_1255...', Object(CodeIgniter\HTTP\Files\UploadedFile))
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Branch->saveedit('14')
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Branch))
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-14 11:29:04 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\backend\system\HTTP\Files\UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\backend\app\Models\Branch_Model.php(126): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '1586881744_1ad5...')
+#2 C:\xampp\htdocs\backend\app\Controllers\Branch.php(47): App\Models\Branch_Model->edit_branch('14', Array, '1586881731_3466...', Object(CodeIgniter\HTTP\Files\UploadedFile))
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Branch->saveedit('14')
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Branch))
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-14 11:29:13 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\backend\system\HTTP\Files\UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\backend\app\Models\Branch_Model.php(126): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '1586881753_c36f...')
+#2 C:\xampp\htdocs\backend\app\Controllers\Branch.php(47): App\Models\Branch_Model->edit_branch('14', Array, '1586881744_1ad5...', Object(CodeIgniter\HTTP\Files\UploadedFile))
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Branch->saveedit('14')
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Branch))
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-14 11:30:52 --> Call to a member function move() on null
+#0 C:\xampp\htdocs\backend\app\Controllers\Branch.php(51): App\Models\Branch_Model->edit_branch('14', Array, '1586881744_1ad5...', NULL)
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Branch->saveedit('14')
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Branch))
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-14 11:32:30 --> Undefined index: branch_logo
+#0 C:\xampp\htdocs\backend\app\Models\Branch_Model.php(126): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 126, Array)
+#1 C:\xampp\htdocs\backend\app\Controllers\Branch.php(51): App\Models\Branch_Model->edit_branch('14', Array, '1586881744_1ad5...', NULL)
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Branch->saveedit('14')
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Branch))
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-14 11:33:05 --> Call to a member function move() on null
+#0 C:\xampp\htdocs\backend\app\Controllers\Branch.php(51): App\Models\Branch_Model->edit_branch('14', Array, '1586881753_c36f...', NULL)
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Branch->saveedit('14')
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Branch))
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-14 11:34:11 --> Call to a member function move() on null
+#0 C:\xampp\htdocs\backend\app\Controllers\Branch.php(51): App\Models\Branch_Model->edit_branch('14', Array, '1586881753_c36f...', NULL)
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Branch->saveedit('14')
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Branch))
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-14 11:34:52 --> Call to a member function move() on null
+#0 C:\xampp\htdocs\backend\app\Controllers\Branch.php(51): App\Models\Branch_Model->edit_branch('14', Array, '', NULL)
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Branch->saveedit('14')
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Branch))
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-14 11:35:08 --> Call to a member function move() on null
+#0 C:\xampp\htdocs\backend\app\Controllers\Branch.php(51): App\Models\Branch_Model->edit_branch('14', Array, '', NULL)
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Branch->saveedit('14')
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Branch))
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-14 11:35:41 --> Call to a member function move() on null
+#0 C:\xampp\htdocs\backend\app\Controllers\Branch.php(51): App\Models\Branch_Model->edit_branch('14', Array, '', NULL)
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Branch->saveedit('14')
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Branch))
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-14 11:35:49 --> Call to a member function move() on null
+#0 C:\xampp\htdocs\backend\app\Controllers\Branch.php(51): App\Models\Branch_Model->edit_branch('14', Array, '', NULL)
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Branch->saveedit('14')
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Branch))
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-14 11:38:13 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\backend\app\Controllers\Branch.php(51): App\Models\Branch_Model->edit_branch('14', Array, '', NULL)
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Branch->saveedit('14')
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Branch))
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-14 11:39:31 --> Call to a member function isValid() on array
+#0 C:\xampp\htdocs\backend\app\Controllers\Branch.php(47): App\Models\Branch_Model->edit_branch('14', Array, '', Array)
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Branch->saveedit('14')
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Branch))
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-14 11:39:55 --> Call to a member function isValid() on array
+#0 C:\xampp\htdocs\backend\app\Controllers\Branch.php(47): App\Models\Branch_Model->edit_branch('14', Array, '', Array)
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Branch->saveedit('14')
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Branch))
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

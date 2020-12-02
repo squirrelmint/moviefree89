@@ -1,0 +1,1065 @@
+CRITICAL - 2020-04-07 00:41:33 --> Call to undefined method App\Controllers\Home::extend()
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 00:41:34 --> Call to undefined method App\Controllers\Home::extend()
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 00:41:34 --> Call to undefined method App\Controllers\Home::extend()
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 00:41:34 --> Call to undefined method App\Controllers\Home::extend()
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 00:41:49 --> Call to undefined method App\Controllers\Home::extend()
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 00:41:49 --> Call to undefined method App\Controllers\Home::extend()
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 00:41:49 --> Call to undefined method App\Controllers\Home::extend()
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 00:41:50 --> Call to undefined method App\Controllers\Home::extend()
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 00:41:50 --> Call to undefined method App\Controllers\Home::extend()
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 01:11:58 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 01:11:58 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 01:11:59 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 01:12:19 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 01:12:19 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 01:19:07 --> Call to a member function get_post() on null
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 01:19:08 --> Call to a member function get_post() on null
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 01:19:08 --> Call to a member function get_post() on null
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 01:19:08 --> Call to a member function get_post() on null
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 01:22:07 --> Call to a member function get_post() on null
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->form_submit()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 01:23:19 --> Call to undefined function App\Controllers\print_()
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 01:31:49 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->formsubmit()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 01:31:52 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->formsubmit()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 01:32:23 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->formsubmit()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 01:54:16 --> Call to a member function setData() on null
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 01:55:07 --> Call to a member function setData() on null
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 01:55:07 --> Call to a member function setData() on null
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 01:55:07 --> Call to a member function setData() on null
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 01:55:09 --> Call to a member function setData() on null
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 02:02:15 --> Call to a member function setData() on null
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->about()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 02:02:45 --> Call to a member function setData() on null
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->about()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 02:05:51 --> syntax error, unexpected '$data' (T_VARIABLE), expecting identifier (T_STRING)
+#0 C:\xampp\htdocs\limiless\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\limiless\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\limiless\system\CodeIgniter.php(861): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\limiless\system\CodeIgniter.php(388): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-07 02:05:53 --> syntax error, unexpected '$data' (T_VARIABLE), expecting identifier (T_STRING)
+#0 C:\xampp\htdocs\limiless\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\limiless\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\limiless\system\CodeIgniter.php(861): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\limiless\system\CodeIgniter.php(388): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-07 02:06:00 --> Too few arguments to function CodeIgniter\View\Parser::__construct(), 0 passed in C:\xampp\htdocs\limiless\app\Controllers\Home.php on line 41 and at least 1 expected
+#0 C:\xampp\htdocs\limiless\app\Controllers\Home.php(41): CodeIgniter\View\Parser->__construct()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->about()
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-07 02:06:38 --> Too few arguments to function CodeIgniter\View\Parser::__construct(), 0 passed in C:\xampp\htdocs\limiless\app\Controllers\Home.php on line 41 and at least 1 expected
+#0 C:\xampp\htdocs\limiless\app\Controllers\Home.php(41): CodeIgniter\View\Parser->__construct()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->about()
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-07 02:06:38 --> Too few arguments to function CodeIgniter\View\Parser::__construct(), 0 passed in C:\xampp\htdocs\limiless\app\Controllers\Home.php on line 41 and at least 1 expected
+#0 C:\xampp\htdocs\limiless\app\Controllers\Home.php(41): CodeIgniter\View\Parser->__construct()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->about()
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-07 02:06:38 --> Too few arguments to function CodeIgniter\View\Parser::__construct(), 0 passed in C:\xampp\htdocs\limiless\app\Controllers\Home.php on line 41 and at least 1 expected
+#0 C:\xampp\htdocs\limiless\app\Controllers\Home.php(41): CodeIgniter\View\Parser->__construct()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->about()
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-07 02:06:58 --> Too few arguments to function CodeIgniter\View\Parser::__construct(), 0 passed in C:\xampp\htdocs\limiless\app\Controllers\Home.php on line 41 and at least 1 expected
+#0 C:\xampp\htdocs\limiless\app\Controllers\Home.php(41): CodeIgniter\View\Parser->__construct()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->about()
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-07 02:06:58 --> Too few arguments to function CodeIgniter\View\Parser::__construct(), 0 passed in C:\xampp\htdocs\limiless\app\Controllers\Home.php on line 41 and at least 1 expected
+#0 C:\xampp\htdocs\limiless\app\Controllers\Home.php(41): CodeIgniter\View\Parser->__construct()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->about()
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-07 02:06:58 --> Too few arguments to function CodeIgniter\View\Parser::__construct(), 0 passed in C:\xampp\htdocs\limiless\app\Controllers\Home.php on line 41 and at least 1 expected
+#0 C:\xampp\htdocs\limiless\app\Controllers\Home.php(41): CodeIgniter\View\Parser->__construct()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->about()
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-07 02:07:11 --> Invalid file: {0}
+#0 C:\xampp\htdocs\limiless\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('slidebar.php')
+#1 C:\xampp\htdocs\limiless\system\View\View.php(503): CodeIgniter\View\View->render('slidebar', NULL, true)
+#2 C:\xampp\htdocs\limiless\app\Views\about.php(5): CodeIgniter\View\View->include('slidebar')
+#3 C:\xampp\htdocs\limiless\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\limiless\system\Common.php(1071): CodeIgniter\View\View->render('about', Array, true)
+#5 C:\xampp\htdocs\limiless\app\Controllers\Home.php(50): view('about')
+#6 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->about()
+#7 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-04-07 02:07:11 --> Invalid file: {0}
+#0 C:\xampp\htdocs\limiless\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('slidebar.php')
+#1 C:\xampp\htdocs\limiless\system\View\View.php(503): CodeIgniter\View\View->render('slidebar', NULL, true)
+#2 C:\xampp\htdocs\limiless\app\Views\about.php(5): CodeIgniter\View\View->include('slidebar')
+#3 C:\xampp\htdocs\limiless\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\limiless\system\Common.php(1071): CodeIgniter\View\View->render('about', Array, true)
+#5 C:\xampp\htdocs\limiless\app\Controllers\Home.php(50): view('about')
+#6 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->about()
+#7 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-04-07 02:08:06 --> Too few arguments to function CodeIgniter\View\Parser::__construct(), 0 passed in C:\xampp\htdocs\limiless\app\Controllers\Home.php on line 41 and at least 1 expected
+#0 C:\xampp\htdocs\limiless\app\Controllers\Home.php(41): CodeIgniter\View\Parser->__construct()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->about()
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-07 02:08:06 --> Too few arguments to function CodeIgniter\View\Parser::__construct(), 0 passed in C:\xampp\htdocs\limiless\app\Controllers\Home.php on line 41 and at least 1 expected
+#0 C:\xampp\htdocs\limiless\app\Controllers\Home.php(41): CodeIgniter\View\Parser->__construct()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->about()
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-07 02:12:52 --> Invalid file: {0}
+#0 C:\xampp\htdocs\limiless\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('slidebar.php')
+#1 C:\xampp\htdocs\limiless\system\View\View.php(503): CodeIgniter\View\View->render('slidebar', NULL, true)
+#2 C:\xampp\htdocs\limiless\app\Views\about.php(5): CodeIgniter\View\View->include('slidebar')
+#3 C:\xampp\htdocs\limiless\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\limiless\system\Common.php(1071): CodeIgniter\View\View->render('about', Array, true)
+#5 C:\xampp\htdocs\limiless\app\Controllers\Home.php(54): view('about')
+#6 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->about()
+#7 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-04-07 02:12:52 --> Invalid file: {0}
+#0 C:\xampp\htdocs\limiless\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('slidebar.php')
+#1 C:\xampp\htdocs\limiless\system\View\View.php(503): CodeIgniter\View\View->render('slidebar', NULL, true)
+#2 C:\xampp\htdocs\limiless\app\Views\about.php(5): CodeIgniter\View\View->include('slidebar')
+#3 C:\xampp\htdocs\limiless\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\limiless\system\Common.php(1071): CodeIgniter\View\View->render('about', Array, true)
+#5 C:\xampp\htdocs\limiless\app\Controllers\Home.php(54): view('about')
+#6 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->about()
+#7 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-04-07 02:12:52 --> Invalid file: {0}
+#0 C:\xampp\htdocs\limiless\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('slidebar.php')
+#1 C:\xampp\htdocs\limiless\system\View\View.php(503): CodeIgniter\View\View->render('slidebar', NULL, true)
+#2 C:\xampp\htdocs\limiless\app\Views\about.php(5): CodeIgniter\View\View->include('slidebar')
+#3 C:\xampp\htdocs\limiless\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\limiless\system\Common.php(1071): CodeIgniter\View\View->render('about', Array, true)
+#5 C:\xampp\htdocs\limiless\app\Controllers\Home.php(54): view('about')
+#6 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->about()
+#7 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-04-07 02:12:54 --> Invalid file: {0}
+#0 C:\xampp\htdocs\limiless\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('slidebar.php')
+#1 C:\xampp\htdocs\limiless\system\View\View.php(503): CodeIgniter\View\View->render('slidebar', NULL, true)
+#2 C:\xampp\htdocs\limiless\app\Views\about.php(5): CodeIgniter\View\View->include('slidebar')
+#3 C:\xampp\htdocs\limiless\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\limiless\system\Common.php(1071): CodeIgniter\View\View->render('about', Array, true)
+#5 C:\xampp\htdocs\limiless\app\Controllers\Home.php(54): view('about')
+#6 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->about()
+#7 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-04-07 02:13:16 --> Invalid file: {0}
+#0 C:\xampp\htdocs\limiless\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('slidebar.php')
+#1 C:\xampp\htdocs\limiless\system\View\View.php(503): CodeIgniter\View\View->render('slidebar', NULL, true)
+#2 C:\xampp\htdocs\limiless\app\Views\about.php(5): CodeIgniter\View\View->include('slidebar')
+#3 C:\xampp\htdocs\limiless\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\limiless\system\Common.php(1071): CodeIgniter\View\View->render('about', Array, true)
+#5 C:\xampp\htdocs\limiless\app\Controllers\Home.php(54): view('about')
+#6 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->about()
+#7 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-04-07 02:13:17 --> Invalid file: {0}
+#0 C:\xampp\htdocs\limiless\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('slidebar.php')
+#1 C:\xampp\htdocs\limiless\system\View\View.php(503): CodeIgniter\View\View->render('slidebar', NULL, true)
+#2 C:\xampp\htdocs\limiless\app\Views\about.php(5): CodeIgniter\View\View->include('slidebar')
+#3 C:\xampp\htdocs\limiless\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\limiless\system\Common.php(1071): CodeIgniter\View\View->render('about', Array, true)
+#5 C:\xampp\htdocs\limiless\app\Controllers\Home.php(54): view('about')
+#6 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->about()
+#7 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-04-07 02:13:17 --> Invalid file: {0}
+#0 C:\xampp\htdocs\limiless\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('slidebar.php')
+#1 C:\xampp\htdocs\limiless\system\View\View.php(503): CodeIgniter\View\View->render('slidebar', NULL, true)
+#2 C:\xampp\htdocs\limiless\app\Views\about.php(5): CodeIgniter\View\View->include('slidebar')
+#3 C:\xampp\htdocs\limiless\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\limiless\system\Common.php(1071): CodeIgniter\View\View->render('about', Array, true)
+#5 C:\xampp\htdocs\limiless\app\Controllers\Home.php(54): view('about')
+#6 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->about()
+#7 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-04-07 02:13:18 --> Invalid file: {0}
+#0 C:\xampp\htdocs\limiless\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('slidebar.php')
+#1 C:\xampp\htdocs\limiless\system\View\View.php(503): CodeIgniter\View\View->render('slidebar', NULL, true)
+#2 C:\xampp\htdocs\limiless\app\Views\about.php(5): CodeIgniter\View\View->include('slidebar')
+#3 C:\xampp\htdocs\limiless\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\limiless\system\Common.php(1071): CodeIgniter\View\View->render('about', Array, true)
+#5 C:\xampp\htdocs\limiless\app\Controllers\Home.php(54): view('about')
+#6 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->about()
+#7 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-04-07 02:13:29 --> Invalid file: {0}
+#0 C:\xampp\htdocs\limiless\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('slidebar.php')
+#1 C:\xampp\htdocs\limiless\system\View\View.php(503): CodeIgniter\View\View->render('slidebar', NULL, true)
+#2 C:\xampp\htdocs\limiless\app\Views\about.php(5): CodeIgniter\View\View->include('slidebar')
+#3 C:\xampp\htdocs\limiless\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\limiless\system\Common.php(1071): CodeIgniter\View\View->render('about', Array, true)
+#5 C:\xampp\htdocs\limiless\app\Controllers\Home.php(54): view('about')
+#6 C:\xampp\htdocs\limiless\system\CodeIgniter.php(910): App\Controllers\Home->about()
+#7 C:\xampp\htdocs\limiless\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-04-07 02:26:34 --> Too few arguments to function App\Controllers\Home::__construct(), 0 passed in C:\xampp\htdocs\limiless\system\CodeIgniter.php on line 882 and exactly 1 expected
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(882): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 02:26:35 --> Too few arguments to function App\Controllers\Home::__construct(), 0 passed in C:\xampp\htdocs\limiless\system\CodeIgniter.php on line 882 and exactly 1 expected
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(882): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 02:27:19 --> Too few arguments to function App\Controllers\Home::__construct(), 0 passed in C:\xampp\htdocs\limiless\system\CodeIgniter.php on line 882 and exactly 1 expected
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(882): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 02:27:19 --> Too few arguments to function App\Controllers\Home::__construct(), 0 passed in C:\xampp\htdocs\limiless\system\CodeIgniter.php on line 882 and exactly 1 expected
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(882): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 02:27:19 --> Too few arguments to function App\Controllers\Home::__construct(), 0 passed in C:\xampp\htdocs\limiless\system\CodeIgniter.php on line 882 and exactly 1 expected
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(882): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 02:27:19 --> Too few arguments to function App\Controllers\Home::__construct(), 0 passed in C:\xampp\htdocs\limiless\system\CodeIgniter.php on line 882 and exactly 1 expected
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(882): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 02:29:16 --> Too few arguments to function App\Controllers\Home::__construct(), 0 passed in C:\xampp\htdocs\limiless\system\CodeIgniter.php on line 882 and exactly 1 expected
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(882): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 02:29:17 --> Too few arguments to function App\Controllers\Home::__construct(), 0 passed in C:\xampp\htdocs\limiless\system\CodeIgniter.php on line 882 and exactly 1 expected
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(882): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 02:29:44 --> Class 'App\Controllers\Controller' not found
+#0 C:\xampp\htdocs\limiless\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xampp\htdocs\limiless\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\limiless\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\xampp\htdocs\limiless\system\CodeIgniter.php(861): class_exists('\\App\\Controller...', true)
+#6 C:\xampp\htdocs\limiless\system\CodeIgniter.php(388): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-04-07 02:29:44 --> Class 'App\Controllers\Controller' not found
+#0 C:\xampp\htdocs\limiless\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xampp\htdocs\limiless\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\limiless\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\xampp\htdocs\limiless\system\CodeIgniter.php(861): class_exists('\\App\\Controller...', true)
+#6 C:\xampp\htdocs\limiless\system\CodeIgniter.php(388): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-04-07 02:29:44 --> Class 'App\Controllers\Controller' not found
+#0 C:\xampp\htdocs\limiless\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xampp\htdocs\limiless\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\limiless\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\xampp\htdocs\limiless\system\CodeIgniter.php(861): class_exists('\\App\\Controller...', true)
+#6 C:\xampp\htdocs\limiless\system\CodeIgniter.php(388): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-04-07 02:30:17 --> Class 'App\Controllers\Controller' not found
+#0 C:\xampp\htdocs\limiless\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xampp\htdocs\limiless\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\limiless\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\xampp\htdocs\limiless\system\CodeIgniter.php(861): class_exists('\\App\\Controller...', true)
+#6 C:\xampp\htdocs\limiless\system\CodeIgniter.php(388): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-04-07 02:30:17 --> Class 'App\Controllers\Controller' not found
+#0 C:\xampp\htdocs\limiless\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xampp\htdocs\limiless\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\limiless\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\xampp\htdocs\limiless\system\CodeIgniter.php(861): class_exists('\\App\\Controller...', true)
+#6 C:\xampp\htdocs\limiless\system\CodeIgniter.php(388): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-04-07 02:30:17 --> Class 'App\Controllers\Controller' not found
+#0 C:\xampp\htdocs\limiless\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xampp\htdocs\limiless\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\limiless\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\xampp\htdocs\limiless\system\CodeIgniter.php(861): class_exists('\\App\\Controller...', true)
+#6 C:\xampp\htdocs\limiless\system\CodeIgniter.php(388): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-04-07 02:30:18 --> Class 'App\Controllers\Controller' not found
+#0 C:\xampp\htdocs\limiless\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xampp\htdocs\limiless\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\limiless\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\xampp\htdocs\limiless\system\CodeIgniter.php(861): class_exists('\\App\\Controller...', true)
+#6 C:\xampp\htdocs\limiless\system\CodeIgniter.php(388): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-04-07 02:30:36 --> Too few arguments to function App\Controllers\Home::__construct(), 0 passed in C:\xampp\htdocs\limiless\system\CodeIgniter.php on line 882 and exactly 1 expected
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(882): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 02:30:36 --> Too few arguments to function App\Controllers\Home::__construct(), 0 passed in C:\xampp\htdocs\limiless\system\CodeIgniter.php on line 882 and exactly 1 expected
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(882): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 02:30:37 --> Too few arguments to function App\Controllers\Home::__construct(), 0 passed in C:\xampp\htdocs\limiless\system\CodeIgniter.php on line 882 and exactly 1 expected
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(882): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 02:30:37 --> Too few arguments to function App\Controllers\Home::__construct(), 0 passed in C:\xampp\htdocs\limiless\system\CodeIgniter.php on line 882 and exactly 1 expected
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(882): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 02:30:37 --> Too few arguments to function App\Controllers\Home::__construct(), 0 passed in C:\xampp\htdocs\limiless\system\CodeIgniter.php on line 882 and exactly 1 expected
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(882): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 02:30:37 --> Too few arguments to function App\Controllers\Home::__construct(), 0 passed in C:\xampp\htdocs\limiless\system\CodeIgniter.php on line 882 and exactly 1 expected
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(882): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 02:41:09 --> Too few arguments to function App\Controllers\Home::__construct(), 0 passed in C:\xampp\htdocs\limiless\system\CodeIgniter.php on line 882 and exactly 1 expected
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(882): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 02:41:12 --> Too few arguments to function App\Controllers\Home::__construct(), 0 passed in C:\xampp\htdocs\limiless\system\CodeIgniter.php on line 882 and exactly 1 expected
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(882): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 02:41:47 --> Too few arguments to function App\Controllers\Home::__construct(), 0 passed in C:\xampp\htdocs\limiless\system\CodeIgniter.php on line 882 and exactly 1 expected
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(882): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 02:41:48 --> Too few arguments to function App\Controllers\Home::__construct(), 0 passed in C:\xampp\htdocs\limiless\system\CodeIgniter.php on line 882 and exactly 1 expected
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(882): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 02:41:48 --> Too few arguments to function App\Controllers\Home::__construct(), 0 passed in C:\xampp\htdocs\limiless\system\CodeIgniter.php on line 882 and exactly 1 expected
+#0 C:\xampp\htdocs\limiless\system\CodeIgniter.php(882): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\limiless\system\CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\limiless\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\limiless\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 03:17:41 --> Invalid file: {0}
+#0 C:\xampp\htdocs\168ambbar\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 C:\xampp\htdocs\168ambbar\system\Common.php(1071): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\xampp\htdocs\168ambbar\app\Controllers\Home.php(19): view('index')
+#3 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-07 03:47:27 --> Invalid file: {0}
+#0 C:\xampp\htdocs\168ambbar\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout_admin/la...')
+#1 C:\xampp\htdocs\168ambbar\system\View\View.php(247): CodeIgniter\View\View->render('layout_admin/la...', Array, true)
+#2 C:\xampp\htdocs\168ambbar\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#3 C:\xampp\htdocs\168ambbar\app\Controllers\admin\Home.php(21): view('backend/index')
+#4 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Home->dashboard()
+#5 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Home))
+#6 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-07 03:47:27 --> Invalid file: {0}
+#0 C:\xampp\htdocs\168ambbar\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout_admin/la...')
+#1 C:\xampp\htdocs\168ambbar\system\View\View.php(247): CodeIgniter\View\View->render('layout_admin/la...', Array, true)
+#2 C:\xampp\htdocs\168ambbar\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#3 C:\xampp\htdocs\168ambbar\app\Controllers\admin\Home.php(21): view('backend/index')
+#4 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Home->dashboard()
+#5 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Home))
+#6 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-07 03:47:27 --> Invalid file: {0}
+#0 C:\xampp\htdocs\168ambbar\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout_admin/la...')
+#1 C:\xampp\htdocs\168ambbar\system\View\View.php(247): CodeIgniter\View\View->render('layout_admin/la...', Array, true)
+#2 C:\xampp\htdocs\168ambbar\system\Common.php(1071): CodeIgniter\View\View->render('backend/index', Array, true)
+#3 C:\xampp\htdocs\168ambbar\app\Controllers\admin\Home.php(21): view('backend/index')
+#4 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Home->dashboard()
+#5 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Home))
+#6 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-07 05:58:16 --> Call to a member function model() on null
+#0 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#1 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#2 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 05:59:08 --> Call to a member function model() on null
+#0 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#1 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#2 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 06:00:07 --> ci is not a valid database connection group.
+#0 C:\xampp\htdocs\168ambbar\system\Common.php(234): CodeIgniter\Database\Config::connect('ci', true)
+#1 C:\xampp\htdocs\168ambbar\app\Controllers\admin\Menu.php(17): db_connect('ci')
+#2 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#3 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#4 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-07 06:17:31 --> Call to a member function save_menu() on null
+#0 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#1 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#2 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 06:18:51 --> Call to a member function save_menu() on null
+#0 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#1 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#2 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 06:19:13 --> Call to a member function model() on null
+#0 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#1 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#2 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 06:19:26 --> Call to a member function model() on null
+#0 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#1 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#2 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 06:20:16 --> Call to a member function model() on null
+#0 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#1 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#2 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 06:20:25 --> Call to a member function model() on null
+#0 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#1 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#2 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 06:23:41 --> Call to a member function model() on null
+#0 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#1 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#2 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 06:24:43 --> Call to a member function save_menu() on null
+#0 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#1 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#2 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 06:26:21 --> Class 'App\Controllers\admin\MenuModel' not found
+#0 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#1 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#2 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 06:26:57 --> Call to a member function model() on null
+#0 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#1 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#2 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 06:27:50 --> Cannot call constructor
+#0 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(882): App\Controllers\admin\Menu->__construct()
+#1 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 06:27:59 --> Cannot call constructor
+#0 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(882): App\Controllers\admin\Menu->__construct()
+#1 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 06:28:01 --> Cannot call constructor
+#0 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(882): App\Controllers\admin\Menu->__construct()
+#1 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 06:28:08 --> Cannot call constructor
+#0 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(882): App\Controllers\admin\Menu->__construct()
+#1 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 06:28:10 --> Cannot call constructor
+#0 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(882): App\Controllers\admin\Menu->__construct()
+#1 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 06:28:11 --> Cannot call constructor
+#0 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(882): App\Controllers\admin\Menu->__construct()
+#1 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 06:29:34 --> Class 'App\Controllers\admin\MenuModel' not found
+#0 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#1 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#2 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 06:30:21 --> ci is not a valid database connection group.
+#0 C:\xampp\htdocs\168ambbar\system\Common.php(234): CodeIgniter\Database\Config::connect('ci', true)
+#1 C:\xampp\htdocs\168ambbar\app\Controllers\admin\Menu.php(27): db_connect('ci')
+#2 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#3 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#4 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-07 06:30:33 --> custom is not a valid database connection group.
+#0 C:\xampp\htdocs\168ambbar\system\Common.php(234): CodeIgniter\Database\Config::connect('custom', true)
+#1 C:\xampp\htdocs\168ambbar\app\Controllers\admin\Menu.php(27): db_connect('custom')
+#2 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#3 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#4 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-07 06:30:52 --> custom is not a valid database connection group.
+#0 C:\xampp\htdocs\168ambbar\system\Common.php(234): CodeIgniter\Database\Config::connect('custom', true)
+#1 C:\xampp\htdocs\168ambbar\app\Controllers\admin\Menu.php(27): db_connect('custom')
+#2 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#3 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#4 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-07 06:30:59 --> ci is not a valid database connection group.
+#0 C:\xampp\htdocs\168ambbar\system\Common.php(234): CodeIgniter\Database\Config::connect('ci', true)
+#1 C:\xampp\htdocs\168ambbar\app\Controllers\admin\Menu.php(27): db_connect('ci')
+#2 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#3 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#4 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-07 06:33:35 --> ci is not a valid database connection group.
+#0 C:\xampp\htdocs\168ambbar\system\Common.php(234): CodeIgniter\Database\Config::connect('ci', true)
+#1 C:\xampp\htdocs\168ambbar\app\Controllers\admin\Menu.php(27): db_connect('ci')
+#2 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#3 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#4 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-07 06:33:47 --> ci is not a valid database connection group.
+#0 C:\xampp\htdocs\168ambbar\system\Common.php(234): CodeIgniter\Database\Config::connect('ci', true)
+#1 C:\xampp\htdocs\168ambbar\app\Controllers\admin\Menu.php(27): db_connect('ci')
+#2 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#3 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#4 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-04-07 06:34:32 --> Call to a member function save_menu() on null
+#0 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#1 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#2 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 06:38:48 --> Class 'App\Models\Model' not found
+#0 C:\xampp\htdocs\168ambbar\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xampp\htdocs\168ambbar\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\168ambbar\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Menu...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Menu...')
+#4 C:\xampp\htdocs\168ambbar\app\Controllers\admin\Menu.php(30): spl_autoload_call('App\\Models\\Menu...')
+#5 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#6 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#7 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-04-07 06:38:50 --> Class 'App\Models\Model' not found
+#0 C:\xampp\htdocs\168ambbar\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xampp\htdocs\168ambbar\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\168ambbar\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Menu...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Menu...')
+#4 C:\xampp\htdocs\168ambbar\app\Controllers\admin\Menu.php(30): spl_autoload_call('App\\Models\\Menu...')
+#5 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#6 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#7 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-04-07 06:39:46 --> Class 'App\Models\Model' not found
+#0 C:\xampp\htdocs\168ambbar\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xampp\htdocs\168ambbar\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\168ambbar\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Menu...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Menu...')
+#4 C:\xampp\htdocs\168ambbar\app\Controllers\admin\Menu.php(30): spl_autoload_call('App\\Models\\Menu...')
+#5 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#6 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#7 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-04-07 06:41:38 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\168ambbar\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\168ambbar\system\Model.php(437): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\168ambbar\app\Controllers\admin\Menu.php(31): CodeIgniter\Model->findAll()
+#3 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#4 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#5 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-07 06:42:28 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\168ambbar\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\168ambbar\system\Model.php(437): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\168ambbar\app\Controllers\admin\Menu.php(32): CodeIgniter\Model->findAll()
+#3 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#4 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#5 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-07 06:42:29 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\168ambbar\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\168ambbar\system\Model.php(437): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\168ambbar\app\Controllers\admin\Menu.php(32): CodeIgniter\Model->findAll()
+#3 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#4 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#5 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-07 06:42:30 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\168ambbar\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\168ambbar\system\Model.php(437): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\168ambbar\app\Controllers\admin\Menu.php(32): CodeIgniter\Model->findAll()
+#3 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#4 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#5 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-07 06:42:30 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\168ambbar\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\168ambbar\system\Model.php(437): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\168ambbar\app\Controllers\admin\Menu.php(32): CodeIgniter\Model->findAll()
+#3 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#4 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#5 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-07 06:43:54 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\168ambbar\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\168ambbar\system\Model.php(437): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\168ambbar\app\Controllers\admin\Menu.php(32): CodeIgniter\Model->findAll()
+#3 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#4 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#5 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-07 06:43:54 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\168ambbar\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\168ambbar\system\Model.php(437): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\168ambbar\app\Controllers\admin\Menu.php(32): CodeIgniter\Model->findAll()
+#3 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#4 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#5 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-07 06:43:54 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\168ambbar\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\168ambbar\system\Model.php(437): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\168ambbar\app\Controllers\admin\Menu.php(32): CodeIgniter\Model->findAll()
+#3 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#4 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#5 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-07 06:43:54 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\168ambbar\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\168ambbar\system\Model.php(437): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\168ambbar\app\Controllers\admin\Menu.php(32): CodeIgniter\Model->findAll()
+#3 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#4 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#5 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-07 06:44:44 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\168ambbar\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\168ambbar\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\168ambbar\app\Controllers\admin\Menu.php(33): CodeIgniter\Model->__call('save_menu', Array)
+#3 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#4 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#5 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-07 06:44:45 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\168ambbar\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\168ambbar\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\168ambbar\app\Controllers\admin\Menu.php(33): CodeIgniter\Model->__call('save_menu', Array)
+#3 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#4 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#5 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-07 06:44:45 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\168ambbar\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\168ambbar\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\168ambbar\app\Controllers\admin\Menu.php(33): CodeIgniter\Model->__call('save_menu', Array)
+#3 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#4 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#5 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-07 06:44:45 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\168ambbar\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\168ambbar\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\168ambbar\app\Controllers\admin\Menu.php(33): CodeIgniter\Model->__call('save_menu', Array)
+#3 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#4 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#5 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-07 06:44:59 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\168ambbar\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\168ambbar\system\Model.php(437): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\168ambbar\app\Controllers\admin\Menu.php(32): CodeIgniter\Model->findAll()
+#3 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#4 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#5 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-07 06:45:00 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\168ambbar\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\168ambbar\system\Model.php(437): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\168ambbar\app\Controllers\admin\Menu.php(32): CodeIgniter\Model->findAll()
+#3 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#4 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#5 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-07 06:45:00 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\168ambbar\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\168ambbar\system\Model.php(437): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\168ambbar\app\Controllers\admin\Menu.php(32): CodeIgniter\Model->findAll()
+#3 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#4 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#5 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-04-07 06:47:24 --> Class 'App\Controllers\admin\App\Models\MenuModel' not found
+#0 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#1 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#2 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 06:47:25 --> Class 'App\Controllers\admin\App\Models\MenuModel' not found
+#0 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#1 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#2 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 06:47:25 --> Class 'App\Controllers\admin\App\Models\MenuModel' not found
+#0 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#1 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#2 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 06:47:25 --> Class 'App\Controllers\admin\App\Models\MenuModel' not found
+#0 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#1 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#2 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 06:47:33 --> Class 'App\Controllers\admin\App\Models\MenuModel' not found
+#0 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#1 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#2 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 06:47:33 --> Class 'App\Controllers\admin\App\Models\MenuModel' not found
+#0 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#1 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#2 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 06:47:34 --> Class 'App\Controllers\admin\App\Models\MenuModel' not found
+#0 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#1 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#2 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-07 06:49:57 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+#0 C:\xampp\htdocs\168ambbar\app\Controllers\admin\Menu.php(33): App\Models\MenuModel->save_menu()
+#1 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#2 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#3 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-07 06:52:45 --> Allowed fields must be specified for model: {0}
+#0 C:\xampp\htdocs\168ambbar\system\Model.php(1218): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Menu...')
+#1 C:\xampp\htdocs\168ambbar\system\Model.php(702): CodeIgniter\Model->doProtectFields(Array)
+#2 C:\xampp\htdocs\168ambbar\app\Models\MenuModel.php(26): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\168ambbar\app\Controllers\admin\Menu.php(33): App\Models\MenuModel->save_menu()
+#4 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#5 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#6 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-04-07 06:55:04 --> Class 'App\Models\App\Models\MenuModel' not found
+#0 C:\xampp\htdocs\168ambbar\app\Controllers\admin\Menu.php(33): App\Models\MenuModel->save_menu()
+#1 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#2 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#3 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-07 06:55:04 --> Class 'App\Models\App\Models\MenuModel' not found
+#0 C:\xampp\htdocs\168ambbar\app\Controllers\admin\Menu.php(33): App\Models\MenuModel->save_menu()
+#1 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#2 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#3 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-07 06:55:05 --> Class 'App\Models\App\Models\MenuModel' not found
+#0 C:\xampp\htdocs\168ambbar\app\Controllers\admin\Menu.php(33): App\Models\MenuModel->save_menu()
+#1 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#2 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#3 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-07 06:55:05 --> Class 'App\Models\App\Models\MenuModel' not found
+#0 C:\xampp\htdocs\168ambbar\app\Controllers\admin\Menu.php(33): App\Models\MenuModel->save_menu()
+#1 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(910): App\Controllers\admin\Menu->menu_submit()
+#2 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Menu))
+#3 C:\xampp\htdocs\168ambbar\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\168ambbar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

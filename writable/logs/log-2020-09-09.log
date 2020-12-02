@@ -1,0 +1,33 @@
+CRITICAL - 2020-09-09 00:04:58 --> 
+#0 C:\xampp\htdocs\newmovie\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\newmovie\app\Models\Video_Model.php(127): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(35): App\Models\Video_Model->get_list_video(1, '', 1)
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\newmovie\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-09-09 04:36:57 --> 
+#0 C:\xampp\htdocs\newmovie\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\newmovie\app\Models\Video_Model.php(127): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(124): App\Models\Video_Model->get_list_video(1, '', 1)
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->video('93', 'js', 'bootstrap.bundl...')
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\newmovie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-09-09 04:49:10 --> 
+#0 C:\xampp\htdocs\newmovie\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\newmovie\app\Models\Video_Model.php(127): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(124): App\Models\Video_Model->get_list_video(1, '', 1)
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->video('194', 'img', 'logo.svg')
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\newmovie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

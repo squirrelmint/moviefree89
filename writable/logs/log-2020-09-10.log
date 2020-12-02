@@ -1,0 +1,354 @@
+CRITICAL - 2020-09-10 00:04:32 --> 
+#0 C:\xampp\htdocs\newmovie\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\newmovie\app\Models\Video_Model.php(127): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(124): App\Models\Video_Model->get_list_video(1, '', 1)
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->video('1', 'img', 'home', 'home__bg.jpg')
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\newmovie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-09-10 00:04:32 --> 
+#0 C:\xampp\htdocs\newmovie\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\newmovie\app\Models\Video_Model.php(127): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(35): App\Models\Video_Model->get_list_video(1, '', 1)
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\newmovie\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-09-10 00:04:32 --> 
+#0 C:\xampp\htdocs\newmovie\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\newmovie\app\Models\Video_Model.php(127): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(35): App\Models\Video_Model->get_list_video(1, '', 1)
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\newmovie\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-09-10 00:04:32 --> A socket operation was attempted to an unreachable host.
+
+#0 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\newmovie\app\Models\Video_Model.php(69): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#3 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(107): App\Models\Video_Model->get_category(1)
+#4 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->video('1', 'main')
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\newmovie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-10 00:04:32 --> A socket operation was attempted to an unreachable host.
+
+#0 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\newmovie\app\Models\Video_Model.php(170): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#3 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(183): App\Models\Video_Model->get_id_video('1')
+#4 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->player('1', 'movie', 'adsvdo', '1588421549_969c...')
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\newmovie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-10 00:04:32 --> A socket operation was attempted to an unreachable host.
+
+#0 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\newmovie\app\Models\Video_Model.php(127): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(35): App\Models\Video_Model->get_list_video(1, '', 1)
+#4 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\newmovie\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-10 00:04:32 --> A socket operation was attempted to an unreachable host.
+
+#0 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\newmovie\app\Models\Video_Model.php(127): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(35): App\Models\Video_Model->get_list_video(1, '', 1)
+#4 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\newmovie\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-10 00:04:32 --> A socket operation was attempted to an unreachable host.
+
+#0 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\newmovie\app\Models\Video_Model.php(69): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#3 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(107): App\Models\Video_Model->get_category(1)
+#4 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->video('1', 'main')
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\newmovie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-10 00:04:32 --> A socket operation was attempted to an unreachable host.
+
+#0 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\newmovie\app\Models\Video_Model.php(127): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(35): App\Models\Video_Model->get_list_video(1, '', 1)
+#4 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\newmovie\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-10 00:04:32 --> A socket operation was attempted to an unreachable host.
+
+#0 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\newmovie\app\Models\Video_Model.php(127): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(35): App\Models\Video_Model->get_list_video(1, '', 1)
+#4 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\newmovie\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-10 00:04:32 --> A socket operation was attempted to an unreachable host.
+
+#0 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\newmovie\app\Models\Video_Model.php(69): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#3 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(107): App\Models\Video_Model->get_category(1)
+#4 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->video('1', 'main')
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\newmovie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-10 00:04:32 --> A socket operation was attempted to an unreachable host.
+
+#0 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\newmovie\app\Models\Video_Model.php(127): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(35): App\Models\Video_Model->get_list_video(1, '', 1)
+#4 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\newmovie\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-10 00:04:32 --> A socket operation was attempted to an unreachable host.
+
+#0 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\newmovie\app\Models\Video_Model.php(127): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(35): App\Models\Video_Model->get_list_video(1, '', 1)
+#4 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\newmovie\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-10 00:04:32 --> A socket operation was attempted to an unreachable host.
+
+#0 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\newmovie\app\Models\Video_Model.php(69): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#3 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(107): App\Models\Video_Model->get_category(1)
+#4 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->video('1', 'main')
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\newmovie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-10 00:04:32 --> A socket operation was attempted to an unreachable host.
+
+#0 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\newmovie\app\Models\Video_Model.php(69): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#3 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(107): App\Models\Video_Model->get_category(1)
+#4 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->video('1', 'main')
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\newmovie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-10 00:04:32 --> A socket operation was attempted to an unreachable host.
+
+#0 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\newmovie\app\Models\Video_Model.php(127): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(35): App\Models\Video_Model->get_list_video(1, '', 1)
+#4 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\newmovie\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-10 00:04:32 --> A socket operation was attempted to an unreachable host.
+
+#0 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\newmovie\app\Models\Video_Model.php(69): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#3 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(107): App\Models\Video_Model->get_category(1)
+#4 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->video('1', 'main')
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\newmovie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-10 00:04:32 --> A socket operation was attempted to an unreachable host.
+
+#0 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\newmovie\app\Models\Video_Model.php(127): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(35): App\Models\Video_Model->get_list_video(1, '', 1)
+#4 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\newmovie\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-10 00:04:32 --> A socket operation was attempted to an unreachable host.
+
+#0 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\newmovie\app\Models\Video_Model.php(69): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#3 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(107): App\Models\Video_Model->get_category(1)
+#4 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->video('1', 'main')
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\newmovie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-10 00:04:32 --> A socket operation was attempted to an unreachable host.
+
+#0 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\newmovie\app\Models\Video_Model.php(69): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#3 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(107): App\Models\Video_Model->get_category(1)
+#4 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->video('1', 'main')
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\newmovie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-10 00:04:32 --> A socket operation was attempted to an unreachable host.
+
+#0 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\newmovie\app\Models\Video_Model.php(69): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#3 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(107): App\Models\Video_Model->get_category(1)
+#4 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->video('1', 'main')
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\newmovie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-10 00:04:32 --> A socket operation was attempted to an unreachable host.
+
+#0 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\newmovie\app\Models\Video_Model.php(69): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#3 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(107): App\Models\Video_Model->get_category(1)
+#4 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->video('1', 'main')
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\newmovie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-10 04:01:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'descLIMIT 0, 35' at line 6
+#0 C:\xampp\htdocs\newmovie\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\newmovie\app\Helpers\pagination_helper.php(9): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\newmovie\app\Models\Video_Model.php(136): get_pagination('SELECT\r\n       ...', 1, 35, 2543)
+#5 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(52): App\Models\Video_Model->get_list_video(1, '', 1)
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\newmovie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-10 04:03:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'descLIMIT 0, 35' at line 6
+#0 C:\xampp\htdocs\newmovie\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\newmovie\app\Helpers\pagination_helper.php(9): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\newmovie\app\Models\Video_Model.php(136): get_pagination('SELECT\r\n       ...', 1, 35, 2543)
+#5 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(52): App\Models\Video_Model->get_list_video(1, '', 1)
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\newmovie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-10 04:04:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'descLIMIT 0, 10' at line 6
+#0 C:\xampp\htdocs\newmovie\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\newmovie\app\Helpers\pagination_helper.php(9): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\newmovie\app\Models\Video_Model.php(162): get_pagination('SELECT\r\n       ...', 1, 10, 81)
+#5 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(54): App\Models\Video_Model->get_movie_new_recommend(1, 1)
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\newmovie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-10 04:05:20 --> Undefined variable: branch
+#0 C:\xampp\htdocs\newmovie\app\Views\templates\header.php(244): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 244, Array)
+#1 C:\xampp\htdocs\newmovie\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\newmovie\system\Common.php(1071): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(98): view('templates/heade...', Array)
+#4 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\newmovie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-10 04:06:58 --> Undefined variable: branch
+#0 C:\xampp\htdocs\newmovie\app\Views\templates\header.php(244): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 244, Array)
+#1 C:\xampp\htdocs\newmovie\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\newmovie\system\Common.php(1071): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(98): view('templates/heade...', Array)
+#4 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\newmovie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-10 04:07:25 --> Undefined index: movie_view
+#0 C:\xampp\htdocs\newmovie\app\Views\templates\body2.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\newmovie\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\newmovie\system\Common.php(1071): CodeIgniter\View\View->render('templates/body2...', Array, true)
+#3 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(99): view('templates/body2...', Array)
+#4 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\newmovie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-10 21:34:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order by movie_year desc' at line 6
+#0 C:\xampp\htdocs\newmovie\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\newmovie\app\Models\Video_Model.php(228): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(255): App\Models\Video_Model->get_id_video_bycategory('8', 1, 1)
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->video_bycate('8', '%E0%B8%AB%E0%B8...')
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\newmovie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-09-10 21:36:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order by `mo_movie`.movie_year desc' at line 6
+#0 C:\xampp\htdocs\newmovie\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\newmovie\app\Models\Video_Model.php(228): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(255): App\Models\Video_Model->get_id_video_bycategory('8', 1, 1)
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->video_bycate('8', '%E0%B8%AB%E0%B8...')
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\newmovie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-09-10 21:46:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'descLIMIT 0, 35' at line 6
+#0 C:\xampp\htdocs\newmovie\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\newmovie\app\Helpers\pagination_helper.php(9): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\newmovie\app\Models\Video_Model.php(110): get_pagination('SELECT\r\n       ...', 1, 35, 20)
+#5 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(429): App\Models\Video_Model->get_list_video_search('s', 1, 1)
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->video_search('s')
+#7 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\newmovie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-10 21:47:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESCLIMIT 0, 35' at line 8
+#0 C:\xampp\htdocs\newmovie\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\newmovie\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\newmovie\app\Helpers\pagination_helper.php(9): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\newmovie\app\Models\Video_Model.php(271): get_pagination('SELECT\r\n       ...', 1, 35, 1990)
+#5 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(322): App\Models\Video_Model->get_list_new_movie(1, '', 1)
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->newmovie()
+#7 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\newmovie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}

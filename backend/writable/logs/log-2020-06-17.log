@@ -1,0 +1,99 @@
+CRITICAL - 2020-06-17 02:18:34 --> unlink(C:\xampp\htdocs\test_backend\writable\debugbar/debugbar_1592378205.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 106, Array)
+#1 C:\xampp\htdocs\test_backend\system\Debug\Toolbar\Collectors\History.php(106): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test_backend\system\Debug\Toolbar.php(481): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1592378314, 20)
+#3 C:\xampp\htdocs\test_backend\system\Debug\Toolbar.php(454): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\test_backend\app\Config\Events.php(44): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\test_backend\system\Events\Events.php(188): call_user_func(Object(Closure))
+#7 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(287): CodeIgniter\Events\Events::trigger('pre_system')
+#8 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-17 03:05:59 --> Undefined index: ckeditor
+#0 C:\xampp\htdocs\test_backend\app\Controllers\Content.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 129, Array)
+#1 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Content->saveadd('3')
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content))
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-17 03:10:56 --> Undefined index: ckeditor
+#0 C:\xampp\htdocs\test_backend\app\Controllers\Content.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 129, Array)
+#1 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Content->saveadd('3')
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content))
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-17 03:11:13 --> Undefined index: ckeditor
+#0 C:\xampp\htdocs\test_backend\app\Controllers\Content.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 129, Array)
+#1 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Content->saveadd('3')
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content))
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-17 03:11:14 --> Undefined index: ckeditor
+#0 C:\xampp\htdocs\test_backend\app\Controllers\Content.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 129, Array)
+#1 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Content->saveadd('3')
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content))
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-17 03:11:16 --> Undefined index: ckeditor
+#0 C:\xampp\htdocs\test_backend\app\Controllers\Content.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 129, Array)
+#1 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Content->saveadd('3')
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content))
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-17 03:11:31 --> Undefined index: ckeditor
+#0 C:\xampp\htdocs\test_backend\app\Controllers\Content.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 129, Array)
+#1 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Content->saveadd('3')
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content))
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-17 03:11:46 --> Undefined index: ckeditor
+#0 C:\xampp\htdocs\test_backend\app\Controllers\Content.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 129, Array)
+#1 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Content->saveadd('3')
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content))
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-17 03:12:04 --> Undefined index: ckeditor
+#0 C:\xampp\htdocs\test_backend\app\Controllers\Content.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 129, Array)
+#1 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Content->saveadd('3')
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content))
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-17 03:15:02 --> Undefined index: ads_name
+#0 C:\xampp\htdocs\test_backend\app\Controllers\Manga\Ads.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 119, Array)
+#1 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Manga\Ads->saveadd('10')
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manga\Ads))
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-17 03:15:38 --> Undefined index: ads_name
+#0 C:\xampp\htdocs\test_backend\app\Controllers\Manga\Ads.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 119, Array)
+#1 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Manga\Ads->saveadd('10')
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manga\Ads))
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-17 03:16:16 --> Undefined index: ads_name
+#0 C:\xampp\htdocs\test_backend\app\Controllers\Manga\Ads.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 119, Array)
+#1 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Manga\Ads->saveadd('10')
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manga\Ads))
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-17 04:47:03 --> unlink(C:\xampp\htdocs\test_backend\writable\debugbar/debugbar_1592387152.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 106, Array)
+#1 C:\xampp\htdocs\test_backend\system\Debug\Toolbar\Collectors\History.php(106): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test_backend\system\Debug\Toolbar.php(481): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1592387223, 20)
+#3 C:\xampp\htdocs\test_backend\system\Debug\Toolbar.php(454): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\test_backend\app\Config\Events.php(44): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\test_backend\system\Events\Events.php(188): call_user_func(Object(Closure))
+#7 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(287): CodeIgniter\Events\Events::trigger('pre_system')
+#8 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

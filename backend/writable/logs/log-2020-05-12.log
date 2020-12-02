@@ -1,0 +1,81 @@
+CRITICAL - 2020-05-12 11:08:33 --> Unknown column 'mo_adsvideo.adsvideo_name' in 'field list'
+#0 C:\xampp\htdocs\backend\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\backend\app\Models\Reportadsvdo_Model.php(49): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\backend\app\Controllers\Reportadsvdo.php(68): App\Models\Reportadsvdo_Model->get_reportads('1', '2020-05-01', '31-05-2020')
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Reportadsvdo->index('1')
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportadsvdo))
+#7 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-05-12 11:09:41 --> Unknown column 'reportadsvdo.ads_id' in 'field list'
+#0 C:\xampp\htdocs\backend\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\backend\app\Models\Reportadsvdo_Model.php(85): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\backend\app\Controllers\Reportadsvdo.php(69): App\Models\Reportadsvdo_Model->get_chart_on_month('1', '2020-05-01', '31-05-2020')
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Reportadsvdo->index('1')
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportadsvdo))
+#7 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-05-12 11:12:00 --> Unknown column 'reportadsvdo.ads_id' in 'field list'
+#0 C:\xampp\htdocs\backend\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\backend\app\Models\Reportadsvdo_Model.php(85): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\backend\app\Controllers\Reportadsvdo.php(69): App\Models\Reportadsvdo_Model->get_chart_on_month('1', '2020-05-01', '31-05-2020')
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Reportadsvdo->index('1')
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportadsvdo))
+#7 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-05-12 11:16:00 --> Undefined index: ads_name
+#0 C:\xampp\htdocs\backend\app\Models\Reportadsvdo_Model.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 93, Array)
+#1 C:\xampp\htdocs\backend\app\Controllers\Reportadsvdo.php(69): App\Models\Reportadsvdo_Model->get_chart_on_month('1', '2020-05-01', '31-05-2020')
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Reportadsvdo->index('1')
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportadsvdo))
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-05-12 11:16:12 --> Undefined index: ads_name
+#0 C:\xampp\htdocs\backend\app\Views\reportadsvdo\index.php(150): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 150, Array)
+#1 C:\xampp\htdocs\backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\backend\system\Common.php(1071): CodeIgniter\View\View->render('reportadsvdo/in...', Array, true)
+#3 C:\xampp\htdocs\backend\app\Controllers\Reportadsvdo.php(86): view('reportadsvdo/in...', Array)
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Reportadsvdo->index('1')
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportadsvdo))
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-12 11:16:25 --> Undefined index: ads_url
+#0 C:\xampp\htdocs\backend\app\Views\reportadsvdo\index.php(153): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 153, Array)
+#1 C:\xampp\htdocs\backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\backend\system\Common.php(1071): CodeIgniter\View\View->render('reportadsvdo/in...', Array, true)
+#3 C:\xampp\htdocs\backend\app\Controllers\Reportadsvdo.php(86): view('reportadsvdo/in...', Array)
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Reportadsvdo->index('1')
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportadsvdo))
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-12 11:16:40 --> Undefined index: reportads_datetime
+#0 C:\xampp\htdocs\backend\app\Views\reportadsvdo\index.php(160): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 160, Array)
+#1 C:\xampp\htdocs\backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\backend\system\Common.php(1071): CodeIgniter\View\View->render('reportadsvdo/in...', Array, true)
+#3 C:\xampp\htdocs\backend\app\Controllers\Reportadsvdo.php(86): view('reportadsvdo/in...', Array)
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Reportadsvdo->index('1')
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportadsvdo))
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-12 11:16:53 --> Undefined index: ads_name
+#0 C:\xampp\htdocs\backend\app\Views\reportadsvdo\index.php(196): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 196, Array)
+#1 C:\xampp\htdocs\backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\backend\system\Common.php(1071): CodeIgniter\View\View->render('reportadsvdo/in...', Array, true)
+#3 C:\xampp\htdocs\backend\app\Controllers\Reportadsvdo.php(86): view('reportadsvdo/in...', Array)
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Reportadsvdo->index('1')
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportadsvdo))
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -1,0 +1,10 @@
+CRITICAL - 2020-06-29 01:38:13 --> Undefined index: brid
+#0 C:\xampp\htdocs\test_backend\app\Views\template\header.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 118, Array)
+#1 C:\xampp\htdocs\test_backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test_backend\system\Common.php(1071): CodeIgniter\View\View->render('template/header', Array, true)
+#3 C:\xampp\htdocs\test_backend\app\Controllers\Movie\Ads.php(42): view('template/header', Array)
+#4 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Movie\Ads->index('1')
+#5 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\Ads))
+#6 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

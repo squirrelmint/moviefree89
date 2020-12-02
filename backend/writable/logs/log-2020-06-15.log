@@ -1,0 +1,51 @@
+CRITICAL - 2020-06-15 00:41:25 --> unlink(C:\xampp\htdocs\test_backend\writable\debugbar/debugbar_1592145896.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 106, Array)
+#1 C:\xampp\htdocs\test_backend\system\Debug\Toolbar\Collectors\History.php(106): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test_backend\system\Debug\Toolbar.php(481): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1592199684, 20)
+#3 C:\xampp\htdocs\test_backend\system\Debug\Toolbar.php(454): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\test_backend\app\Config\Events.php(44): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\test_backend\system\Events\Events.php(188): call_user_func(Object(Closure))
+#7 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(287): CodeIgniter\Events\Events::trigger('pre_system')
+#8 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-15 03:39:04 --> Unknown database 'new_variety2'
+#0 C:\xampp\htdocs\test_backend\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\test_backend\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\test_backend\app\Models\User_Model.php(221): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#3 C:\xampp\htdocs\test_backend\app\Controllers\User.php(66): App\Models\User_Model->get_user(Array)
+#4 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\User->authenticate()
+#5 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-15 05:37:50 --> Undefined index: masubject_name_thai
+#0 C:\xampp\htdocs\test_backend\app\Models\Mangadata_Model.php(291): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 291, Array)
+#1 C:\xampp\htdocs\test_backend\app\Controllers\Manga\Manga.php(142): App\Models\Mangadata_Model->savesubject_add(Array, '9', Object(CodeIgniter\HTTP\Files\UploadedFile))
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Manga\Manga->saveadd('9')
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manga\Manga))
+#4 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-15 05:39:57 --> Undefined index: masubject_name_thai
+#0 C:\xampp\htdocs\test_backend\app\Controllers\Manga\Manga.php(255): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 255, Array)
+#1 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Manga\Manga->editsave('9', '959')
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manga\Manga))
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-15 05:42:20 --> Undefined index: maepisode_name_thai
+#0 C:\xampp\htdocs\test_backend\app\Models\Manga_Model.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\test_backend\app\Controllers\Manga\MangaEpisode.php(219): App\Models\Manga_Model->insert_data(Array, Array)
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Manga\MangaEpisode->saveadd('959')
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manga\MangaEpisode))
+#4 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-15 06:58:33 --> Undefined index: ads_name
+#0 C:\xampp\htdocs\test_backend\app\Controllers\Movie\Ads.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 120, Array)
+#1 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Movie\Ads->saveadd('5')
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\Ads))
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

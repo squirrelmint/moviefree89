@@ -1,0 +1,210 @@
+CRITICAL - 2020-05-03 01:40:03 --> Undefined variable: url_service
+#0 C:\xampp\htdocs\backend\app\Views\movie\videoedit.php(499): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 499, Array)
+#1 C:\xampp\htdocs\backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\backend\system\Common.php(1071): CodeIgniter\View\View->render('movie/videoedit', Array, true)
+#3 C:\xampp\htdocs\backend\app\Controllers\Movie\MovieVideo.php(190): view('movie/videoedit', Array)
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Movie\MovieVideo->edit('1', '1')
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\MovieVideo))
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-03 01:58:26 --> Too few arguments to function App\Controllers\Movie\MovieCate::__construct(), 0 passed in C:\xampp\htdocs\backend\system\CodeIgniter.php on line 882 and exactly 1 expected
+#0 C:\xampp\htdocs\backend\system\CodeIgniter.php(882): App\Controllers\Movie\MovieCate->__construct()
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-03 01:58:26 --> Too few arguments to function App\Controllers\Movie\MovieCate::__construct(), 0 passed in C:\xampp\htdocs\backend\system\CodeIgniter.php on line 882 and exactly 1 expected
+#0 C:\xampp\htdocs\backend\system\CodeIgniter.php(882): App\Controllers\Movie\MovieCate->__construct()
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-03 01:58:27 --> Too few arguments to function App\Controllers\Movie\MovieCate::__construct(), 0 passed in C:\xampp\htdocs\backend\system\CodeIgniter.php on line 882 and exactly 1 expected
+#0 C:\xampp\htdocs\backend\system\CodeIgniter.php(882): App\Controllers\Movie\MovieCate->__construct()
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-03 02:05:12 --> Undefined variable: branch
+#0 C:\xampp\htdocs\backend\app\Controllers\Movie\MovieCate.php(134): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 134, Array)
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Movie\MovieCate->edit('2')
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\MovieCate))
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-03 02:15:14 --> Undefined variable: ibranchd
+#0 C:\xampp\htdocs\backend\app\Controllers\Movie\MovieCate.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 129, Array)
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Movie\MovieCate->edit('1', '2')
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\MovieCate))
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-03 02:16:09 --> Undefined variable: module_name
+#0 C:\xampp\htdocs\backend\app\Views\template\body.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\backend\system\Common.php(1071): CodeIgniter\View\View->render('template/body', Array, true)
+#3 C:\xampp\htdocs\backend\app\Controllers\Movie\MovieCate.php(146): view('template/body', Array)
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Movie\MovieCate->edit('1', '2')
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\MovieCate))
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-03 02:16:11 --> Undefined variable: module_name
+#0 C:\xampp\htdocs\backend\app\Views\template\body.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\backend\system\Common.php(1071): CodeIgniter\View\View->render('template/body', Array, true)
+#3 C:\xampp\htdocs\backend\app\Controllers\Movie\MovieCate.php(146): view('template/body', Array)
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Movie\MovieCate->edit('1', '2')
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\MovieCate))
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-03 02:16:11 --> Undefined variable: module_name
+#0 C:\xampp\htdocs\backend\app\Views\template\body.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\backend\system\Common.php(1071): CodeIgniter\View\View->render('template/body', Array, true)
+#3 C:\xampp\htdocs\backend\app\Controllers\Movie\MovieCate.php(146): view('template/body', Array)
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Movie\MovieCate->edit('1', '2')
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\MovieCate))
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-03 02:25:39 --> key() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'key() expects p...', 'C:\\xampp\\htdocs...', 430, Array)
+#1 C:\xampp\htdocs\backend\system\Router\Router.php(430): key('\\App\\Controller...')
+#2 C:\xampp\htdocs\backend\system\Router\Router.php(174): CodeIgniter\Router\Router->checkRoutes('/')
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/')
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-03 02:25:55 --> key() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'key() expects p...', 'C:\\xampp\\htdocs...', 430, Array)
+#1 C:\xampp\htdocs\backend\system\Router\Router.php(430): key('\\App\\Controller...')
+#2 C:\xampp\htdocs\backend\system\Router\Router.php(174): CodeIgniter\Router\Router->checkRoutes('dashboard')
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('dashboard')
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-03 02:26:01 --> key() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'key() expects p...', 'C:\\xampp\\htdocs...', 430, Array)
+#1 C:\xampp\htdocs\backend\system\Router\Router.php(430): key('\\App\\Controller...')
+#2 C:\xampp\htdocs\backend\system\Router\Router.php(174): CodeIgniter\Router\Router->checkRoutes('dashboard')
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('dashboard')
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-03 02:34:19 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\backend\app\Controllers\Movie\MovieVideo.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Movie\MovieVideo->add('1')
+#2 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\MovieVideo))
+#3 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-03 02:58:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESCLIMIT 0, 20' at line 16
+#0 C:\xampp\htdocs\backend\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\backend\app\Helpers\pagination_helper.php(9): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\backend\app\Models\Moviedata_Model.php(259): get_pagination('SELECT\r\n       ...', 1, 20, 1153)
+#5 C:\xampp\htdocs\backend\app\Controllers\Movie\MovieVideo.php(75): App\Models\Moviedata_Model->get_video('1', '', 1)
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Movie\MovieVideo->video('1')
+#7 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\MovieVideo))
+#8 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-05-03 02:58:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESCLIMIT 0, 20' at line 16
+#0 C:\xampp\htdocs\backend\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\backend\app\Helpers\pagination_helper.php(9): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\backend\app\Models\Moviedata_Model.php(259): get_pagination('SELECT\r\n       ...', 1, 20, 1153)
+#5 C:\xampp\htdocs\backend\app\Controllers\Movie\MovieVideo.php(75): App\Models\Moviedata_Model->get_video('1', '', 1)
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Movie\MovieVideo->video('1')
+#7 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\MovieVideo))
+#8 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-05-03 02:58:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESCLIMIT 0, 20' at line 16
+#0 C:\xampp\htdocs\backend\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\backend\app\Helpers\pagination_helper.php(9): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\backend\app\Models\Moviedata_Model.php(259): get_pagination('SELECT\r\n       ...', 1, 20, 1153)
+#5 C:\xampp\htdocs\backend\app\Controllers\Movie\MovieVideo.php(75): App\Models\Moviedata_Model->get_video('1', '', 1)
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Movie\MovieVideo->video('1')
+#7 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\MovieVideo))
+#8 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-05-03 02:59:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESCLIMIT 0, 20' at line 16
+#0 C:\xampp\htdocs\backend\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\backend\app\Helpers\pagination_helper.php(9): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\backend\app\Models\Moviedata_Model.php(259): get_pagination('SELECT\r\n       ...', 1, 20, 1153)
+#5 C:\xampp\htdocs\backend\app\Controllers\Movie\MovieVideo.php(75): App\Models\Moviedata_Model->get_video('1', '', 1)
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Movie\MovieVideo->video('1')
+#7 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\MovieVideo))
+#8 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-05-03 02:59:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESCLIMIT 0, 20' at line 16
+#0 C:\xampp\htdocs\backend\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\backend\app\Helpers\pagination_helper.php(9): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\backend\app\Models\Moviedata_Model.php(259): get_pagination('SELECT\r\n       ...', 1, 20, 1153)
+#5 C:\xampp\htdocs\backend\app\Controllers\Movie\MovieVideo.php(75): App\Models\Moviedata_Model->get_video('1', '', 1)
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Movie\MovieVideo->video('1')
+#7 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\MovieVideo))
+#8 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-05-03 02:59:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESCLIMIT 0, 20' at line 16
+#0 C:\xampp\htdocs\backend\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\backend\app\Helpers\pagination_helper.php(9): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\backend\app\Models\Moviedata_Model.php(259): get_pagination('SELECT\r\n       ...', 1, 20, 1153)
+#5 C:\xampp\htdocs\backend\app\Controllers\Movie\MovieVideo.php(75): App\Models\Moviedata_Model->get_video('1', '', 1)
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Movie\MovieVideo->video('1')
+#7 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\MovieVideo))
+#8 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-05-03 02:59:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESCLIMIT 0, 20' at line 16
+#0 C:\xampp\htdocs\backend\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\backend\app\Helpers\pagination_helper.php(9): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\backend\app\Models\Moviedata_Model.php(259): get_pagination('SELECT\r\n       ...', 1, 20, 1153)
+#5 C:\xampp\htdocs\backend\app\Controllers\Movie\MovieVideo.php(75): App\Models\Moviedata_Model->get_video('1', '', 1)
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Movie\MovieVideo->video('1')
+#7 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\MovieVideo))
+#8 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-05-03 03:17:24 --> Undefined index: adsvideo_startdate
+#0 C:\xampp\htdocs\backend\app\Views\movie\vdoadsedit.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\backend\system\Common.php(1071): CodeIgniter\View\View->render('movie/vdoadsedi...', Array, true)
+#3 C:\xampp\htdocs\backend\app\Controllers\Movie\VdoAds.php(115): view('movie/vdoadsedi...', Array)
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Movie\VdoAds->edit('1', '1')
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\VdoAds))
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-03 03:17:49 --> Undefined index: adsvideo_startdate
+#0 C:\xampp\htdocs\backend\app\Views\movie\vdoadsedit.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\backend\system\Common.php(1071): CodeIgniter\View\View->render('movie/vdoadsedi...', Array, true)
+#3 C:\xampp\htdocs\backend\app\Controllers\Movie\VdoAds.php(115): view('movie/vdoadsedi...', Array)
+#4 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\Movie\VdoAds->edit('1', '1')
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\VdoAds))
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

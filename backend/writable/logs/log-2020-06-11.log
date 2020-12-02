@@ -1,0 +1,220 @@
+CRITICAL - 2020-06-11 00:41:50 --> Table 'variety.user' doesn't exist
+#0 C:\xampp\htdocs\backend\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\backend\app\Models\User_Model.php(221): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\backend\app\Controllers\User.php(66): App\Models\User_Model->get_user(Array)
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\User->authenticate()
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-11 00:42:13 --> Table 'variety.user' doesn't exist
+#0 C:\xampp\htdocs\backend\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\backend\app\Models\User_Model.php(221): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\backend\app\Controllers\User.php(66): App\Models\User_Model->get_user(Array)
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\User->authenticate()
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-11 00:42:34 --> Table 'variety.user' doesn't exist
+#0 C:\xampp\htdocs\backend\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\backend\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\backend\app\Models\User_Model.php(221): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\backend\app\Controllers\User.php(66): App\Models\User_Model->get_user(Array)
+#5 C:\xampp\htdocs\backend\system\CodeIgniter.php(910): App\Controllers\User->authenticate()
+#6 C:\xampp\htdocs\backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-11 07:27:06 --> Undefined offset: 4
+#0 C:\xampp\htdocs\test_backend\app\Views\template\header.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 119, Array)
+#1 C:\xampp\htdocs\test_backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test_backend\system\Common.php(1071): CodeIgniter\View\View->render('template/header', Array, true)
+#3 C:\xampp\htdocs\test_backend\app\Controllers\Dashboard.php(75): view('template/header')
+#4 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Dashboard->management('4')
+#5 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-11 07:27:15 --> syntax error, unexpected 'str_replace' (T_STRING), expecting ',' or ')'
+#0 C:\xampp\htdocs\test_backend\system\Common.php(1071): CodeIgniter\View\View->render('manga/subjectfo...', Array, true)
+#1 C:\xampp\htdocs\test_backend\app\Controllers\Manga\Manga.php(219): view('manga/subjectfo...', Array)
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Manga\Manga->edit('2', '87')
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manga\Manga))
+#4 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-11 07:27:18 --> Undefined offset: 5
+#0 C:\xampp\htdocs\test_backend\app\Views\template\header.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 119, Array)
+#1 C:\xampp\htdocs\test_backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test_backend\system\Common.php(1071): CodeIgniter\View\View->render('template/header', Array, true)
+#3 C:\xampp\htdocs\test_backend\app\Controllers\Dashboard.php(75): view('template/header')
+#4 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Dashboard->management('5')
+#5 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-11 07:27:34 --> syntax error, unexpected 'str_replace' (T_STRING), expecting ',' or ')'
+#0 C:\xampp\htdocs\test_backend\system\Common.php(1071): CodeIgniter\View\View->render('manga/mangalist', Array, true)
+#1 C:\xampp\htdocs\test_backend\app\Controllers\Manga\Manga.php(70): view('manga/mangalist', Array)
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Manga\Manga->subject('2')
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manga\Manga))
+#4 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-11 07:27:37 --> syntax error, unexpected 'str_replace' (T_STRING), expecting ',' or ')'
+#0 C:\xampp\htdocs\test_backend\system\Common.php(1071): CodeIgniter\View\View->render('manga/mangalist', Array, true)
+#1 C:\xampp\htdocs\test_backend\app\Controllers\Manga\Manga.php(70): view('manga/mangalist', Array)
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Manga\Manga->subject('2')
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manga\Manga))
+#4 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-11 07:28:06 --> Undefined offset: 3
+#0 C:\xampp\htdocs\test_backend\app\Views\template\header.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 119, Array)
+#1 C:\xampp\htdocs\test_backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test_backend\system\Common.php(1071): CodeIgniter\View\View->render('template/header', Array, true)
+#3 C:\xampp\htdocs\test_backend\app\Controllers\Dashboard.php(75): view('template/header')
+#4 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Dashboard->management('3')
+#5 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-11 07:29:18 --> syntax error, unexpected 'str_replace' (T_STRING), expecting ',' or ')'
+#0 C:\xampp\htdocs\test_backend\system\Common.php(1071): CodeIgniter\View\View->render('manga/mangalist', Array, true)
+#1 C:\xampp\htdocs\test_backend\app\Controllers\Manga\Manga.php(70): view('manga/mangalist', Array)
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Manga\Manga->subject('2')
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manga\Manga))
+#4 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-11 07:29:44 --> syntax error, unexpected 'str_replace' (T_STRING), expecting ',' or ')'
+#0 C:\xampp\htdocs\test_backend\system\Common.php(1071): CodeIgniter\View\View->render('manga/mangalist', Array, true)
+#1 C:\xampp\htdocs\test_backend\app\Controllers\Manga\Manga.php(70): view('manga/mangalist', Array)
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Manga\Manga->subject('2')
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manga\Manga))
+#4 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-11 07:30:58 --> Undefined offset: 4
+#0 C:\xampp\htdocs\test_backend\app\Views\template\header.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 119, Array)
+#1 C:\xampp\htdocs\test_backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test_backend\system\Common.php(1071): CodeIgniter\View\View->render('template/header', Array, true)
+#3 C:\xampp\htdocs\test_backend\app\Controllers\Dashboard.php(75): view('template/header')
+#4 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Dashboard->management('4')
+#5 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-11 07:34:30 --> Undefined offset: 3
+#0 C:\xampp\htdocs\test_backend\app\Views\template\header.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 119, Array)
+#1 C:\xampp\htdocs\test_backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test_backend\system\Common.php(1071): CodeIgniter\View\View->render('template/header', Array, true)
+#3 C:\xampp\htdocs\test_backend\app\Controllers\Dashboard.php(75): view('template/header')
+#4 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Dashboard->management('3')
+#5 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-11 07:35:40 --> Undefined offset: 3
+#0 C:\xampp\htdocs\test_backend\app\Views\template\header.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 119, Array)
+#1 C:\xampp\htdocs\test_backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test_backend\system\Common.php(1071): CodeIgniter\View\View->render('template/header', Array, true)
+#3 C:\xampp\htdocs\test_backend\app\Controllers\Dashboard.php(75): view('template/header')
+#4 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Dashboard->management('3')
+#5 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-11 07:35:52 --> Undefined offset: 3
+#0 C:\xampp\htdocs\test_backend\app\Views\template\header.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 119, Array)
+#1 C:\xampp\htdocs\test_backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test_backend\system\Common.php(1071): CodeIgniter\View\View->render('template/header', Array, true)
+#3 C:\xampp\htdocs\test_backend\app\Controllers\Dashboard.php(75): view('template/header')
+#4 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Dashboard->management('3')
+#5 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-11 07:36:28 --> Undefined offset: 4
+#0 C:\xampp\htdocs\test_backend\app\Views\template\header.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 119, Array)
+#1 C:\xampp\htdocs\test_backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test_backend\system\Common.php(1071): CodeIgniter\View\View->render('template/header', Array, true)
+#3 C:\xampp\htdocs\test_backend\app\Controllers\Dashboard.php(75): view('template/header')
+#4 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Dashboard->management('4')
+#5 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-11 07:36:46 --> Undefined offset: 3
+#0 C:\xampp\htdocs\test_backend\app\Views\template\header.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 119, Array)
+#1 C:\xampp\htdocs\test_backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test_backend\system\Common.php(1071): CodeIgniter\View\View->render('template/header', Array, true)
+#3 C:\xampp\htdocs\test_backend\app\Controllers\Dashboard.php(75): view('template/header')
+#4 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Dashboard->management('3')
+#5 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-11 07:39:53 --> Undefined offset: 9
+#0 C:\xampp\htdocs\test_backend\app\Views\template\header.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 119, Array)
+#1 C:\xampp\htdocs\test_backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test_backend\system\Common.php(1071): CodeIgniter\View\View->render('template/header', Array, true)
+#3 C:\xampp\htdocs\test_backend\app\Controllers\Dashboard.php(75): view('template/header')
+#4 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Dashboard->management('9')
+#5 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-11 07:42:03 --> Undefined index: id5
+#0 C:\xampp\htdocs\test_backend\app\Views\template\header.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 119, Array)
+#1 C:\xampp\htdocs\test_backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test_backend\system\Common.php(1071): CodeIgniter\View\View->render('template/header', Array, true)
+#3 C:\xampp\htdocs\test_backend\app\Controllers\Dashboard.php(75): view('template/header')
+#4 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Dashboard->management('5')
+#5 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-11 08:04:19 --> Too few arguments to function App\Models\User_Model::get_branchsystem(), 1 passed in C:\xampp\htdocs\test_backend\app\Controllers\User.php on line 70 and exactly 2 expected
+#0 C:\xampp\htdocs\test_backend\app\Controllers\User.php(70): App\Models\User_Model->get_branchsystem('2')
+#1 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\User->authenticate()
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-11 08:05:22 --> Undefined offset: 3
+#0 C:\xampp\htdocs\test_backend\app\Views\template\header.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 132, Array)
+#1 C:\xampp\htdocs\test_backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test_backend\system\Common.php(1071): CodeIgniter\View\View->render('template/header', Array, true)
+#3 C:\xampp\htdocs\test_backend\app\Controllers\Dashboard.php(75): view('template/header')
+#4 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Dashboard->management('3')
+#5 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-11 08:05:26 --> Undefined offset: 1
+#0 C:\xampp\htdocs\test_backend\app\Views\template\header.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 132, Array)
+#1 C:\xampp\htdocs\test_backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test_backend\system\Common.php(1071): CodeIgniter\View\View->render('template/header', Array, true)
+#3 C:\xampp\htdocs\test_backend\app\Controllers\Dashboard.php(75): view('template/header')
+#4 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Dashboard->management('1')
+#5 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-11 08:10:59 --> Undefined index: id3
+#0 C:\xampp\htdocs\test_backend\app\Views\template\header.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 120, Array)
+#1 C:\xampp\htdocs\test_backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test_backend\system\Common.php(1071): CodeIgniter\View\View->render('template/header', Array, true)
+#3 C:\xampp\htdocs\test_backend\app\Controllers\Dashboard.php(75): view('template/header')
+#4 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Dashboard->management('3')
+#5 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

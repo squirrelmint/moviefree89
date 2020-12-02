@@ -1,0 +1,28 @@
+CRITICAL - 2020-06-16 04:47:48 --> Undefined index: ads_name
+#0 C:\xampp\htdocs\test_backend\app\Controllers\Movie\Ads.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 120, Array)
+#1 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Movie\Ads->saveadd('3')
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\Ads))
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-16 04:47:50 --> Undefined index: ads_name
+#0 C:\xampp\htdocs\test_backend\app\Controllers\Movie\Ads.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 120, Array)
+#1 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Movie\Ads->saveadd('3')
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\Ads))
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-16 04:48:02 --> Undefined index: ads_name
+#0 C:\xampp\htdocs\test_backend\app\Controllers\Movie\Ads.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 120, Array)
+#1 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Movie\Ads->saveadd('3')
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\Ads))
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-16 04:48:03 --> Undefined index: ads_name
+#0 C:\xampp\htdocs\test_backend\app\Controllers\Movie\Ads.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 120, Array)
+#1 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Movie\Ads->saveadd('3')
+#2 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\Ads))
+#3 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

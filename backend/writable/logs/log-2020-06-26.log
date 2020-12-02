@@ -1,0 +1,21 @@
+CRITICAL - 2020-06-26 00:19:00 --> Undefined index: reason
+#0 C:\xampp\htdocs\test_backend\app\Views\movie\report.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\test_backend\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test_backend\system\Common.php(1071): CodeIgniter\View\View->render('movie/report', Array, true)
+#3 C:\xampp\htdocs\test_backend\app\Controllers\Movie\MovieReport.php(36): view('movie/report', Array)
+#4 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Movie\MovieReport->index('1')
+#5 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\MovieReport))
+#6 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-26 01:19:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?, ?' at line 10
+#0 C:\xampp\htdocs\test_backend\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n\t\t\t\t\tmo...')
+#1 C:\xampp\htdocs\test_backend\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n\t\t\t\t\tmo...')
+#2 C:\xampp\htdocs\test_backend\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n\t\t\t\t\tmo...')
+#3 C:\xampp\htdocs\test_backend\app\Models\MovieRequest_Model.php(32): CodeIgniter\Database\BaseConnection->query('SELECT\r\n\t\t\t\t\tmo...', Array)
+#4 C:\xampp\htdocs\test_backend\app\Controllers\Movie\MovieRequest.php(30): App\Models\MovieRequest_Model->get_request('1', 20, 0)
+#5 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(910): App\Controllers\Movie\MovieRequest->index('1')
+#6 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie\MovieRequest))
+#7 C:\xampp\htdocs\test_backend\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\test_backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
