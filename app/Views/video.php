@@ -216,6 +216,8 @@
           </div>
         </div>
       </section>
+
+      
       <iframe id="player" class="player" src="<?= base_url('player/' . $videodata['movie_id'] . '/' . $index) ?>" scrolling="no" frameborder="0" allowfullscreen="yes"></iframe>
 
 

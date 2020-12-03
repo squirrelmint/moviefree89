@@ -654,18 +654,7 @@ class Video_Model extends Model
                     AND `$this->table_movie`.movie_active = '1'
                 ORDER BY RAND()  limit 4";
 
-
-
-
-
-
-
         $query = $this->db->query($sql);
-
-
-
-        //   print_r()
-
         return $query->getResultArray();
     }
 

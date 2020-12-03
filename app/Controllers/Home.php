@@ -100,6 +100,7 @@ class Home extends BaseController
 
 	public function video($id, $Name)
 	{
+		$catereq = [6, 7, 28];
 		$ads = $this->VideoModel->get_ads($this->branch);
 		$setting = $this->VideoModel->get_setting($this->branch);
 		$seo = $this->VideoModel->get_seo($this->branch);
@@ -107,8 +108,10 @@ class Home extends BaseController
 		$videinterest = $this->VideoModel->get_video_interest($this->branch);
 		$adstop = $this->VideoModel->get_adstop($this->branch);
 		$adsbottom = $this->VideoModel->get_adsbottom($this->branch);
-
+		$listyear = $this->VideoModel->get_listyear($this->branch);
 		$list_category = $this->VideoModel->get_category($this->branch);
+		$video_random = $this->VideoModel->get_id_video_random($this->branch);
+		//echo "<pre>";print_r($video_random);die;
 		$date = get_date($videodata['movie_create']);
 
 		$setting['setting_img'] = $this->path_setting . $setting['setting_logo'];
@@ -124,6 +127,9 @@ class Home extends BaseController
 			$setting['setting_img'] = $movie_picture;
 			$setting['setting_description'] = str_replace("{movie_description}", $videodata['movie_des'], $seo['seo_description']);
 			$setting['setting_title'] = str_replace("{movie_title} - {title_web}", $videodata['movie_thname'] . " - " . $setting['setting_title'], $seo['seo_title']);
+		}
+		foreach ($catereq as $val) {
+			$get_list_video_bycate[] = $this->VideoModel->get_list_video_bycate($this->branch, $val);
 		}
 
 		$chk_act = [
@@ -154,10 +160,13 @@ class Home extends BaseController
 			'DateEng' => $date['DateEng'],
 			'feildplay' => 'movie_thmain',
 			'index' => 'a',
-		];
+			'listyear' => $listyear,
+			'get_list_video_bycate' => $get_list_video_bycate,
+			'video_random' => $video_random
+		];	
 
 		echo view('templates/header.php', $header_data);
-		echo view('video.php', $body_data);
+		echo view('video1.php', $body_data);
 		echo view('templates/footer.php');
 	}
 

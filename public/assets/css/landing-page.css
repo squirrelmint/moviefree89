@@ -2437,7 +2437,7 @@ h3.manga-texthead {
 }
 
 .movie-title {
-  font-size: 40px;
+  font-size: 18px;
   color: #ffffff;
   text-align: center;
   height: 6%;
@@ -2501,7 +2501,7 @@ ul.list-movie>li .movie-box {
     justify-content: center;
 }.movie-title-des h1,.movie-title-des h2{
   width: max-content;
-  font-size: 2rem;
+  font-size: 1rem;
     margin: 0 5px;
 }
 ul.movie-sup-manu {
