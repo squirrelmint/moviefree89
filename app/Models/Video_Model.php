@@ -13,6 +13,7 @@ class Video_Model extends Model
     protected $mo_moviecate = 'mo_moviecate';
     protected $table_vdoads = 'mo_adsvideo';
     protected $mo_request = 'mo_request';
+    protected $mo_moviegenres = 'mo_moviegenres';
     protected $mo_adscontact = 'mo_adscontact';
     protected $pathAdsVideo = 'movie/adsvdo';
     protected $ads = 'ads';
@@ -81,30 +82,30 @@ class Video_Model extends Model
         return $query->getResultArray();
     }
 
-    // public function get_id_video_bygenres($id, $branch_id, $page = 1, $keyword = "")
-    // {
-    //     $sql_where = "";
-    //     if ($keyword != "") {
-    //         $sql_where = " AND `$this->table_movie`.movie_thname LIKE '%$keyword%' ";
-    //     }
-    //     $sql = "SELECT
-    //                 *
-    //             FROM
-    //             mo_moviegenres
-    //             INNER JOIN mo_movie ON mo_moviegenres.movie_id = mo_movie.movie_id 
-    //             WHERE 
-    //             mo_moviegenres.genres_id = '$id' 
-    //                 AND mo_moviegenres.branch_id = '$branch_id'
-    //                 AND `$this->table_movie`.movie_active = '1' 
-    //                 ORDER BY mo_movie.movie_year DESC, mo_movie.movie_id DESC
-    //                 ";
+    public function get_id_video_bygenres($id, $branch_id, $page, $keyword = "")
+    {
+        $sql_where = "";
+        if ($keyword != "") {
+            $sql_where = " AND `$this->table_movie`.movie_thname LIKE '%$keyword%' ";
+        }
+        $sql = "SELECT
+                    *
+                FROM
+                `$this->mo_moviegenres`
+                INNER JOIN `$this->table_movie` ON `$this->mo_moviegenres`.movie_id = `$this->table_movie`.movie_id 
+                WHERE 
+                `$this->mo_moviegenres`.genres_id = '$id' 
+                    AND `$this->mo_moviegenres`.branch_id = '$branch_id'
+                    AND `$this->table_movie`.movie_active = '1' 
+                    ORDER BY `$this->table_movie`.movie_year DESC, `$this->table_movie`.movie_id DESC
+                    ";
 
-    //     $query = $this->db->query($sql);
-    //     $total = count($query->getResultArray());
-    //     $perpage = 25;
-    //     return $query->getResultArray();
-    //     return get_pagination($sql, $page, $perpage, $total);
-    // }
+        $query = $this->db->query($sql);
+        $total = count($query->getResultArray());
+        $perpage = 24;
+       // return $query->getResultArray();
+        return get_pagination($sql, $page, $perpage, $total);
+    }
 
     
     public function get_caterow($cate_id) // เรียก Category ตาม Branch 
@@ -440,7 +441,7 @@ class Video_Model extends Model
                     AND `$this->table_movie`.movie_type = 'mo' 
                     AND $this->table_movie.movie_active = '1'
                 ORDER BY RAND(), `$this->table_movie`.movie_year, `$this->table_movie`.movie_year DESC
-                LIMIT 5 ";
+                LIMIT 6 ";
 
         $query = $this->db->query($sql);
         return $query->getResultArray();
@@ -641,7 +642,7 @@ class Video_Model extends Model
     }
 
 
-    public function get_id_video_random($branch_id)
+    public function get_id_video_random($branch_id, $page="1")
 
     {
 
@@ -652,12 +653,35 @@ class Video_Model extends Model
                 WHERE
                     `$this->table_movie`.branch_id = '$branch_id'
                     AND `$this->table_movie`.movie_active = '1'
-                ORDER BY RAND()  limit 4";
+                ORDER BY RAND()";
 
         $query = $this->db->query($sql);
-        return $query->getResultArray();
+        $total = count($query->getResultArray());
+        $perpage = 8;
+        return get_pagination($sql, $page, $perpage, $total);
+        // return $query->getResultArray();
     }
 
+    public function moviedata_random_pagevideo($branch_id, $page)
+    {
+
+        $sql = "SELECT
+                    *
+                FROM
+                    `$this->table_movie`
+                WHERE
+                    `$this->table_movie`.branch_id = '$branch_id'
+                    AND `$this->table_movie`.movie_active = '1'
+                ORDER BY RAND()";
+
+        $query = $this->db->query($sql);
+        $total = count($query->getResultArray());
+        $perpage = 12;
+        return get_pagination($sql, $page, $perpage, $total);
+        // return $query->getResultArray();
+    }
+
+    
 
 
     // list หนังแยก cate ใน tap หน้าแรก :: action comedy adventure drama horror

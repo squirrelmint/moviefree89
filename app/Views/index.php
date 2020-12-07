@@ -31,10 +31,18 @@
       </h2>
       <ul class="list-group">
         <li class="list-group-item">
-          <form role="search" method="get" id="formsearch">
+          <form id="movie-formsearch1">
             <div class="input-group">
-              <input class="form-control size-search" type="text" value="" placeholder="ค้นหาหนัง..." id="search">
+              <?php
+              if (!empty($keyword)) {
+                $value = $keyword;
+              } else {
+                $value = '';
 
+              }
+               //echo $value;die;
+              ?>
+              <input id="movie-search1" class="movie-search ml-auto" placeholder="Search..." value="<?php echo $value ?>" autocomplete="off">
               <button type="submit" id="searchsubmit"> <i class="fas fa-search" aria-hidden="true"></i> </button>
 
             </div>
@@ -256,7 +264,7 @@
       </h2>
       <ul class="list-group">
         <?php foreach ($list_category as $val) { ?>
-          <li class="list-group-item"><a style="color:white;"><?= $val['category_name'] ?></a></li>
+          <li class="list-group-item"><a href="<?php echo base_url('category/' . $val['category_id'] . '/' . $val['category_name']) ?>" style="color:white;"><?= $val['category_name'] ?></a></li>
         <?php } ?>
       </ul>
       <div class="movie-social">
@@ -483,15 +491,9 @@
       });
 
     <?php } ?>
-
-
-
-
-
-
   };
   $(document).ready(function() {
-    ""
+
     var track_click = 2; //track user click on "load more" button, righ now it is 0 click
     var total_pages = '<?= $list['total_page'] ?>';
     if (track_click >= total_pages) {
@@ -516,4 +518,5 @@
       }
     });
   });
+
 </script>

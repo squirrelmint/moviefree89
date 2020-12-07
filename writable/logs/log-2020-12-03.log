@@ -62,3 +62,43 @@ CRITICAL - 2020-12-03 09:35:44 --> Undefined variable: url_name
 #6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #7 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
 #8 {main}
+CRITICAL - 2020-12-03 23:44:49 --> Undefined variable: list
+#0 C:\xampp\htdocs\moviefree89\app\Views\video1.php(425): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 425, Array)
+#1 C:\xampp\htdocs\moviefree89\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\moviefree89\system\Common.php(1071): CodeIgniter\View\View->render(0, Array, true)
+#3 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(169): view('video1.php', Array)
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->video('12184', 'Empire-of-Silve...')
+#5 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-03 23:45:53 --> Undefined index: total_page
+#0 C:\xampp\htdocs\moviefree89\app\Views\video1.php(425): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 425, Array)
+#1 C:\xampp\htdocs\moviefree89\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\moviefree89\system\Common.php(1071): CodeIgniter\View\View->render('20', Array, true)
+#3 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(169): view('video1.php', Array)
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->video('12184', 'Empire-of-Silve...')
+#5 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-03 23:48:00 --> Undefined index: total_page
+#0 C:\xampp\htdocs\moviefree89\app\Views\video1.php(425): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 425, Array)
+#1 C:\xampp\htdocs\moviefree89\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\moviefree89\system\Common.php(1071): CodeIgniter\View\View->render('6', Array, true)
+#3 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(170): view('video1.php', Array)
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->video('12184', 'Empire-of-Silve...')
+#5 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-03 23:50:29 --> Undefined index: movie_picture
+#0 C:\xampp\htdocs\moviefree89\app\Views\video1.php(130): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 130, Array)
+#1 C:\xampp\htdocs\moviefree89\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\moviefree89\system\Common.php(1071): CodeIgniter\View\View->render('video1.php', Array, true)
+#3 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(170): view('video1.php', Array)
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->video('12184', 'Empire-of-Silve...')
+#5 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

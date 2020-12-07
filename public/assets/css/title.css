@@ -28,3 +28,18 @@
     font-size: 1rem;
 }
 
+.ep-series{
+    color: white;
+    text-align: center;
+}
+
+/**** CENTER EP SERIES ****/
+.text-ep{
+    text-align: center;  
+}
+
+/**** CENTER EP SERIES ****/
+.active-ep{
+    color: #d98f3d;
+    text-decoration: underline;
+}

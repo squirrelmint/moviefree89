@@ -1,0 +1,569 @@
+CRITICAL - 2020-12-04 00:05:09 --> Undefined variable: list
+#0 C:\xampp\htdocs\moviefree89\app\Views\video1.php(426): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 426, Array)
+#1 C:\xampp\htdocs\moviefree89\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\moviefree89\system\Common.php(1071): CodeIgniter\View\View->render('14', Array, true)
+#3 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(170): view('video1.php', Array)
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->video('20072', 'The-New-Mutants...')
+#5 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-04 00:06:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''-35', 35' at line 8
+#0 C:\xampp\htdocs\moviefree89\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\moviefree89\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\moviefree89\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\moviefree89\app\Helpers\pagination_helper.php(6): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\moviefree89\app\Models\Video_Model.php(679): get_pagination('SELECT\r\n       ...', '', 35, 3544)
+#5 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(257): App\Models\Video_Model->moviedata_random_pagevideo(1, '', '2')
+#6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->moviedata_random()
+#7 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-04 00:06:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''-35', 35' at line 8
+#0 C:\xampp\htdocs\moviefree89\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\moviefree89\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\moviefree89\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\moviefree89\app\Helpers\pagination_helper.php(6): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\moviefree89\app\Models\Video_Model.php(679): get_pagination('SELECT\r\n       ...', '', 35, 3544)
+#5 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(257): App\Models\Video_Model->moviedata_random_pagevideo(1, '', '2')
+#6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->moviedata_random()
+#7 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-04 00:07:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''-35', 35' at line 8
+#0 C:\xampp\htdocs\moviefree89\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\moviefree89\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\moviefree89\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\moviefree89\app\Helpers\pagination_helper.php(6): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\moviefree89\app\Models\Video_Model.php(679): get_pagination('SELECT\r\n       ...', '', 35, 3544)
+#5 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(257): App\Models\Video_Model->moviedata_random_pagevideo(1, '', '2')
+#6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->moviedata_random()
+#7 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-04 00:08:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''-35', 35' at line 8
+#0 C:\xampp\htdocs\moviefree89\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\moviefree89\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\moviefree89\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\moviefree89\app\Helpers\pagination_helper.php(6): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\moviefree89\app\Models\Video_Model.php(679): get_pagination('SELECT\r\n       ...', '', 35, 3544)
+#5 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(257): App\Models\Video_Model->moviedata_random_pagevideo(1, '', '2')
+#6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->moviedata_random()
+#7 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-04 00:13:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''-35', 35' at line 8
+#0 C:\xampp\htdocs\moviefree89\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\moviefree89\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\moviefree89\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\moviefree89\app\Helpers\pagination_helper.php(6): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\moviefree89\app\Models\Video_Model.php(679): get_pagination('SELECT\r\n       ...', '', 35, 3544)
+#5 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(257): App\Models\Video_Model->moviedata_random_pagevideo(1, '', '2')
+#6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->moviedata_random()
+#7 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-04 00:24:25 --> Undefined variable: url_name
+#0 C:\xampp\htdocs\moviefree89\app\Views\video1.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 73, Array)
+#1 C:\xampp\htdocs\moviefree89\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\moviefree89\system\Common.php(1071): CodeIgniter\View\View->render('video1.php', Array, true)
+#3 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(170): view('video1.php', Array)
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->video('20072', 'The-New-Mutants...')
+#5 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-04 00:33:16 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->video('20072', 'The-New-Mutants...')
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 01:17:12 --> Object of class App\Models\Av_Model could not be converted to string
+#0 C:\xampp\htdocs\moviefree89\app\Controllers\Av.php(47): App\Models\Av_Model->get_category(2)
+#1 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Av->index()
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Av))
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 01:17:58 --> Object of class App\Models\Av_Model could not be converted to string
+#0 C:\xampp\htdocs\moviefree89\app\Controllers\Av.php(47): App\Models\Av_Model->get_category(2)
+#1 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Av->index()
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Av))
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 01:18:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY av_category.category_id' at line 8
+#0 C:\xampp\htdocs\moviefree89\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\moviefree89\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\moviefree89\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\moviefree89\app\Models\Av_Model.php(80): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\moviefree89\app\Controllers\Av.php(47): App\Models\Av_Model->get_category(2)
+#5 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Av->index()
+#6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Av))
+#7 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-12-04 01:20:50 --> Unknown column 'av' in 'where clause'
+#0 C:\xampp\htdocs\moviefree89\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\moviefree89\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\moviefree89\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\moviefree89\app\Models\Av_Model.php(81): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\moviefree89\app\Controllers\Av.php(47): App\Models\Av_Model->get_category(2)
+#5 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Av->index()
+#6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Av))
+#7 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-12-04 01:37:16 --> Unknown column 'av_movie.movie_active' in 'where clause'
+#0 C:\xampp\htdocs\moviefree89\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\moviefree89\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\moviefree89\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\moviefree89\app\Models\Av_Model.php(392): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\moviefree89\app\Controllers\Av.php(570): App\Models\Av_Model->get_id_video_bycategory(2, '7', 1)
+#5 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Av->category('7', '%E0%B9%80%E0%B8...')
+#6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Av))
+#7 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-12-04 01:37:20 --> Unknown column 'av_movie.movie_active' in 'where clause'
+#0 C:\xampp\htdocs\moviefree89\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\moviefree89\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\moviefree89\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\moviefree89\app\Models\Av_Model.php(392): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\moviefree89\app\Controllers\Av.php(570): App\Models\Av_Model->get_id_video_bycategory(2, '7', 1)
+#5 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Av->category('7', '%E0%B9%80%E0%B8...')
+#6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Av))
+#7 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-12-04 01:39:53 --> Unknown column 'av_movie.movie_active' in 'where clause'
+#0 C:\xampp\htdocs\moviefree89\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\moviefree89\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\moviefree89\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\moviefree89\app\Models\Av_Model.php(392): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\moviefree89\app\Controllers\Av.php(570): App\Models\Av_Model->get_id_video_bycategory(2, '7', 1)
+#5 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Av->category('7', '%E0%B9%80%E0%B8...')
+#6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Av))
+#7 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-12-04 02:10:00 --> Undefined variable: paginate
+#0 C:\xampp\htdocs\moviefree89\app\Views\av\list.php(235): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 235, Array)
+#1 C:\xampp\htdocs\moviefree89\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\moviefree89\system\Common.php(1071): CodeIgniter\View\View->render('21', Array, true)
+#3 C:\xampp\htdocs\moviefree89\app\Controllers\Av.php(615): view('av/list.php', Array)
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Av->category('14', '%E0%B8%97%E0%B8...')
+#5 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Av))
+#6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-04 02:12:14 --> Undefined variable: listyear
+#0 C:\xampp\htdocs\moviefree89\app\Views\av\list.php(253): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 253, Array)
+#1 C:\xampp\htdocs\moviefree89\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\moviefree89\system\Common.php(1071): CodeIgniter\View\View->render('21', Array, true)
+#3 C:\xampp\htdocs\moviefree89\app\Controllers\Av.php(615): view('av/list.php', Array)
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Av->category('14', '%E0%B8%97%E0%B8...')
+#5 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Av))
+#6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-04 02:12:45 --> Undefined variable: paginate
+#0 C:\xampp\htdocs\moviefree89\app\Views\av\list.php(235): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 235, Array)
+#1 C:\xampp\htdocs\moviefree89\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\moviefree89\system\Common.php(1071): CodeIgniter\View\View->render('21', Array, true)
+#3 C:\xampp\htdocs\moviefree89\app\Controllers\Av.php(615): view('av/list.php', Array)
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Av->category('14', '%E0%B8%97%E0%B8...')
+#5 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Av))
+#6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-04 02:13:26 --> syntax error, unexpected ''ads'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\xampp\htdocs\moviefree89\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('av/category/14/...')
+#1 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('av/category/14/...')
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 02:13:32 --> Undefined variable: get_list_video_bycate
+#0 C:\xampp\htdocs\moviefree89\app\Views\av\list.php(399): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 399, Array)
+#1 C:\xampp\htdocs\moviefree89\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\moviefree89\system\Common.php(1071): CodeIgniter\View\View->render('21', Array, true)
+#3 C:\xampp\htdocs\moviefree89\app\Controllers\Av.php(616): view('av/list.php', Array)
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Av->category('14', '%E0%B8%97%E0%B8...')
+#5 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Av))
+#6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-04 02:14:04 --> Undefined variable: catereq
+#0 C:\xampp\htdocs\moviefree89\app\Controllers\Av.php(573): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 573, Array)
+#1 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Av->category('14', '%E0%B8%97%E0%B8...')
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Av))
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 02:14:22 --> Undefined variable: get_list_video_bycate
+#0 C:\xampp\htdocs\moviefree89\app\Views\av\list.php(399): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 399, Array)
+#1 C:\xampp\htdocs\moviefree89\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\moviefree89\system\Common.php(1071): CodeIgniter\View\View->render('21', Array, true)
+#3 C:\xampp\htdocs\moviefree89\app\Controllers\Av.php(620): view('av/list.php', Array)
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Av->category('14', '%E0%B8%97%E0%B8...')
+#5 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Av))
+#6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-04 02:19:49 --> Undefined variable: get_list_video_bycate
+#0 C:\xampp\htdocs\moviefree89\app\Views\av\list.php(399): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 399, Array)
+#1 C:\xampp\htdocs\moviefree89\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\moviefree89\system\Common.php(1071): CodeIgniter\View\View->render('21', Array, true)
+#3 C:\xampp\htdocs\moviefree89\app\Controllers\Av.php(620): view('av/list.php', Array)
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Av->category('14', '%E0%B8%97%E0%B8...')
+#5 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Av))
+#6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-04 02:30:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''-20', 20' at line 11
+#0 C:\xampp\htdocs\moviefree89\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\moviefree89\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\moviefree89\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\moviefree89\app\Helpers\pagination_helper.php(6): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\moviefree89\app\Models\Av_Model.php(397): get_pagination('SELECT\r\n       ...', '', 20, 101)
+#5 C:\xampp\htdocs\moviefree89\app\Controllers\Av.php(571): App\Models\Av_Model->get_id_video_bycategory(2, '14', '')
+#6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Av->category('14', '%E0%B8%97%E0%B8...')
+#7 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Av))
+#8 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-04 02:30:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''-20', 20' at line 11
+#0 C:\xampp\htdocs\moviefree89\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\moviefree89\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\moviefree89\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\moviefree89\app\Helpers\pagination_helper.php(6): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\moviefree89\app\Models\Av_Model.php(397): get_pagination('SELECT\r\n       ...', '', 20, 101)
+#5 C:\xampp\htdocs\moviefree89\app\Controllers\Av.php(571): App\Models\Av_Model->get_id_video_bycategory(2, '14', '')
+#6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Av->category('14', '%E0%B8%97%E0%B8...')
+#7 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Av))
+#8 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-04 02:31:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''-20', 20' at line 11
+#0 C:\xampp\htdocs\moviefree89\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\moviefree89\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\moviefree89\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\moviefree89\app\Helpers\pagination_helper.php(6): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\moviefree89\app\Models\Av_Model.php(397): get_pagination('SELECT\r\n       ...', '', 20, 101)
+#5 C:\xampp\htdocs\moviefree89\app\Controllers\Av.php(571): App\Models\Av_Model->get_id_video_bycategory(2, '14', '')
+#6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Av->category('14', '%E0%B8%97%E0%B8...')
+#7 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Av))
+#8 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-04 02:32:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''-20', 20' at line 10
+#0 C:\xampp\htdocs\moviefree89\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\moviefree89\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\moviefree89\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\moviefree89\app\Helpers\pagination_helper.php(6): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\moviefree89\app\Models\Av_Model.php(396): get_pagination('SELECT\r\n       ...', '', 20, 101)
+#5 C:\xampp\htdocs\moviefree89\app\Controllers\Av.php(571): App\Models\Av_Model->get_id_video_bycategory(2, '14', '')
+#6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Av->category('14', '%E0%B8%97%E0%B8...')
+#7 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Av))
+#8 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-04 02:32:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''-20', 20' at line 10
+#0 C:\xampp\htdocs\moviefree89\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\moviefree89\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\moviefree89\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\moviefree89\app\Helpers\pagination_helper.php(6): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\moviefree89\app\Models\Av_Model.php(396): get_pagination('SELECT\r\n       ...', '', 20, 101)
+#5 C:\xampp\htdocs\moviefree89\app\Controllers\Av.php(571): App\Models\Av_Model->get_id_video_bycategory(2, '14', '')
+#6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Av->category('14', '%E0%B8%97%E0%B8...')
+#7 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Av))
+#8 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-04 02:32:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''-10', 10' at line 10
+#0 C:\xampp\htdocs\moviefree89\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\moviefree89\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\moviefree89\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\moviefree89\app\Helpers\pagination_helper.php(6): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\moviefree89\app\Models\Av_Model.php(396): get_pagination('SELECT\r\n       ...', '', 10, 101)
+#5 C:\xampp\htdocs\moviefree89\app\Controllers\Av.php(571): App\Models\Av_Model->get_id_video_bycategory(2, '14', '')
+#6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Av->category('14', '%E0%B8%97%E0%B8...')
+#7 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Av))
+#8 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-04 02:36:00 --> Undefined offset: 0
+#0 C:\xampp\htdocs\moviefree89\app\Models\Video_Model.php(901): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 901, Array)
+#1 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(679): App\Models\Video_Model->countView('10')
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->countView('10')
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-04 02:36:01 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->video('10', 'STARS-211-%E0%B...')
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 02:39:34 --> Undefined offset: 0
+#0 C:\xampp\htdocs\moviefree89\app\Models\Video_Model.php(901): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 901, Array)
+#1 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(679): App\Models\Video_Model->countView('26')
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->countView('26')
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-04 02:39:34 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->video('26', 'SNIS-519-%E0%B8...')
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 02:40:23 --> Undefined offset: 0
+#0 C:\xampp\htdocs\moviefree89\app\Models\Video_Model.php(901): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 901, Array)
+#1 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(679): App\Models\Video_Model->countView('9')
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->countView('9')
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-04 02:40:23 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->video('9', 'SHKD-767-%E0%B8...')
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 02:49:46 --> Undefined offset: 0
+#0 C:\xampp\htdocs\moviefree89\app\Models\Video_Model.php(901): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 901, Array)
+#1 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(679): App\Models\Video_Model->countView('9972')
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->countView('9972')
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-04 02:49:46 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->video('9972', 'IPZ-127-%E0%B9%...')
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 02:51:17 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->video('9972', 'IPZ-127-%E0%B9%...')
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 02:54:47 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->video('9972', 'IPZ-127-%E0%B9%...')
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 02:55:29 --> Undefined offset: 0
+#0 C:\xampp\htdocs\moviefree89\app\Models\Video_Model.php(901): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 901, Array)
+#1 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(679): App\Models\Video_Model->countView('9970')
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->countView('9970')
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-04 02:55:29 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->video('9970', 'MUM-201-Mama-Do...')
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 02:57:04 --> Undefined offset: 0
+#0 C:\xampp\htdocs\moviefree89\app\Models\Video_Model.php(901): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 901, Array)
+#1 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(679): App\Models\Video_Model->countView('9972')
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->countView('9972')
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-04 02:57:04 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->video('9972', 'IPZ-127-%E0%B9%...')
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 02:58:00 --> Undefined offset: 0
+#0 C:\xampp\htdocs\moviefree89\app\Models\Video_Model.php(901): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 901, Array)
+#1 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(679): App\Models\Video_Model->countView('9972')
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->countView('9972')
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-04 02:58:00 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->video('9972', 'IPZ-127-%E0%B9%...')
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 02:58:21 --> Undefined offset: 0
+#0 C:\xampp\htdocs\moviefree89\app\Models\Video_Model.php(901): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 901, Array)
+#1 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(679): App\Models\Video_Model->countView('9972')
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->countView('9972')
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-04 02:58:21 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->video('9972', 'IPZ-127-%E0%B9%...')
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 02:58:46 --> Undefined offset: 0
+#0 C:\xampp\htdocs\moviefree89\app\Models\Video_Model.php(901): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 901, Array)
+#1 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(679): App\Models\Video_Model->countView('9972')
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->countView('9972')
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-04 02:58:46 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->video('9972', 'IPZ-127-%E0%B9%...')
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 03:00:03 --> Undefined offset: 0
+#0 C:\xampp\htdocs\moviefree89\app\Models\Video_Model.php(901): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 901, Array)
+#1 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(679): App\Models\Video_Model->countView('9972')
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->countView('9972')
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-04 04:13:12 --> Undefined offset: 0
+#0 C:\xampp\htdocs\moviefree89\app\Models\Video_Model.php(901): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 901, Array)
+#1 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(679): App\Models\Video_Model->countView('9972')
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->countView('9972')
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-04 04:14:48 --> Undefined offset: 0
+#0 C:\xampp\htdocs\moviefree89\app\Models\Video_Model.php(901): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 901, Array)
+#1 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(679): App\Models\Video_Model->countView('159')
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->countView('159')
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-04 04:20:42 --> Undefined offset: 0
+#0 C:\xampp\htdocs\moviefree89\app\Models\Video_Model.php(901): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 901, Array)
+#1 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(679): App\Models\Video_Model->countView('9972')
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->countView('9972')
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-04 04:40:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->video('9', 'SHKD-767-%E0%B8...')
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 04:40:34 --> Undefined offset: 0
+#0 C:\xampp\htdocs\moviefree89\app\Models\Video_Model.php(901): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 901, Array)
+#1 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(679): App\Models\Video_Model->countView('10')
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->countView('10')
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-04 04:40:34 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->video('10', 'STARS-211-%E0%B...')
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 04:40:41 --> Undefined offset: 0
+#0 C:\xampp\htdocs\moviefree89\app\Models\Video_Model.php(901): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 901, Array)
+#1 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(679): App\Models\Video_Model->countView('8')
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->countView('8')
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-04 04:40:47 --> Undefined offset: 0
+#0 C:\xampp\htdocs\moviefree89\app\Models\Video_Model.php(901): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 901, Array)
+#1 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(679): App\Models\Video_Model->countView('34')
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->countView('34')
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-04 04:40:50 --> Undefined offset: 0
+#0 C:\xampp\htdocs\moviefree89\app\Models\Video_Model.php(901): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 901, Array)
+#1 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(679): App\Models\Video_Model->countView('22')
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->countView('22')
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-04 04:40:54 --> Undefined offset: 0
+#0 C:\xampp\htdocs\moviefree89\app\Models\Video_Model.php(901): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 901, Array)
+#1 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(679): App\Models\Video_Model->countView('48')
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->countView('48')
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-04 04:40:56 --> Undefined offset: 0
+#0 C:\xampp\htdocs\moviefree89\app\Models\Video_Model.php(901): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 901, Array)
+#1 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(679): App\Models\Video_Model->countView('57')
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->countView('57')
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-04 04:40:58 --> Undefined offset: 0
+#0 C:\xampp\htdocs\moviefree89\app\Models\Video_Model.php(901): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 901, Array)
+#1 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(679): App\Models\Video_Model->countView('43')
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->countView('43')
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-04 04:41:04 --> Undefined offset: 0
+#0 C:\xampp\htdocs\moviefree89\app\Models\Video_Model.php(901): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 901, Array)
+#1 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(679): App\Models\Video_Model->countView('9971')
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->countView('9971')
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-04 04:41:11 --> Undefined offset: 0
+#0 C:\xampp\htdocs\moviefree89\app\Models\Video_Model.php(901): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 901, Array)
+#1 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(679): App\Models\Video_Model->countView('514')
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->countView('514')
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

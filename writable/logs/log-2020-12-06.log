@@ -1,0 +1,254 @@
+CRITICAL - 2020-12-06 01:12:27 --> Undefined variable: value
+#0 C:\xampp\htdocs\moviefree89\app\Views\list.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\moviefree89\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\moviefree89\system\Common.php(1071): CodeIgniter\View\View->render('list.php', Array, true)
+#3 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(581): view('list.php', Array)
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->search('dead')
+#5 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-06 01:15:13 --> Undefined variable: value
+#0 C:\xampp\htdocs\moviefree89\app\Views\list.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\moviefree89\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\moviefree89\system\Common.php(1071): CodeIgniter\View\View->render('list.php', Array, true)
+#3 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(582): view('list.php', Array)
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->search('dead')
+#5 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-06 01:41:42 --> Undefined variable: totalTime
+#0 C:\xampp\htdocs\moviefree89\system\Debug\Toolbar\Views\toolbar.tpl.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 56, Array)
+#1 C:\xampp\htdocs\moviefree89\system\Debug\Toolbar.php(496): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\moviefree89\system\Debug\Toolbar.php(454): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\moviefree89\app\Config\Events.php(87): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\moviefree89\system\Events\Events.php(188): call_user_func(Object(Closure))
+#6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(287): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-06 01:42:11 --> Undefined offset: 0
+#0 C:\xampp\htdocs\moviefree89\app\Models\Video_Model.php(902): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 902, Array)
+#1 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(712): App\Models\Video_Model->countView('9971')
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->countView('9971')
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-06 01:45:38 --> Undefined offset: 0
+#0 C:\xampp\htdocs\moviefree89\app\Models\Video_Model.php(902): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 902, Array)
+#1 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(712): App\Models\Video_Model->countView('9971')
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->countView('9971')
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-06 01:46:35 --> unlink(C:\xampp\htdocs\moviefree89\writable\debugbar/debugbar_1607240108.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 106, Array)
+#1 C:\xampp\htdocs\moviefree89\system\Debug\Toolbar\Collectors\History.php(106): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\moviefree89\system\Debug\Toolbar.php(481): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1607240795, 20)
+#3 C:\xampp\htdocs\moviefree89\system\Debug\Toolbar.php(454): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\moviefree89\app\Config\Events.php(87): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\moviefree89\system\Events\Events.php(188): call_user_func(Object(Closure))
+#7 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(287): CodeIgniter\Events\Events::trigger('pre_system')
+#8 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-12-06 01:47:08 --> unlink(C:\xampp\htdocs\moviefree89\writable\debugbar/debugbar_1607240196.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 106, Array)
+#1 C:\xampp\htdocs\moviefree89\system\Debug\Toolbar\Collectors\History.php(106): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\moviefree89\system\Debug\Toolbar.php(481): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1607240828, 20)
+#3 C:\xampp\htdocs\moviefree89\system\Debug\Toolbar.php(454): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\moviefree89\app\Config\Events.php(87): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\moviefree89\system\Events\Events.php(188): call_user_func(Object(Closure))
+#7 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(287): CodeIgniter\Events\Events::trigger('pre_system')
+#8 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-12-06 01:49:51 --> file_get_contents(): read of 8192 bytes failed with errno=13 Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'file_get_conten...', 'C:\\xampp\\htdocs...', 111, Array)
+#1 C:\xampp\htdocs\moviefree89\system\Debug\Toolbar\Collectors\History.php(111): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\moviefree89\system\Debug\Toolbar.php(481): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1607240991, 20)
+#3 C:\xampp\htdocs\moviefree89\system\Debug\Toolbar.php(454): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\moviefree89\app\Config\Events.php(87): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\moviefree89\system\Events\Events.php(188): call_user_func(Object(Closure))
+#7 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(287): CodeIgniter\Events\Events::trigger('pre_system')
+#8 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-12-06 01:54:47 --> Undefined offset: 0
+#0 C:\xampp\htdocs\moviefree89\app\Models\Video_Model.php(902): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 902, Array)
+#1 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(712): App\Models\Video_Model->countView('9966')
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->countView('9966')
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-06 01:59:43 --> Undefined offset: 0
+#0 C:\xampp\htdocs\moviefree89\app\Models\Video_Model.php(902): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 902, Array)
+#1 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(712): App\Models\Video_Model->countView('9967')
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->countView('9967')
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-06 02:15:36 --> Undefined offset: 0
+#0 C:\xampp\htdocs\moviefree89\app\Models\Video_Model.php(902): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 902, Array)
+#1 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(712): App\Models\Video_Model->countView('9966')
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->countView('9966')
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-06 02:19:53 --> Undefined variable: listyear
+#0 C:\xampp\htdocs\moviefree89\app\Views\video1.php(243): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 243, Array)
+#1 C:\xampp\htdocs\moviefree89\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\moviefree89\system\Common.php(1071): CodeIgniter\View\View->render('video1.php', Array, true)
+#3 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(239): view('video1.php', Array)
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->series('9852', 'The-Boys-season...')
+#5 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-06 02:20:46 --> Undefined variable: listyear
+#0 C:\xampp\htdocs\moviefree89\app\Views\video1.php(243): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 243, Array)
+#1 C:\xampp\htdocs\moviefree89\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\moviefree89\system\Common.php(1071): CodeIgniter\View\View->render('video1.php', Array, true)
+#3 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(239): view('video1.php', Array)
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->series('9852', 'The-Boys-season...')
+#5 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-06 02:21:27 --> Undefined variable: get_list_video_bycate
+#0 C:\xampp\htdocs\moviefree89\app\Views\video1.php(371): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 371, Array)
+#1 C:\xampp\htdocs\moviefree89\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\moviefree89\system\Common.php(1071): CodeIgniter\View\View->render('video1.php', Array, true)
+#3 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(240): view('video1.php', Array)
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->series('9852', 'The-Boys-season...')
+#5 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-06 02:21:48 --> Undefined variable: get_list_video_bycate
+#0 C:\xampp\htdocs\moviefree89\app\Views\video1.php(371): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 371, Array)
+#1 C:\xampp\htdocs\moviefree89\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\moviefree89\system\Common.php(1071): CodeIgniter\View\View->render('video1.php', Array, true)
+#3 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(244): view('video1.php', Array)
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->series('9852', 'The-Boys-season...')
+#5 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-06 02:22:02 --> Undefined variable: video_random
+#0 C:\xampp\htdocs\moviefree89\app\Views\video1.php(430): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 430, Array)
+#1 C:\xampp\htdocs\moviefree89\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\moviefree89\system\Common.php(1071): CodeIgniter\View\View->render('video1.php', Array, true)
+#3 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(245): view('video1.php', Array)
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->series('9852', 'The-Boys-season...')
+#5 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-06 02:32:55 --> Undefined variable: url_name
+#0 C:\xampp\htdocs\moviefree89\app\Views\video1.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 62, Array)
+#1 C:\xampp\htdocs\moviefree89\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\moviefree89\system\Common.php(1071): CodeIgniter\View\View->render('video1.php', Array, true)
+#3 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(247): view('video1.php', Array)
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->series('9852', 'The-Boys-season...', '0', 'Ep.1')
+#5 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-06 02:33:18 --> unlink(C:\xampp\htdocs\moviefree89\writable\debugbar/debugbar_1607242460.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 106, Array)
+#1 C:\xampp\htdocs\moviefree89\system\Debug\Toolbar\Collectors\History.php(106): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\moviefree89\system\Debug\Toolbar.php(481): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1607243598, 20)
+#3 C:\xampp\htdocs\moviefree89\system\Debug\Toolbar.php(454): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\moviefree89\app\Config\Events.php(87): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\moviefree89\system\Events\Events.php(188): call_user_func(Object(Closure))
+#7 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(287): CodeIgniter\Events\Events::trigger('pre_system')
+#8 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-12-06 02:33:35 --> Undefined variable: url_name
+#0 C:\xampp\htdocs\moviefree89\app\Views\video1.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 64, Array)
+#1 C:\xampp\htdocs\moviefree89\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\moviefree89\system\Common.php(1071): CodeIgniter\View\View->render('video1.php', Array, true)
+#3 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(247): view('video1.php', Array)
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->series('9852', 'The-Boys-season...', '0', 'Ep.1')
+#5 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-06 23:00:18 --> Undefined index: epdata
+#0 C:\xampp\htdocs\moviefree89\app\Views\video1.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 86, Array)
+#1 C:\xampp\htdocs\moviefree89\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\moviefree89\system\Common.php(1071): CodeIgniter\View\View->render('video1.php', Array, true)
+#3 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(171): view('video1.php', Array)
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->video('9919', 'American-Murder...')
+#5 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-06 23:00:23 --> Undefined index: epdata
+#0 C:\xampp\htdocs\moviefree89\app\Views\video1.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 86, Array)
+#1 C:\xampp\htdocs\moviefree89\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\moviefree89\system\Common.php(1071): CodeIgniter\View\View->render('video1.php', Array, true)
+#3 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(171): view('video1.php', Array)
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->video('9830', 'The-Players-%28...')
+#5 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-06 23:01:31 --> Undefined index: epdata
+#0 C:\xampp\htdocs\moviefree89\app\Views\video1.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 87, Array)
+#1 C:\xampp\htdocs\moviefree89\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\moviefree89\system\Common.php(1071): CodeIgniter\View\View->render('video1.php', Array, true)
+#3 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(171): view('video1.php', Array)
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->video('9830', 'The-Players-%28...')
+#5 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-06 23:57:28 --> Undefined variable: urlsearch
+#0 C:\xampp\htdocs\moviefree89\app\Views\templates\footer.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 121, Array)
+#1 C:\xampp\htdocs\moviefree89\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\moviefree89\system\Common.php(1071): CodeIgniter\View\View->render('templates/foote...', Array, true)
+#3 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(172): view('templates/foote...')
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->video('9830', 'The-Players-%28...')
+#5 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-06 23:57:54 --> Undefined variable: urlsearch
+#0 C:\xampp\htdocs\moviefree89\app\Views\templates\footer.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 121, Array)
+#1 C:\xampp\htdocs\moviefree89\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\moviefree89\system\Common.php(1071): CodeIgniter\View\View->render('templates/foote...', Array, true)
+#3 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(172): view('templates/foote...')
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->video('9830', 'The-Players-%28...')
+#5 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-06 23:58:00 --> Undefined variable: urlsearch
+#0 C:\xampp\htdocs\moviefree89\app\Views\templates\footer.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 121, Array)
+#1 C:\xampp\htdocs\moviefree89\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\moviefree89\system\Common.php(1071): CodeIgniter\View\View->render('templates/foote...', Array, true)
+#3 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(172): view('templates/foote...')
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->video('9830', 'The-Players-%28...')
+#5 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-06 23:58:39 --> Undefined variable: urlsearch
+#0 C:\xampp\htdocs\moviefree89\app\Views\templates\footer.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 121, Array)
+#1 C:\xampp\htdocs\moviefree89\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\moviefree89\system\Common.php(1071): CodeIgniter\View\View->render('templates/foote...', Array, true)
+#3 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(172): view('templates/foote...')
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->video('9830', 'The-Players-%28...')
+#5 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

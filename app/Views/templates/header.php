@@ -100,6 +100,7 @@
                 } else {
                   $value = '';
                 }
+   
                 ?>
                 <input id="movie-search" class="movie-search ml-auto" placeholder="Search..." value="<?php echo $value ?>" autocomplete="off">
               </div>
@@ -150,13 +151,16 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item active">
-              <a class="nav-link color-nave" href="#">หนัง <span class="sr-only"></span></a>
+              <a class="nav-link color-nave" href="<?=base_url()?>">หนัง <span class="sr-only"></span></a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link color-nave" href="#">Jav <span class="sr-only"></span></a>
+              <a class="nav-link color-nave" href="<?=base_url('av')?>">Jav <span class="sr-only"></span></a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link color-nave" href="#">ติดต่อเรา <span class="sr-only"></span></a>
+              <a class="nav-link color-nave" href="<?=base_url('clip')?>">Clip 18+ <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link color-nave" href="<?= base_url().'/contract/'?>">ติดต่อเรา <span class="sr-only"></span></a>
             </li>
           </ul>
         </div>
@@ -166,32 +170,8 @@
 
     </nav>
 
-
-
-
-
-
-
-
-
-
     <script type="text/javascript">
-      $(document).ready(function() {
-        $('#movie-formsearch').submit(function(e) {
-          goSearch();
-          return false; //<---- Add this line
-        });
-      });
-
-      function goSearch() {
-        var search = $.trim($("#movie-search").val())
-        if (search) {
-          window.location.href = "/search/" + $("#movie-search").val();
-        } else {
-          window.location.href = "<?= base_url() ?>";
-        }
-      }
-
+    
       function myFunction(x) {
         x.classList.toggle("change");
         var a = document.getElementById("myLinks");
@@ -201,6 +181,39 @@
           a.style.display = "block";
         }
       }
+
+      $(document).ready(function() {
+      $('#movie-formsearch').submit(function(e) {
+        goSearch();
+        return false; //<---- Add this line
+      });
+    });
+
+    function goSearch() {
+      var search = $.trim($("#movie-search").val())
+      if (search) {
+        window.location.href = "/.<?=$urlsearch?>./" + $("#movie-search").val();
+      } else {
+        window.location.href = "<?= base_url() ?>";
+      }
+    }
+
+
+    $(document).ready(function() {
+      $('#movie-formsearch1').submit(function(e) {
+        goSearch1();
+        return false; //<---- Add this line
+      });
+    });
+
+    function goSearch1() {
+      var search1 = $.trim($("#movie-search1").val())
+      if (search1) {
+        window.location.href = "/.<?=$urlsearch?>./" + $("#movie-search1").val();
+      } else {
+        window.location.href = "<?= base_url() ?>";
+      }
+    }
     </script>
     <!-- Slider main container -->
   </header>

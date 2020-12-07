@@ -64,10 +64,10 @@ class Database extends \CodeIgniter\Database\Config
 
 		'DSN'      => '',
 
-		'hostname' => '13.212.162.210',
-		'username' => 'variety',
-		'password' => 'vfe6FkBZFC3bqYlV',
-		'database' => 'variety',
+		'hostname' => 'localhost',
+		'username' => 'root',
+		'password' => '',
+		'database' => 'aegistrex',
 
 		'DBDriver' => 'MySQLi',
 

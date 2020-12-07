@@ -45,6 +45,11 @@
             </h2>
             <div class="col-sm-12">
                 <iframe id="player" class="player iframe-video" src="<?= base_url('player/' . $videodata['movie_id'] . '/' . $index) ?>" scrolling="no" frameborder="0" allowfullscreen="yes"></iframe>
+
+
+
+
+
             </div>
             <div id="movie-player">
                 <h1 class="movie-title"><?= $videodata['movie_thname'] ?> </h1>
@@ -75,6 +80,27 @@
                         <img src="<?php echo $videodata['movie_picture']; ?>" alt="<?= $videodata['movie_thname'] ?>" title="<?= $videodata['movie_thname'] ?>">
                     </div>
                 </div>
+
+
+                <?php
+                if ($videodata['movie_type'] == "se") {
+                    foreach ($videodata['epdata'] as $key => $val) {
+                        $active = '';
+                        if ($index == $key) {
+                            $active = 'active-ep';
+                        }
+                        $url_nameep = urlencode(str_replace(' ', '-', $videodata['name_ep'][$key]));
+                ?>
+                        <div class="col-sm-12 text-ep">
+                            <a class="" onclick="goEP('<?= $videodata['movie_id'] ?>','<?= $url_name ?>','<?= trim($key) ?>','<?= $url_nameep ?>')" tabindex="-1">
+                                <span class="<?= $active ?> ep-series"><?= $videodata['name_ep'][$key] ?></span>
+                            </a>
+                        </div>
+                <?php }
+                }
+                ?>
+
+
                 <div id="movie-detail">
                     <div class="movie-card-detail">
                         <div class="movie-box">
@@ -119,11 +145,11 @@
                 </h2>
                 <div id="movie-list" class="row">
 
-                    <?php if (!empty($video_random)) { ?>
+                    <?php if (!empty($video_random['list'])) { ?>
                         <ul id="list-movie" class="list-movie">
                             <?PHP
                             //echo "<pre>"; print_r($newmovie_1);die;
-                            foreach ($video_random as $val) {
+                            foreach ($video_random['list'] as $val) {
                             ?>
                                 <li>
                                     <div class="movie-box">
@@ -187,8 +213,8 @@
                                             }
                                         ?>
                                             <!-- <div class="movie-score">
-            <i class="fas fa-star"></i> <?= $score ?>
-          </div> -->
+                                                <i class="fas fa-star"></i> <?= $score ?>
+                                            </div> -->
                                         <?php } ?>
                                     </div>
                                     <div class="title-name-out">
@@ -205,13 +231,17 @@
                         <h3> ไม่พบหนังที่คุณค้นหา</h3>
                     <?php } ?>
                     <?php
-                    // if (!empty($list['list'])) {
+                    if (!empty($video_random['list'])) {
                     ?>
-                    <!-- <button id="movie-loadmore">NEXT</button> -->
+                        <button id="movie-loadmore">SEE MORE VIDEOS</button>
+
                     <?php
-                    // }
+                    }
                     ?>
                 </div>
+
+
+
 
             </div>
         </div>
@@ -222,7 +252,7 @@
             </h2>
             <ul class="list-group">
                 <?php foreach ($list_category as $val) { ?>
-                    <li class="list-group-item"><a style="color:white;"><?= $val['category_name'] ?></a></li>
+                    <li class="list-group-item"><a href="<?php echo base_url('category/' . $val['category_id'] . '/' . $val['category_name']) ?>" style="color:white;"><?= $val['category_name'] ?></a></li>
                 <?php } ?>
             </ul>
             <div class="movie-social">
@@ -417,4 +447,34 @@
             });
         <?php } ?>
     };
+
+
+    $(document).ready(function() {
+
+        var track_click = 2; //track user click on "load more" button, righ now it is 0 click
+        var total_pages = '<?= $video_random['total_page'] ?>';
+
+        if (track_click >= total_pages) {
+            $("#movie-loadmore").hide(0);
+        }
+        $("#movie-loadmore").click(function(e) { //user clicks on button
+            if (track_click <= total_pages) //user click number is still less than total pages
+            {
+                //post page number and load returned data into result element
+                $.get('<?php echo $url_loadmore ?>', {
+                    'page': track_click
+                }, function(data) {
+                    console.log(data);
+                    $("#list-movie").append(data); //append data received from server
+                    track_click++; //user click increment on load button
+                }).fail(function(xhr, ajaxOptions, thrownError) { //any errors?
+                    alert(thrownError); //alert with HTTP error
+                });
+            }
+            if (track_click >= total_pages) {
+                $("#movie-loadmore").hide(0);
+            }
+        });
+    });
+</script>
 </script>
