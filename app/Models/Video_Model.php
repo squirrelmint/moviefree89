@@ -68,19 +68,49 @@ class Video_Model extends Model
     public function get_category($branch_id) // เรียก Category ตาม Branch 
     {
         $sql = "SELECT
-            *
-            FROM
+            count(mo_moviecate.movie_id) AS countcate,mo_moviecate.*,mo_category.*
+        FROM
             mo_category
-            inner JOIN mo_moviecate ON mo_category.category_id = mo_moviecate.category_id 
-            WHERE
+        INNER JOIN mo_moviecate ON mo_category.category_id = mo_moviecate.category_id
+        WHERE
             `mo_category`.branch_id = ?
-             GROUP BY mo_category.category_id";
-
-
-
+        GROUP BY
+            mo_category.category_id";
+        
         $query = $this->db->query($sql, [$branch_id]);
         return $query->getResultArray();
     }
+
+    public function get_id_video_byyear($id, $branch_id, $page = 1)
+    {
+
+        $sql = "SELECT
+                    *
+                FROM
+                   mo_movie
+                WHERE movie_year = $id AND branch_id = '$branch_id' 
+                ORDER BY `$this->table_movie`.movie_year DESC";
+
+        $query = $this->db->query($sql);
+        $total = count($query->getResultArray());
+        $perpage = 28;
+        return get_pagination($sql, $page, $perpage, $total);
+    }
+    // public function countcate_category($cateid) // เรียก Category ตาม Branch 
+    // {
+    //     $sql = "SELECT
+    //     count(mo_moviecate.category_id)
+    // FROM
+    //     mo_category
+    // INNER JOIN mo_moviecate ON mo_category.category_id = mo_moviecate.category_id
+    // WHERE
+    //     `mo_category`.branch_id = '1'
+    // GROUP BY
+    //     mo_category.category_id";
+
+    //     $query = $this->db->query($sql, [$cateid]);
+    //     return $query->getResultArray();
+    // }
 
     public function get_id_video_bygenres($id, $branch_id, $page, $keyword = "")
     {
@@ -103,11 +133,11 @@ class Video_Model extends Model
         $query = $this->db->query($sql);
         $total = count($query->getResultArray());
         $perpage = 24;
-       // return $query->getResultArray();
+        // return $query->getResultArray();
         return get_pagination($sql, $page, $perpage, $total);
     }
 
-    
+
     public function get_caterow($cate_id) // เรียก Category ตาม Branch 
     {
 
@@ -390,7 +420,7 @@ class Video_Model extends Model
         $query = $this->db->query($sql, [$id]);
 
         $total = count($query->getResultArray());
-        $perpage = 30;
+        $perpage = 28;
 
 
         return get_pagination($sql, $page, $perpage, $total);
@@ -460,7 +490,7 @@ class Video_Model extends Model
 
             $sql = "SELECT * FROM  `$this->ads` WHERE branch_id = '$branch_id' AND ads_position =  '$ads_position' ";
             $query = $this->db->query($sql);
-            $ads['pos'.$ads_position] = $query->getResultArray();
+            $ads['pos' . $ads_position] = $query->getResultArray();
         }
         return $ads;
     }
@@ -642,7 +672,7 @@ class Video_Model extends Model
     }
 
 
-    public function get_id_video_random($branch_id, $page="1")
+    public function get_id_video_random($branch_id, $page = "1")
 
     {
 
@@ -681,7 +711,7 @@ class Video_Model extends Model
         // return $query->getResultArray();
     }
 
-    
+
 
 
     // list หนังแยก cate ใน tap หน้าแรก :: action comedy adventure drama horror

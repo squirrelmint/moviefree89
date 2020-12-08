@@ -86,6 +86,9 @@ $routes->post('con_ads', 'Home::con_ads');
 $routes->post('saveReport', 'Home::saveReport');
 $routes->get('countview/(:num)', 'Home::countView/$1');
 
+// year แบ่งตาม ปี เมื่อกดเลือก  ปี
+$routes->get('page/year/(:num)', 'Home::video_byyear/$1');
+
 
 # AV
 $routes->get('av', 'Av::index');

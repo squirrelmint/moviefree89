@@ -595,7 +595,7 @@ class Av extends BaseController
         foreach ($catereq as $val) {
 			$get_list_video_bycate[] = $this->AvModel->get_list_video_bycate($this->branch, $val);
 		}
-
+		$keyword = '';
 		$chk_act = [
 			'home' => '',
 			'poppular' => '',
@@ -627,7 +627,7 @@ class Av extends BaseController
 
 		$body_data = [
 			'cate_name' => urldecode($cate_name),
-			'keyword' => $cate_id,
+			'keyword' => $keyword,
 			'url_loadmore' => base_url('moviedata_category'),
 			'path_thumbnail' => $this->path_thumbnail,
             'list' => $list,

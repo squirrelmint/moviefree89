@@ -27,6 +27,8 @@
   <link href="<?= $document_root ?>assets/css/icon.css" rel="stylesheet">
   <link href="<?= $document_root ?>assets/css/paginate.css" rel="stylesheet">
   <link href="<?= $document_root ?>assets/css/iframe-movie.css" rel="stylesheet">
+  <link href="<?= $document_root ?>assets/css/order-title-left-right.css" rel="stylesheet">
+  <link href="<?= $document_root ?>assets/css/css_size.css" rel="stylesheet">
   
   <!-- Custom fonts for this template -->
   <link href="<?= $document_root ?>assets/vendor/fontawesome-free/css/all.min.css?v=1" rel="stylesheet">

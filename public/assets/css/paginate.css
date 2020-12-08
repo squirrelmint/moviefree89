@@ -14,10 +14,10 @@
     padding: 6px 6px;
     margin-left: -1px;
     line-height: 1.42857143;
-    color: #f99228;
+    color: #dfb16c;
     text-decoration: none;
     background-color: #1f1d1d;
-    border: 1px solid #d07105;
+    border: 1px solid #e3b558;
   }
   .pagination > li:first-child > a,
   .pagination > li:first-child > span {

@@ -989,3 +989,11 @@ CRITICAL - 2020-12-07 05:33:19 --> Undefined offset: 0
 #4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #5 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
 #6 {main}
+CRITICAL - 2020-12-07 23:13:54 --> Undefined offset: 0
+#0 C:\xampp\htdocs\moviefree89\app\Models\Video_Model.php(902): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 902, Array)
+#1 C:\xampp\htdocs\moviefree89\app\Controllers\Home.php(729): App\Models\Video_Model->countView('271')
+#2 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(910): App\Controllers\Home->countView('271')
+#3 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\moviefree89\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\moviefree89\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

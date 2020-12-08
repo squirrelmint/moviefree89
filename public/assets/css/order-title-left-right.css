@@ -1,0 +1,13 @@
+@media only screen and (max-device-width: 414px) {
+  .left-title {
+    order: 2;
+  }
+
+  .center-title {
+    order: 1;
+  }
+
+  .right-title {
+    order: 3;
+  }
+}

@@ -292,7 +292,7 @@ img.logo {
 
 @media (min-width: 321px) and (max-width: 1024px) {
   .movie-search {
-    width: 78%;
+    width: 73%;
     font-size: 14px;
   }
 }
@@ -663,7 +663,7 @@ ul.list-movie > li {
   padding: 4px 11px;
   background-color: #3c3c3c;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  font-size: 13px;
+  font-size: 12px;
 }
 .color-genres {
   color: rgb(255, 255, 255);
@@ -777,7 +777,7 @@ div.title-in h2 a {
 
 div.title-in h2 a:hover {
   text-decoration: none;
-  color: #4c2a24;
+  color: #d6b522;
 }
 
 div.title-in .movie-score {

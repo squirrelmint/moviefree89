@@ -171,7 +171,7 @@ class Clip_Model extends Model
 
         $query = $this->db->query($sql);
         $total = count($query->getResultArray());
-        $perpage = 24;
+        $perpage = 42;
 
         return get_pagination($sql, $page, $perpage, $total);
     }

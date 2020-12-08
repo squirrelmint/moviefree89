@@ -1,6 +1,6 @@
 <div class="container" style="padding: 1rem;">
   <div class="row">
-    <div class="col-sm-2">
+    <div class="col-sm-2 left-title">
       <h2 class="center-des-1">
         ประเภทหนัง
       </h2>
@@ -51,7 +51,7 @@
     </div>
 
 
-    <div class="col-sm-8">
+    <div class="col-sm-8 center-title">
       <h2 class="center-des-1">
         <?= $cate_name ?>
       </h2>
@@ -85,7 +85,7 @@
                     $view = $val['movie_view'];
                   }
                   ?>
-                  <span class="movie-score"><?= $val['movie_ratescore'] ?><i class="fas fa-star"></i></span>
+                  <span class="movie-score"><?= $val['movie_ratescore'] ?> <i class="fas fa-star"></i></span>
                   <!-- <span class="movie-view"><?= $view ?> <i class="fas fa-eye"></i></span> -->
                   <?php if (!empty($val['movie_quality'])) { ?>
                     <span class="movie-quality"><?= $val['movie_quality'] ?></span>
@@ -143,6 +143,8 @@
           <h3> ไม่พบหนังที่คุณค้นหา</h3>
         <?php } ?>
 
+
+
       </div>
       <!-- Pagination -->
       <div class="box">
@@ -159,13 +161,13 @@
       <!-- /Pagination -->
 
     </div>
-    <div class="col-sm-2">
+    <div class="col-sm-2 right-title">
       <h2 class="center-des-1">
         หมวดหมู่
       </h2>
       <ul class="list-group">
         <?php foreach ($list_category as $val) { ?>
-          <li class="list-group-item"><a href="<?php echo base_url('category/' . $val['category_id'] . '/' . $val['category_name']) ?>" style="color:white;"><?= $val['category_name'] ?></a></li>
+          <li class="list-group-item"><a href="<?php echo base_url('category/' . $val['category_id'] . '/' . $val['category_name']) ?>" style="color:white;"><?= $val['category_name']?></a><a href="<?php echo base_url('category/' . $val['category_id'] . '/' . $val['category_name']) ?>" style="color:white; float:right;"><?=$val['countcate']?></a></li>
         <?php } ?>
       </ul>
       <div class="movie-social">

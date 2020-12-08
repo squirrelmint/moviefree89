@@ -1,10 +1,10 @@
 .center-des-1{
     text-align: center;
-    background-image: linear-gradient(to right, rgb(172 106 26), rgb(255 173 89) , rgb(167 103 26)) !important;
+    background-image: linear-gradient(to right,#df9c0f, #eab442, #f5f0e4 , #eab442, #df9c0f) !important;
     /* background: linear-gradient(to right, #c21500, #ffc500); */
     padding: 8px;
     border-radius: 6px 6px;
-    font-size: 27px;
+    font-size: 22px;
     color: black;
 }
 

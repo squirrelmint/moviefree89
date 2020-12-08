@@ -1,11 +1,30 @@
+<style>
+    ul.list-movie>li {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-self: flex-start;
+        margin: 2px;
+        background: linear-gradient(45deg, #1f1e1d, #171615, #272624);
+        height: 215px;
+        width: 180px;
+    }
+    .movie-box a img {
+    width: 100%;
+    height: 184px;
+    position: relative;
+    cursor: pointer;
+    /* -webkit-transition: -webkit-transform 200ms ease; */
+    /* transition: -webkit-transform 200ms ease; */
+    transition: transform 200ms ease;
+    transition: transform 200ms ease, -webkit-transform 200ms ease;
+}
+</style>
 <div class="container" style="padding: 1rem;">
     <div class="row">
-        
-
-
         <div class="col-sm-12">
             <h2 class="center-des-1">
-            ดูคลิปโป๊ออนไลน์ คลิปหลุด XXX
+                ดูคลิปโป๊ออนไลน์ คลิปหลุด XXX
             </h2>
             <div id="movie-list" class="row">
                 <?php if (!empty($newmovie_1['list'])) { ?>
@@ -62,24 +81,6 @@
                                 ?>
 
 
-                                <div class="title-in">
-                                    <h2>
-                                        <a onclick="goViewCl('<?= $val['movie_id'] ?>', '<?= $url_name ?>', '<?= $val['movie_type'] ?>')" tabindex="-1" alt="<?= $val['movie_thname'] ?>" title="<?= $val['movie_thname'] ?>"><?= $val['movie_sound'] . " " . $val['movie_quality'] . " (" . $val['movie_year'] . ") " ?></a>
-                                        <!-- <a onclick="goViewCl('<?= $val['movie_id'] ?>', '<?= $url_name ?>', '<?= $val['movie_type'] ?>')" tabindex="-1" alt="<?= $val['movie_thname'] ?>" title="<?= $val['movie_thname'] ?>"><?= $val['movie_thname'] ?></a> -->
-                                    </h2>
-                                    <?php
-                                    if (!empty($val['movie_ratescore']) && $val['movie_ratescore'] != 0) {
-                                        if (strpos($val['movie_ratescore'], '.')) {
-                                            $score = substr($val['movie_ratescore'], 0, 3);
-                                        } else {
-                                            $score = substr($val['movie_ratescore'], 0);
-                                        }
-                                    ?>
-                                        <!-- <div class="movie-score">
-                    <i class="fas fa-star"></i> <?= $score ?>
-                  </div> -->
-                                    <?php } ?>
-                                </div>
                                 <div class="title-name-out">
                                     <h2>
                                         <a onclick="goViewCl('<?= $val['movie_id'] ?>', '<?= $url_name ?>', '<?= $val['movie_type'] ?>')" tabindex="-1" alt="<?= $val['movie_thname'] ?>" title="<?= $val['movie_thname'] ?>"><?= $val['movie_thname'] ?></a>
@@ -160,24 +161,7 @@
                                 ?>
 
 
-                                <div class="title-in">
-                                    <h2>
-                                        <a onclick="goViewCl('<?= $val['movie_id'] ?>', '<?= $url_name ?>', '<?= $val['movie_type'] ?>')" tabindex="-1" alt="<?= $val['movie_thname'] ?>" title="<?= $val['movie_thname'] ?>"><?= $val['movie_sound'] . " " . $val['movie_quality'] . " (" . $val['movie_year'] . ") " ?></a>
-                                        <!-- <a onclick="goViewCl('<?= $val['movie_id'] ?>', '<?= $url_name ?>', '<?= $val['movie_type'] ?>')" tabindex="-1" alt="<?= $val['movie_thname'] ?>" title="<?= $val['movie_thname'] ?>"><?= $val['movie_thname'] ?></a> -->
-                                    </h2>
-                                    <?php
-                                    if (!empty($val['movie_ratescore']) && $val['movie_ratescore'] != 0) {
-                                        if (strpos($val['movie_ratescore'], '.')) {
-                                            $score = substr($val['movie_ratescore'], 0, 3);
-                                        } else {
-                                            $score = substr($val['movie_ratescore'], 0);
-                                        }
-                                    ?>
-                                        <!-- <div class="movie-score">
-                    <i class="fas fa-star"></i> <?= $score ?>
-                  </div> -->
-                                    <?php } ?>
-                                </div>
+
                                 <div class="title-name-out">
                                     <h2>
                                         <a onclick="goViewCl('<?= $val['movie_id'] ?>', '<?= $url_name ?>', '<?= $val['movie_type'] ?>')" tabindex="-1" alt="<?= $val['movie_thname'] ?>" title="<?= $val['movie_thname'] ?>"><?= $val['movie_thname'] ?></a>
@@ -208,7 +192,7 @@
             <!-- /Pagination -->
 
         </div>
-        
+
     </div>
 </div>
 

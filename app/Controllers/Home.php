@@ -67,7 +67,7 @@ class Home extends BaseController
 			'setting' => $setting,
 			'path_slide' => $this->path_slide,
 			'urlsearch' => '/search/'
-
+		
 		];
 
 		$list = $this->VideoModel->get_list_video($this->branch, '', $page);
@@ -90,6 +90,8 @@ class Home extends BaseController
 			'paginate' => $list,
 			'list' => $list,
 			'listyear' => $listyear
+	
+			
 		];
 		// echo '<pre>' . print_r($get_list_video_bycate, true) . '</pre>';
 		// die;
@@ -115,7 +117,6 @@ class Home extends BaseController
 		$video_random = $this->VideoModel->get_id_video_random($this->branch);
 		//echo "<pre>";print_r($video_random);die;
 		$date = get_date($videodata['movie_create']);
-
 		$setting['setting_img'] = $this->path_setting . $setting['setting_logo'];
 
 		if ($seo) {
@@ -603,14 +604,19 @@ class Home extends BaseController
 
 	public function category($cate_id, $cate_name)
 	{
+		$page = 1;
+		if (!empty($_GET['page'])) {
+			$page = $_GET['page'];
+		}
 		$ads = $this->VideoModel->get_ads($this->branch);
 		$setting = $this->VideoModel->get_setting($this->branch);
 		$setting['setting_img'] = $this->path_setting . $setting['setting_logo'];
-
-		$list = $this->VideoModel->get_id_video_bycategory($this->branch, $cate_id, 1);
+		$list = $this->VideoModel->get_id_video_bycategory($this->branch, $cate_id, $page);
+		
 		$adsbottom = $this->VideoModel->get_adsbottom($this->branch);
 		$list_category = $this->VideoModel->get_category($this->branch);
 		$listyear = $this->VideoModel->get_listyear($this->branch);
+		$keyword = '';
 		$catereq = [6, 7, 28];
 		foreach ($catereq as $val) {
 			$get_list_video_bycate[] = $this->VideoModel->get_list_video_bycate($this->branch, $val);
@@ -635,7 +641,6 @@ class Home extends BaseController
 				'contract' => ''
 			];
 		}
-
 		$header_data = [
 			'document_root' => $this->document_root,
 			'path_setting' => $this->path_setting,
@@ -647,6 +652,75 @@ class Home extends BaseController
 
 		$body_data = [
 			'cate_name' => urldecode($cate_name),
+			'keyword' => $keyword,
+			'url_loadmore' => base_url('moviedata_category'),
+			'path_thumbnail' => $this->path_thumbnail,
+			'list' => $list,
+			'paginate' => $list,
+			'ads' => $ads,
+			'path_ads' => $this->path_ads,
+			'listyear' => $listyear,
+			'get_list_video_bycate' => $get_list_video_bycate
+
+		];
+
+		echo view('templates/header.php', $header_data);
+		echo view('list.php', $body_data);
+		echo view('templates/footer.php');
+	}
+
+
+	public function video_byyear($id)
+	{
+		$cate_id = '';
+		$page = 1;
+		if (!empty($_GET['page'])) {
+			$page = $_GET['page'];
+		}
+		$ads = $this->VideoModel->get_ads($this->branch);
+		$setting = $this->VideoModel->get_setting($this->branch);
+		$setting['setting_img'] = $this->path_setting . $setting['setting_logo'];
+		$listyear = $this->VideoModel->get_listyear($this->branch);
+		$list = $this->VideoModel->get_id_video_byyear($id, $this->branch, $page);
+		
+		$adsbottom = $this->VideoModel->get_adsbottom($this->branch);
+		$list_category = $this->VideoModel->get_category($this->branch);
+		$listyear = $this->VideoModel->get_listyear($this->branch);
+		$catereq = [6, 7, 28];
+		foreach ($catereq as $val) {
+			$get_list_video_bycate[] = $this->VideoModel->get_list_video_bycate($this->branch, $val);
+		}
+	
+		$chk_act = [
+			'home' => '',
+			'poppular' => '',
+			'newmovie' => '',
+			'topimdb' => '',
+			'category' => 'active',
+			'contract' => ''
+		];
+
+		if ($cate_id == '28') {
+			$chk_act = [
+				'home' => '',
+				'poppular' => '',
+				'newmovie' => '',
+				'netflix' => 'active',
+				'category' => '',
+				'contract' => ''
+			];
+		}
+		$header_data = [
+			'document_root' => $this->document_root,
+			'path_setting' => $this->path_setting,
+			'setting' => $setting,
+			'list_category' => $list_category,
+			'chk_act' => $chk_act,
+			'urlsearch' => '/search/'
+		];
+
+		$body_data = [
+			'cate_name' => urldecode($id),
 			'keyword' => $cate_id,
 			'url_loadmore' => base_url('moviedata_category'),
 			'path_thumbnail' => $this->path_thumbnail,

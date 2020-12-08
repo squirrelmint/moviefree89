@@ -17,27 +17,7 @@
                 ?>
             </ul>
 
-            <h2 class="center-des-1 search-movie">
-                ค้นหาหนัง
-            </h2>
-            <ul class="list-group">
-                <li class="list-group-item">
-                    <form id="movie-formsearch1">
-                        <div class="input-group">
-                            <?php
-                            if (!empty($keyword)) {
-                                $value = $keyword;
-                            } else {
-                                $value = '';
-                            }
-                            ?>
-                            <input id="movie-search1" class="movie-search ml-auto" placeholder="Search..." value="<?php echo $value ?>" autocomplete="off">
-                            <button type="submit" id="searchsubmit"> <i class="fas fa-search" aria-hidden="true"></i> </button>
-
-                        </div>
-                    </form>
-                </li>
-            </ul>
+            
         </div>
 
 
@@ -99,12 +79,13 @@
                                     //= substr($value['movie_thname'], 0, 40) . '...';
                                     $val['movie_thname'] = iconv_substr($val['movie_thname'], 0, 20, "UTF-8") . '...';
                                 }
+                                $movie_thname = substr($val['movie_thname'],0,7);
                                 ?>
 
 
                                 <div class="title-in">
                                     <h2>
-                                        <a onclick="goViewAv('<?= $val['movie_id'] ?>', '<?= $url_name ?>', '<?= $val['movie_type'] ?>')" tabindex="-1" alt="<?= $val['movie_thname'] ?>" title="<?= $val['movie_thname'] ?>"><?= $val['movie_sound'] . " " . $val['movie_quality'] . " (" . $val['movie_year'] . ") " ?></a>
+                                        <a onclick="goViewAv('<?= $val['movie_id'] ?>', '<?= $url_name ?>', '<?= $val['movie_type'] ?>')" tabindex="-1" alt="<?= $val['movie_thname'] ?>" title="<?= $val['movie_thname'] ?>"><?= $movie_thname ?></a>
                                         <!-- <a onclick="goViewAv('<?= $val['movie_id'] ?>', '<?= $url_name ?>', '<?= $val['movie_type'] ?>')" tabindex="-1" alt="<?= $val['movie_thname'] ?>" title="<?= $val['movie_thname'] ?>"><?= $val['movie_thname'] ?></a> -->
                                     </h2>
                                     <?php
@@ -165,7 +146,27 @@
                 <a><i class="fab fa-twitter"></i></a>
             </div>
 
+            <h2 class="center-des-1 search-movie">
+                ค้นหาหนัง
+            </h2>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <form id="movie-formsearch1">
+                        <div class="input-group">
+                            <?php
+                            if (!empty($keyword)) {
+                                $value = $keyword;
+                            } else {
+                                $value = '';
+                            }
+                            ?>
+                            <input id="movie-search1" class="movie-search ml-auto" placeholder="Search..." value="<?php echo $value ?>" autocomplete="off">
+                            <button type="submit" id="searchsubmit"> <i class="fas fa-search" aria-hidden="true"></i> </button>
 
+                        </div>
+                    </form>
+                </li>
+            </ul>
         </div>
     </div>
 </div>

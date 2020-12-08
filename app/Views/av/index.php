@@ -78,12 +78,14 @@
                                     //= substr($value['movie_thname'], 0, 40) . '...';
                                     $val['movie_thname'] = iconv_substr($val['movie_thname'], 0, 20, "UTF-8") . '...';
                                 }
+
+                                $movie_thname = substr($val['movie_thname'],0,7);
                                 ?>
 
 
                                 <div class="title-in">
                                     <h2>
-                                        <a onclick="goViewAv('<?= $val['movie_id'] ?>', '<?= $url_name ?>', '<?= $val['movie_type'] ?>')" tabindex="-1" alt="<?= $val['movie_thname'] ?>" title="<?= $val['movie_thname'] ?>"><?= $val['movie_sound'] . " " . $val['movie_quality'] . " (" . $val['movie_year'] . ") " ?></a>
+                                        <a onclick="goViewAv('<?= $val['movie_id'] ?>', '<?= $url_name ?>', '<?= $val['movie_type'] ?>')" tabindex="-1" alt="<?= $val['movie_thname'] ?>" title="<?= $val['movie_thname'] ?>"> <?=$movie_thname?> </a>
                                         <!-- <a onclick="goViewAv('<?= $val['movie_id'] ?>', '<?= $url_name ?>', '<?= $val['movie_type'] ?>')" tabindex="-1" alt="<?= $val['movie_thname'] ?>" title="<?= $val['movie_thname'] ?>"><?= $val['movie_thname'] ?></a> -->
                                     </h2>
                                     <?php
@@ -176,12 +178,13 @@
                                     //= substr($value['movie_thname'], 0, 40) . '...';
                                     $val['movie_thname'] = iconv_substr($val['movie_thname'], 0, 20, "UTF-8") . '...';
                                 }
+                                $movie_thname = substr($val['movie_thname'],0,7);
                                 ?>
 
 
                                 <div class="title-in">
                                     <h2>
-                                        <a onclick="goViewAv('<?= $val['movie_id'] ?>', '<?= $url_name ?>', '<?= $val['movie_type'] ?>')" tabindex="-1" alt="<?= $val['movie_thname'] ?>" title="<?= $val['movie_thname'] ?>"><?= $val['movie_sound'] . " " . $val['movie_quality'] . " (" . $val['movie_year'] . ") " ?></a>
+                                        <a onclick="goViewAv('<?= $val['movie_id'] ?>', '<?= $url_name ?>', '<?= $val['movie_type'] ?>')" tabindex="-1" alt="<?= $val['movie_thname'] ?>" title="<?= $val['movie_thname'] ?>"><?= $movie_thname ?></a>
                                         <!-- <a onclick="goViewAv('<?= $val['movie_id'] ?>', '<?= $url_name ?>', '<?= $val['movie_type'] ?>')" tabindex="-1" alt="<?= $val['movie_thname'] ?>" title="<?= $val['movie_thname'] ?>"><?= $val['movie_thname'] ?></a> -->
                                     </h2>
                                     <?php
